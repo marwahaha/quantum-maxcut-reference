@@ -1,7 +1,7 @@
 # What is "quantum" Max-Cut?
 
 
-TO WRITE
+UNDER CONSTRUCTION: TO WRITE
 
 "Spin glass" refers to a model exhibiting a weirdo "glassy" state of matter. There is no universal mathematical definition of a spin glass. Typically, the phrase refers to the physical phenomena of ground states of magnetic alloys that are "frozen" in their configuration at low temperatures.
 
