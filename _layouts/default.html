@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>The living Quantum Max-Cut reference</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css"
+    integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js"
+    integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js"
+    integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+  <style>
+    p, ul, ol, table, dl {
+      margin: 0 0 10px;
+    }
+    @media print, screen and (min-width: 960px) {
+      section {
+        margin-left: 300px;
+      }
+    }
+    a {
+        color: green;
+    }
+
+    body {
+        background-color: inherit;
+    }
+
+    header li {
+        background: green;
+        box-shadow: inset 0px 1px 1px 0 yellowgreen;
+    }
+    header li:hover {
+        background: green;
+        box-shadow: inset 0px 1px 1px 0 green;
+    }
+
+  </style>
+  {% include head-custom.html %}
+</head>
+
+<body>
+  <div class="wrapper" style="width:100%">
+    <header style="width:170px; padding-left: 25px">
+      <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
+      <p>updated <span id="update-date">{{ site.data.updated.date }}</span></p>
+      <ul style="position: initial">
+        <li class="download">
+          <a class="buttons github" href="https://github.com/marwahaha/parisi-reference/edit/main/README.md">Edit this
+            page</a>
+        </li>
+      </ul>
+    </header>
+
+    <section style="width: initial">
+      {{ content }}
+    </section>
+  </div>
+  <script>
+    var date = document.getElementById("update-date").innerText;
+    document.getElementById("update-date").innerText = (new Date(date + 'T00:00:00.000Z')).toUTCString().split(" ").slice(0, 4).join(" ");
+  </script>
+</body>
+
+</html>
