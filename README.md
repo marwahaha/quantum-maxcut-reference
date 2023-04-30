@@ -56,6 +56,11 @@ There are a few ways to describe a random family of quantum spin glasses:
 
 To talk about: Algorithms, Hardness, worst vs avg case, OGPs, optimal value, tools (Lasserre/VQE/rounding), NLTS, PCPs, certificates for random graphs, ... 
 
+
+## Some other references
+
+* [almost sure convergence in quantum spin glasses](https://arxiv.org/pdf/1508.01785.pdf)
+* [paper1](https://link.springer.com/article/10.1007/JHEP07(2018)124), [paper2](https://link.springer.com/article/10.1007/s42543-018-0007-1), [paper3](https://arxiv.org/pdf/2110.10701.pdf) on fermionic models
 ---
 
 Inspired by conversations with many people, including Bobak Kiani, Joao Basso, Robbie King, Nathan Ju, James Sud, and Adrian She.
