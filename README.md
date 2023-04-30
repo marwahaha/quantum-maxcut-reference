@@ -15,7 +15,7 @@ $$
 H = \frac{1}{2} \sum_{(i,j) \in E} I_i \otimes I_j - X_i \otimes X_j - Y_i \otimes Y_j - Z_i \otimes Z_j
 $$
 
-Alternatively, this can be written as $$H = \sum_{(i,j) \in E} 2 |\psi \rangle  \langle \psi |$$, where $$|\psi^{-} \rangle = \frac{1}{\sqrt{2}} (|01\rangle - |10\rangle)$$ is the singlet state. Note that this Hamiltonian is rotation-invariant, and the minimum energy is zero.
+Alternatively, this can be written as $$H = \sum_{(i,j) \in E} 2 \vert \psi^{-} \rangle  \langle \psi^{-} \vert $$, where $$\vert \psi^{-} \rangle = \frac{1}{\sqrt{2}} (\vert 01\rangle - \vert 10\rangle)$$ is the singlet state. Note that this Hamiltonian is rotation-invariant, and the minimum energy is zero.
 
 This Hamiltonian can optionally be weighted with coefficients $$w_{ij}$$.
 
@@ -25,7 +25,7 @@ $$
 H = \frac{1}{2} \sum_{(i,j) \in E} I_i \otimes I_j + X_i \otimes X_j - Y_i \otimes Y_j + Z_i \otimes Z_j
 $$
 
-Alternatively, this can be written as $$H = \sum_{(i,j) \in E} |\phi^+\rangle \langle \phi^+|$$, where $$|\phi^+\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)$$ is the EPR pair. Note that this Hamiltonian has a particularly simple optimal product state of $|0\rangle^{\otimes n}$ with approximation ratio $\frac{1}{2}$.
+Alternatively, this can be written as $$H = \sum_{(i,j) \in E} \vert \phi^+\rangle \langle \phi^+\vert $$, where $$\vert \phi^+\rangle = \frac{1}{\sqrt{2}}(\vert 00 \rangle + \vert 11 \rangle)$$ is the EPR pair. Note that this Hamiltonian has a particularly simple optimal product state of $\vert 0 \rangle^{\otimes n}$ with approximation ratio $\frac{1}{2}$.
 
 This Hamiltonian can also optionally be weighted with coefficients $$w_{ij}$$.
 
