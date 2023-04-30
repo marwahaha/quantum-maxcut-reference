@@ -54,7 +54,7 @@ There are a few ways to describe a random family of quantum spin glasses:
 
 ## Coming soon
 
-To talk about: Algorithms, Hardness, worst vs avg case, OGPs, optimal value, tools (Lasserre/VQE/rounding), NLTS, PCPs, certificates for random graphs, ...
+To talk about: Algorithms, Hardness, worst vs avg case, OGPs, optimal value, tools (Lasserre/VQE/rounding), NLTS, PCPs, certificates for random graphs, ... 
 
 ---
 
