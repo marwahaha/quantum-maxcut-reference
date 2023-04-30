@@ -64,9 +64,9 @@ Deciding the ground state value of **Quantum Max-Cut** is QMA-hard (I can't actu
 However, deciding the ground state value of **EPR Hamiltonian** (with arbitrary weights) is StoqMA-hard [[King22]](https://arxiv.org/pdf/2209.00789.pdf). In other words, this Hamiltonian is "sign-problem free".
 
 
-There is one attempt at proving hardness-of-approximation (in particular, by classical algorithms). Assuming a conjecture about Gaussian correlations, [[HNPTW22]](https://arxiv.org/abs/2111.01254) shows that approximating **Quantum Max-Cut** with approximation ratio higher than $$0.956$$ is as hard as deciding the Unique Games problem (this is possibly NP-hard).
+Note that for both **Quantum Max-Cut** and **EPR Hamiltonian**, product state solutions cannot have approximation ratio higher than $$0.5$$; for example, consider a graph with one edge. But this does not imply a bound on all classical algorithms.
 
-Note that for both **Quantum Max-Cut** and **EPR Hamiltonian**, product state solutions cannot have approximation ratio higher than $$0.5$$; for example, consider a graph with one edge.
+There is one attempt at proving hardness-of-approximation (in particular, by classical algorithms). Assuming a conjecture about Gaussian correlations, [[HNPTW22]](https://arxiv.org/abs/2111.01254) shows that approximating **Quantum Max-Cut** with approximation ratio higher than $$0.956$$ is as hard as deciding the Unique Games problem (this is possibly NP-hard).
 
 Proving quantum-hardness-of-approximation would require some quantum variant of a PCP theorem.
 
@@ -76,7 +76,7 @@ Note that the Hamiltonians above can be studied in an average-case setting if we
 
 Random families of Hamiltonians *only* have a sense of average-case hardness. For the **Wigner GUE** (and sparse variant by [[CDBBT23]](https://arxiv.org/pdf/2302.03394.pdf)), the eigenvalue statistics are known to follow a semicircle law. As a result, the sparse variant is "quantumly easy", although they show a quantum circuit lower bound(!) A classical hardness result is not known.
 
-For **Quantum spin glasses**,  [[ES14]](https://arxiv.org/pdf/1407.1552.pdf) describes the eigenvalue statistics (which either have Gaussian tails or follow a semicircle law). In the Gaussian case, I don't think the location of the optimal value is known. A natural question is if **Quantum spin glasses** have an optimal value related to a random family of **Quantum Max-Cut**, as is true in the classical setting (see [[Panchenko14 notes]](https://arxiv.org/abs/1412.0170), [[DMS17]](https://arxiv.org/abs/1503.03923), and [spin-glass-reference]).
+For **Quantum spin glasses**,  [[ES14]](https://arxiv.org/pdf/1407.1552.pdf) describes the eigenvalue statistics (which either have Gaussian tails or follow a semicircle law). In the Gaussian case, I don't think the location of the optimal value is known. A natural question is if **Quantum spin glasses** have an optimal value related to a random family of **Quantum Max-Cut**, as is true in the classical setting (see [[Panchenko14 notes]](https://arxiv.org/abs/1412.0170), [[DMS17]](https://arxiv.org/abs/1503.03923), and [spin-glass-reference](https://marwahaha.github.io/spin-glass-reference/)).
 
 There may be ways to extend recent average-case obstructions from *classical* spin glass theory to these quantum spin glasses. Notably, a property of the covariance matrices of nearly-optimal solutions (the *Overlap Gap Property* or (OGP)) obstructs certain algorithms from achieving the optimal solution in the average-case. See [[Gamarnik21 survey]](https://arxiv.org/pdf/2109.14409.pdf), and the original paper [[GS14]](https://arxiv.org/pdf/1304.1831.pdf) introducing the concept. The [spin-glass-reference](https://marwahaha.github.io/spin-glass-reference/) may also have some explainers. There are several kinds of OGPs (multi-, ensemble, [branching](https://arxiv.org/pdf/2110.07847.pdf), ...) that have different obstruction strengths, and may obstruct different classes of algorithms. See also [[AGK23]](https://arxiv.org/pdf/2304.00643.pdf) as viewing the OGP from the perspective of NLTS.
 
