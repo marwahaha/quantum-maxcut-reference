@@ -53,7 +53,27 @@ There are a few ways to describe a random family of quantum spin glasses:
 
 ## Algorithms
 
-TODO. To talk about: Algorithms, tools (Lasserre/VQE/rounding), 
+### Worst-case algorithms
+Most algorithms have been studied for **Quantum Max-Cut**. A recent summary is given in Section 3 of [[King22]](https://arxiv.org/pdf/2209.02589.pdf).
+
+The classical algorithms:
+
+* The first thing you might try is writing down a SDP (semidefinite program) and round the solution to a product state. How we do this is by optimizing over "pseudo-states" on each qubit, and rounding to a global solution. But this algorithm only gives an approximation ratio of $$0.498$$ [[GP19]](https://arxiv.org/abs/1909.08846); and assuming a conjecture about Gaussian correlations, this is optimal for the level-1 SDP [[HNPTW22]](https://arxiv.org/abs/2111.01254). (This SDP technique generalized to other local Hamiltonian problems in [[PT20]](https://arxiv.org/pdf/2012.12347.pdf).)
+* SDPs are sometimes more powerful when you use more of the system. The more general level-$$d$$$ SDP (or level-$$d$$ Lasserre hierarchy) optimizes over "pseudo-states" over $$d$$-local operators (and smaller), and then round to a global solution. So far, only the level-$$2$$ SDP has been studied; and this in fact gives an optimal $$0.5$$ approximation ratio for a product state [[PT22]](https://arxiv.org/abs/2206.08342). The main intuition is that level-$$2$$ SDPs capture monogamy-of-entanglement. There are also ways to use the level-$$2$$ SDP to round to a *slightly entangled* state, achieving approximation ratios of $$0.533$$.
+
+All algorithms beyond this use some classical computation, then *a variational circuit*. As a result, the best quantum algorithms outperform known classical algorithms.
+* [[AGM20]](https://arxiv.org/abs/2003.14394) was the first paper to go beyond a $$0.5$$ approximation ratio. This technique was extended to arbitrary 2-local Hamiltonians in [[AGMS20]](https://arxiv.org/abs/2105.01193).
+* More recent work [[Lee22]](https://arxiv.org/pdf/2209.00789.pdf), [[King22]](https://arxiv.org/pdf/2209.02589.pdf) use a product state approximation, and apply a more general variational quantum circuit to reach $$0.562$$ (and $$0.582$$ on triangle-free graphs). Notably, they use an SDP *again* to optimize the variational circuit parameters. [[King22]](https://arxiv.org/pdf/2209.02589.pdf) also analyzes their algorithm on **EPR Hamiltonian**; since the optimal product-state is simply $$|0\rangle^{\otimes n}$$, one can more carefully analyze the relative strength of algorithms *beyond* rounding.
+
+This is the state-of-the-art that I am aware of; but there is no claim anywhere that these are the best possible classical or quantum algorithms.
+
+Some useful tools here are the Lasserre hierarchy (or Sum-of-Squares) and rounding techniques, rounding *beyond* product states, and analyzing simple variational circuits.
+
+### Average-case algorithms
+
+As far as I'm aware, the only model that has been studied in the average-case is for the **Sparse Wigner GUE** [[CDBBT23]](https://arxiv.org/abs/2302.03394); since the eigenvalue distribution does not have a long tail, the naive "use phase estimation on a mixed state" provably reaches the optimal solution (whp). This is true also for **Wigner GUE**, but it's not possible to even describe this input model with a polynomial number of terms.
+
+It's possible to study algorithms for **Quantum spin glasses** and even **Quantum Max-Cut** on random regular graphs, but I haven't seen this done before.
 
 ## Hardness results
 
