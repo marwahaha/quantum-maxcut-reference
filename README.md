@@ -20,7 +20,7 @@ $$
 H = \frac{1}{2} \sum_{(i,j) \in E} I_i \otimes I_j - X_i \otimes X_j - Y_i \otimes Y_j - Z_i \otimes Z_j
 $$
 
-Alternatively, this can be written as $$H = \sum_{(i,j) \in E} 2 \ket{\psi^-}\bra{\psi^-}$$, where $$\ket{\psi^-} = \frac{1}{\sqrt{2}} (\ket{01} - \ket{10})$$ is the singlet state. Note that this Hamiltonian is rotation-invariant, and the minimum energy is zero.
+Alternatively, this can be written as $$H = \sum_{(i,j) \in E} 2 |\psi^-\rangle  \langle \psi^-|$$, where $$|\psi^-\rangle = \frac{1}{\sqrt{2}} (|01\rangle - |10\rangle)$$ is the singlet state. Note that this Hamiltonian is rotation-invariant, and the minimum energy is zero.
 
 This can optionally be weighted with coefficients $$w_{ij}$$.
 
@@ -30,7 +30,9 @@ $$
 H = \frac{1}{2} \sum_{(i,j) \in E} I_i \otimes I_j + X_i \otimes X_j - Y_i \otimes Y_j + Z_i \otimes Z_j
 $$
 
-Alternatively, this can be written as $$H = \sum_{(i,j) \in E} \ket{\phi^+}\bra{\phi^+}$$, where $$\ket{\phi^+} = \frac{1}{\sqrt{2}}(\ket{00} + \ket{11})$$ is the EPR pair.
+Alternatively, this can be written as $$H = \sum_{(i,j) \in E} |\phi^+\rangle \langle \phi^+|$$, where $$|\phi^+\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)$$ is the EPR pair. Note that this Hamiltonian has a particularly simple optimal product state of $|0\rangle^{\otimes n}$ with approximation ratio $\frac{1}{2}$.
+
+This can also optionally be weighted with coefficients $$w_{ij}$$.
 
 UNDER CONSTRUCTION: TO WRITE
 
