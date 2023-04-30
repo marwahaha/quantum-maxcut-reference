@@ -3,11 +3,12 @@
 It is a long-standing goal to find problems with **rigorous** quantum advantage.
 In classical optimization problems, evidence is dubious; however, when *the output is a quantum state*, there is (intuitively) more hope.
 
-This is a collection of notes about Hamiltonians, both algorithms and obstructions for them.
+Here we describe a few quantum Hamiltonians, along with associated algorithms and known hardness results.
 
 ## The Hamiltonians
 
 Recall that we use Pauli matrices $$P \in \{I, X, Y, Z\}$$, and $$P_i$$ means the Pauli matrix $$P$$ at site $$i$$.
+There are also fermionic Hamiltonians, but I will ignore those here.
 
 #### Quantum Max-Cut
 This is defined by a graph $$G(V,E)$$, where 
@@ -49,9 +50,9 @@ There are a few ways to describe a random family of quantum spin glasses:
 * Another way is to restrict the **Wigner GUE** to terms of the form $$P_{i_1} \otimes \dots \otimes P_{i_k}$$ where $$P$$ is the same Pauli matrix within each term. I'm not sure this has been exactly studied, but it was claimed in [[CDBBT23]](https://arxiv.org/pdf/2302.03394.pdf) in "Related Models"
 * Yet another way is to use all terms of the form $$g_{ij} (X_i \otimes X_j + Y_i \otimes Y_j + Z_i \otimes Z_j)$$ where $$g_{ij}$$ is an i.i.d. standard Gaussian. This might most closely resemble the quantum Max-Cut Hamiltonian.
 
-There are also fermionic Hamiltonians, but I will ignore those here.
 
 
+## Coming soon
 
 To talk about: Algorithms, Hardness, worst vs avg case, OGPs, optimal value, tools (Lasserre/VQE/rounding), NLTS, PCPs, certificates for random graphs, ...
 
