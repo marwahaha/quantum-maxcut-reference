@@ -5,19 +5,28 @@ In classical optimization problems, evidence is dubious; however, when *the outp
 
 This is a collection of notes about Hamiltonians, both algorithms and obstructions for them.
 
+$$\newcommand{\ket}[1]{\mathinner{|{#1}\rangle}}$$
+$$\newcommand{\bra}[1]{\mathinner{\langle{#1}|}}$$
 
 ## The Hamiltonians
 
 Recall that we use Pauli matrices $$P \in \{I, X, Y, Z\}$$, and $$P_i$$ means the Pauli matrix $$P$$ at site $$i$$.
 
 **Quantum Max-Cut**: This is defined by a graph $$G(V,E)$$, where 
+
 $$
 H = \frac{1}{2} \sum_{(i,j) \in E} I_i \otimes I_j - X_i \otimes X_j - Y_i \otimes Y_j - Z_i \otimes Z_j
 $$
 
-Alternatively, this can be written as $$H = \sum_{(i,j) \in E} 2 \ket{\psi^-}\bra{\psi^-}$$, where $$\ket{\psi^-} = \frac{1}{\sqrt{2}} (\ket{01} - \ket{10})$$ is the singlet state.
+Alternatively, this can be written as $$H = \sum_{(i,j) \in E} 2 \ket{\psi^-}\bra{\psi^-}$$, where $$\ket{\psi^-} = \frac{1}{\sqrt{2}} (\ket{01} - \ket{10})$$ is the singlet state. Note that this Hamiltonian is rotation-invariant, and the minimum energy is zero.
 
 This can optionally be weighted with coefficients $$w_{ij}$$.
+
+**EPR Hamiltonian**: I think this term is due to [[King22]](https://arxiv.org/pdf/2209.02589.pdf). This is defined also by a graph $$G(V,E)$$, where
+
+$$
+H = \frac{1}{2} \sum_{(i,j) \in E} I_i \otimes I_j + X_i \otimes X_j - Y_i \otimes Y_j + Z_i \otimes Z_j
+$$
 
 UNDER CONSTRUCTION: TO WRITE
 
