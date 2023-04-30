@@ -71,7 +71,7 @@ Some useful tools here are the Lasserre hierarchy (or Sum-of-Squares) and roundi
 
 ### Average-case algorithms
 
-As far as I'm aware, the only model that has been studied in the average-case is for the **Sparse Wigner GUE** [[CDBBT23]](https://arxiv.org/abs/2302.03394); since the eigenvalue distribution does not have a long tail, the naive "use phase estimation on a mixed state" provably reaches the optimal solution (whp). This is true also for **Wigner GUE**, but it's not possible to even describe this input model with a polynomial number of terms.
+As far as I'm aware, the only model that has been studied in the average-case is for the **Sparse Wigner GUE** [[CDBBT23]](https://arxiv.org/abs/2302.03394); since the eigenvalue distribution does not have a long tail, the naive "use phase estimation on a mixed state" provably reaches the optimal solution (whp). The eigenvalue distribution also holds for **Wigner GUE**, but it's not possible to even describe this input model with a polynomial number of terms, so the latter does not have an efficient algorithm.
 
 It's possible to study algorithms for **Quantum spin glasses** and even **Quantum Max-Cut** on random regular graphs, but I haven't seen this done before.
 
