@@ -9,7 +9,8 @@ This is a collection of notes about Hamiltonians, both algorithms and obstructio
 
 Recall that we use Pauli matrices $$P \in \{I, X, Y, Z\}$$, and $$P_i$$ means the Pauli matrix $$P$$ at site $$i$$.
 
-**Quantum Max-Cut**: This is defined by a graph $$G(V,E)$$, where 
+#### Quantum Max-Cut
+This is defined by a graph $$G(V,E)$$, where 
 
 $$
 H = \frac{1}{2} \sum_{(i,j) \in E} I_i \otimes I_j - X_i \otimes X_j - Y_i \otimes Y_j - Z_i \otimes Z_j
@@ -19,7 +20,8 @@ Alternatively, this can be written as $$H = \sum_{(i,j) \in E} 2 \vert \psi^{-} 
 
 This Hamiltonian can optionally be weighted with coefficients $$w_{ij}$$.
 
-**EPR Hamiltonian**: I think this term is due to [[King22]](https://arxiv.org/pdf/2209.02589.pdf). This is defined also by a graph $$G(V,E)$$, where
+#### EPR Hamiltonian
+I think this term is due to [[King22]](https://arxiv.org/pdf/2209.02589.pdf). This is defined also by a graph $$G(V,E)$$, where
 
 $$
 H = \frac{1}{2} \sum_{(i,j) \in E} I_i \otimes I_j + X_i \otimes X_j - Y_i \otimes Y_j + Z_i \otimes Z_j
@@ -29,7 +31,8 @@ Alternatively, this can be written as $$H = \sum_{(i,j) \in E} \vert \phi^+\rang
 
 This Hamiltonian can also optionally be weighted with coefficients $$w_{ij}$$.
 
-**Wigner GUE**: This is a random family of Hamiltonians of the form
+#### Wigner GUE
+This is a random family of Hamiltonians of the form
 
 $$
 H = \frac{1}{2^n} \sum_{\vec{P} \in \{I, X, Y, Z\}^n} g_{\vec{P}} \vec{P}
@@ -39,7 +42,8 @@ where an instance is drawn by choosing each $$g_{\vec{P}} \sim \mathcal{N}(0,1)$
 
 There is a variant of this model (let's call it a **Sparse Wigner** Hamiltonian) with similar eigenvalue statistics, famously studied in [[CDBBT23]](https://arxiv.org/pdf/2302.03394.pdf).
 
-**Quantum spin glasses**: There are a few ways to describe a random family of quantum spin glasses:
+#### Quantum spin glasses
+There are a few ways to describe a random family of quantum spin glasses:
 
 * One way is to restrict the **Wigner GUE** to random $$k$$-local Pauli Hamiltonians (i.e. terms with exactly $$k$$ non-identity Pauli matrices). This is studied for example in [[ES14]](https://arxiv.org/pdf/1407.1552.pdf). 
 * Another way is to restrict the **Wigner GUE** to terms of the form $$P_{i_1} \otimes \dots \otimes P_{i_k}$$ where $$P$$ is the same Pauli matrix within each term. I'm not sure this has been exactly studied, but it was claimed in [[CDBBT23]](https://arxiv.org/pdf/2302.03394.pdf) in "Related Models"
