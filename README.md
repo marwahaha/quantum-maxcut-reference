@@ -20,9 +20,9 @@ $$
 H = \frac{1}{2} \sum_{(i,j) \in E} I_i \otimes I_j - X_i \otimes X_j - Y_i \otimes Y_j - Z_i \otimes Z_j
 $$
 
-Alternatively, this can be written as $$H = \sum_{(i,j) \in E} 2 |\psi^-\rangle  \langle \psi^-|$$, where $$|\psi^-\rangle = \frac{1}{\sqrt{2}} (|01\rangle - |10\rangle)$$ is the singlet state. Note that this Hamiltonian is rotation-invariant, and the minimum energy is zero.
+Alternatively, this can be written as $$H = \sum_{(i,j) \in E} 2 |\psi^{-} \rangle  \langle \psi^{-} |$$, where $$|\psi^{-} \rangle = \frac{1}{\sqrt{2}} (|01\rangle - |10\rangle)$$ is the singlet state. Note that this Hamiltonian is rotation-invariant, and the minimum energy is zero.
 
-This can optionally be weighted with coefficients $$w_{ij}$$.
+This Hamiltonian can optionally be weighted with coefficients $$w_{ij}$$.
 
 **EPR Hamiltonian**: I think this term is due to [[King22]](https://arxiv.org/pdf/2209.02589.pdf). This is defined also by a graph $$G(V,E)$$, where
 
@@ -32,7 +32,15 @@ $$
 
 Alternatively, this can be written as $$H = \sum_{(i,j) \in E} |\phi^+\rangle \langle \phi^+|$$, where $$|\phi^+\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)$$ is the EPR pair. Note that this Hamiltonian has a particularly simple optimal product state of $|0\rangle^{\otimes n}$ with approximation ratio $\frac{1}{2}$.
 
-This can also optionally be weighted with coefficients $$w_{ij}$$.
+This Hamiltonian can also optionally be weighted with coefficients $$w_{ij}$$.
+
+**Wigner GUE**: This is a random family of Hamiltonians of the form
+
+$$
+H = \frac{1}{2^n} \sum_{\vec{P} \in \{I, X, Y, Z\}^n} g_{\vec{P}} \vec{P}
+$$
+
+where an instance is drawn by choosing each $g_{\vec{P}} \sim \mathcal{N}(0,1)$ i.i.d. 
 
 UNDER CONSTRUCTION: TO WRITE
 
