@@ -53,12 +53,11 @@ There are a few ways to describe a random family of quantum spin glasses:
 
 ## Algorithms
 
-TODO. To talk about: Algorithms, Hardness, worst vs avg case, OGPs, optimal value, tools (Lasserre/VQE/rounding), NLTS, PCPs, certificates for random graphs, ... 
-
+TODO. To talk about: Algorithms, tools (Lasserre/VQE/rounding), 
 
 ## Hardness results
 
-### worst-case hardness
+### Worst-case hardness
 
 Deciding the ground state value of **Quantum Max-Cut** is QMA-hard (I can't actually find a reference that exactly matches this, perhaps [[CM13]](https://arxiv.org/pdf/1311.3161.pdf)? But it's only with arbitrary weights.) It might actually be QMA$$_1$$-hard without weights, I'm not sure.
 
@@ -69,15 +68,17 @@ There is one attempt at proving hardness-of-approximation (in particular, by cla
 
 Note that for both **Quantum Max-Cut** and **EPR Hamiltonian**, product state solutions cannot have approximation ratio higher than $$0.5$$; for example, consider a graph with one edge.
 
-### average-case hardness
+Proving quantum-hardness-of-approximation would require some quantum variant of a PCP theorem.
 
-Note that the Hamiltonians above can be studied in an average-case setting if we randomize the choice of graph; say, from $$\mathbf{G}(n,p)$$ or random $$d$$-regular graphs. In this case, we don't know if the optimal value concentrates, or even the right order of magnitude of the optimal value. 
+### Average-case hardness
+
+Note that the Hamiltonians above can be studied in an average-case setting if we randomize the choice of graph; say, from $$\mathbf{G}(n,p)$$ or random $$d$$-regular graphs. In this case, we don't know if the optimal value concentrates, or even the right order of magnitude of the optimal value.
 
 Random families of Hamiltonians *only* have a sense of average-case hardness. For the **Wigner GUE** (and sparse variant by [[CDBBT23]](https://arxiv.org/pdf/2302.03394.pdf)), the eigenvalue statistics are known to follow a semicircle law. As a result, the sparse variant is "quantumly easy", although they show a quantum circuit lower bound(!) A classical hardness result is not known.
 
 For **Quantum spin glasses**,  [[ES14]](https://arxiv.org/pdf/1407.1552.pdf) describes the eigenvalue statistics (which either have Gaussian tails or follow a semicircle law). In the Gaussian case, I don't think the location of the optimal value is known.
 
-There may be ways to extend recent average-case obstructions from *classical* spin glass theory to these quantum spin glasses. Notably, a property of the covariance matrices of nearly-optimal solutions (the *Overlap Gap Property* or (OGP)) obstructs certain algorithms from achieving the optimal solution in the average-case. See [Gamarnik21](https://arxiv.org/pdf/2109.14409.pdf) for a survey on the OGP, and the original paper [GS14](https://arxiv.org/pdf/1304.1831.pdf) introducing the concept. The [spin-glass-reference](https://marwahaha.github.io/spin-glass-reference/) may also have some explainers. There are several kinds of OGPs (multi-, ensemble, [branching](https://arxiv.org/pdf/2110.07847.pdf), ...) that have different obstruction strengths, and may obstruct different classes of algorithms. See also [[AGK23]](https://arxiv.org/pdf/2304.00643.pdf) as viewing the OGP from the perspective of NLTS.
+There may be ways to extend recent average-case obstructions from *classical* spin glass theory to these quantum spin glasses. Notably, a property of the covariance matrices of nearly-optimal solutions (the *Overlap Gap Property* or (OGP)) obstructs certain algorithms from achieving the optimal solution in the average-case. See [[Gamarnik21]](https://arxiv.org/pdf/2109.14409.pdf) for a survey on the OGP, and the original paper [[GS14]](https://arxiv.org/pdf/1304.1831.pdf) introducing the concept. The [spin-glass-reference](https://marwahaha.github.io/spin-glass-reference/) may also have some explainers. There are several kinds of OGPs (multi-, ensemble, [branching](https://arxiv.org/pdf/2110.07847.pdf), ...) that have different obstruction strengths, and may obstruct different classes of algorithms. See also [[AGK23]](https://arxiv.org/pdf/2304.00643.pdf) as viewing the OGP from the perspective of NLTS.
 
 Some useful tools here include textbook random matrix theory ideas, like the trace power method and concentration bounds, as well as recent work in proving OGPs for spin glasses.
 
@@ -85,7 +86,8 @@ Some useful tools here include textbook random matrix theory ideas, like the tra
 ## Some other references
 
 * [almost sure convergence in quantum spin glasses](https://arxiv.org/pdf/1508.01785.pdf)
-* [paper1](https://link.springer.com/article/10.1007/JHEP07(2018)124), [paper2](https://link.springer.com/article/10.1007/s42543-018-0007-1), [paper3](https://arxiv.org/pdf/2110.10701.pdf) on fermionic models
+* [paper by Hastings-O'Donnell](https://arxiv.org/pdf/2110.10701.pdf) on fermionic models; some others [paper1](https://link.springer.com/article/10.1007/JHEP07(2018)124), [paper2](https://link.springer.com/article/10.1007/s42543-018-0007-1) on concentration of SYK
+
 ---
 
 Inspired by conversations with many people, including Bobak Kiani, Joao Basso, Robbie King, Nathan Ju, James Sud, and Adrian She.
