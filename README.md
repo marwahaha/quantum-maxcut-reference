@@ -1,5 +1,23 @@
 # What is "quantum" Max-Cut?
 
+It is a long-standing goal to find problems with **rigorous** quantum advantage.
+In classical optimization problems, evidence is dubious; however, when *the output is a quantum state*, there is (intuitively) more hope.
+
+This is a collection of notes about Hamiltonians, both algorithms and obstructions for them.
+
+
+## The Hamiltonians
+
+Recall that we use Pauli matrices $$P \in \{I, X, Y, Z\}$$, and $$P_i$$ means the Pauli matrix $$P$$ at site $$i$$.
+
+**Quantum Max-Cut**: This is defined by a graph $$G(V,E)$$, where 
+$$
+H = \frac{1}{2} \sum_{(i,j) \in E} I_i \otimes I_j - X_i \otimes X_j - Y_i \otimes Y_j - Z_i \otimes Z_j
+$$
+
+Alternatively, this can be written as $$H = \sum_{(i,j) \in E} 2 \ket{\psi^-}\bra{\psi^-}$$, where $$\ket{\psi^-} = \frac{1}{\sqrt{2}} (\ket{01} - \ket{10})$$ is the singlet state.
+
+This can optionally be weighted with coefficients $$w_{ij}$$.
 
 UNDER CONSTRUCTION: TO WRITE
 
@@ -263,6 +281,6 @@ For other pure $$p$$-spin models where $$p > 2$$, we know of a second transition
 
 ---
 
-Inspired by conversations with 
+Inspired by conversations with so many people, including Bobak Kiani, Joao Basso, Robbie King, Nathan Ju, James Sud, and Adrian She.
 
 More to add? Email me at [kmarw@uchicago.edu](mailto:kmarw@uchicago.edu).
