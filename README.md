@@ -25,7 +25,7 @@ $$
 H = \frac{1}{2} \sum_{(i,j) \in E} I_i \otimes I_j + X_i \otimes X_j - Y_i \otimes Y_j + Z_i \otimes Z_j
 $$
 
-Alternatively, this can be written as $$H = \sum_{(i,j) \in E} \vert \phi^+\rangle \langle \phi^+\vert $$, where $$\vert \phi^+\rangle = \frac{1}{\sqrt{2}}(\vert 00 \rangle + \vert 11 \rangle)$$ is the EPR pair. Note that this Hamiltonian has a particularly simple optimal product state of $\vert 0 \rangle^{\otimes n}$ with approximation ratio $\frac{1}{2}$.
+Alternatively, this can be written as $$H = \sum_{(i,j) \in E} \vert \phi^+\rangle \langle \phi^+\vert $$, where $$\vert \phi^+\rangle = \frac{1}{\sqrt{2}}(\vert 00 \rangle + \vert 11 \rangle)$$ is the EPR pair. Note that this Hamiltonian has a particularly simple optimal product state of $$\vert 0 \rangle^{\otimes n}$$ with approximation ratio $$\frac{1}{2}$$.
 
 This Hamiltonian can also optionally be weighted with coefficients $$w_{ij}$$.
 
@@ -35,14 +35,14 @@ $$
 H = \frac{1}{2^n} \sum_{\vec{P} \in \{I, X, Y, Z\}^n} g_{\vec{P}} \vec{P}
 $$
 
-where an instance is drawn by choosing each $g_{\vec{P}} \sim \mathcal{N}(0,1)$ i.i.d. 
+where an instance is drawn by choosing each $$g_{\vec{P}} \sim \mathcal{N}(0,1)$$ i.i.d. 
 
 There is a variant of this model (let's call it a **Sparse Wigner** Hamiltonian) with similar eigenvalue statistics, famously studied in [[CDBBT23]](https://arxiv.org/pdf/2302.03394.pdf).
 
 **Quantum spin glasses**: There are a few ways to describe a random family of quantum spin glasses:
 
 * One way is to restrict the **Wigner GUE** to random $$k$$-local Pauli Hamiltonians (i.e. terms with exactly $$k$$ non-identity Pauli matrices). This is studied for example in [[ES14]](https://arxiv.org/pdf/1407.1552.pdf). 
-* Another way is to restrict the **Wigner GUE** to terms of the form $P_{i_1} \otimes \dots \otimes P_{i_k}$$ where $$P$$ is the same Pauli matrix within each term. I'm not sure this has been exactly studied, but it was claimed in [[CDBBT23]](https://arxiv.org/pdf/2302.03394.pdf) in "Related Models"
+* Another way is to restrict the **Wigner GUE** to terms of the form $$P_{i_1} \otimes \dots \otimes P_{i_k}$$ where $$P$$ is the same Pauli matrix within each term. I'm not sure this has been exactly studied, but it was claimed in [[CDBBT23]](https://arxiv.org/pdf/2302.03394.pdf) in "Related Models"
 * Yet another way is to use all terms of the form $$g_{ij} (X_i \otimes X_j + Y_i \otimes Y_j + Z_i \otimes Z_j)$$ where $$g_{ij}$$ is an i.i.d. standard Gaussian. This might most closely resemble the quantum Max-Cut Hamiltonian.
 
 There are also fermionic Hamiltonians, but I will ignore those here.
