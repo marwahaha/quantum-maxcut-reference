@@ -6,6 +6,8 @@ In classical optimization problems, evidence is dubious; however, when *the outp
 This is a collection of notes about Hamiltonians, both algorithms and obstructions for them.
 
 $$\newcommand{\ket}[1]{\mathinner{|{#1}\rangle}}$$
+
+
 $$\newcommand{\bra}[1]{\mathinner{\langle{#1}|}}$$
 
 ## The Hamiltonians
@@ -27,6 +29,8 @@ This can optionally be weighted with coefficients $$w_{ij}$$.
 $$
 H = \frac{1}{2} \sum_{(i,j) \in E} I_i \otimes I_j + X_i \otimes X_j - Y_i \otimes Y_j + Z_i \otimes Z_j
 $$
+
+Alternatively, this can be written as $$H = \sum_{(i,j) \in E} \ket{\phi^+}\bra{\phi^+}$$, where $$\ket{\phi^+} = \frac{1}{\sqrt{2}}(\ket{00} + \ket{11})$$ is the EPR pair.
 
 UNDER CONSTRUCTION: TO WRITE
 
