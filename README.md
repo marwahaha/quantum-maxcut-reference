@@ -82,7 +82,7 @@ It's possible to study algorithms for **Quantum spin glasses** and even **Quantu
 
 Deciding the ground state value of **Quantum Max-Cut** is QMA-hard (I can't actually find a reference that exactly matches this, perhaps [[CM13]](https://arxiv.org/pdf/1311.3161.pdf)? But it's only with arbitrary weights.) It might actually be QMA$$_1$$-hard without weights, I'm not sure.
 
-However, deciding the ground state value of **EPR Hamiltonian** (with arbitrary weights) is StoqMA-hard [[King22]](https://arxiv.org/pdf/2209.00789.pdf). In other words, this Hamiltonian is "sign-problem free".
+However, deciding the ground state value of **EPR Hamiltonian** (with arbitrary weights) is in StoqMA [[King22]](https://arxiv.org/pdf/2209.02589.pdf). In other words, this Hamiltonian is "sign-problem free".
 
 
 Note that for both **Quantum Max-Cut** and **EPR Hamiltonian**, product state solutions cannot have approximation ratio higher than $$0.5$$; for example, consider a graph with one edge. But this does not imply a bound on all classical algorithms.
