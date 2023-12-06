@@ -108,7 +108,8 @@ Some useful tools here include textbook random matrix theory ideas, like the tra
 
 * [almost sure convergence in quantum spin glasses](https://arxiv.org/pdf/1508.01785.pdf)
 * [paper by Hastings-O'Donnell](https://arxiv.org/pdf/2110.10701.pdf) on fermionic models; some others [paper1](https://link.springer.com/article/10.1007/JHEP07(2018)124), [paper2](https://link.springer.com/article/10.1007/s42543-018-0007-1) on concentration of SYK
-
+* the generalization to qu*d*its was recently studied in [[CJKKW23]](https://arxiv.org/pdf/2309.10957.pdf).
+* there is a SoS like hierarchy for quantum max cut in [paper 1](https://arxiv.org/pdf/2307.15661.pdf), [paper 2](https://arxiv.org/pdf/2307.15688.pdf) that look interesting. 
 ---
 
 Inspired by conversations with many people, including Bobak Kiani, Joao Basso, Robbie King, Nathan Ju, James Sud, and Adrian She.
