@@ -87,7 +87,7 @@ However, deciding the ground state value of **EPR Hamiltonian** (with arbitrary 
 
 Note that for both **Quantum Max-Cut** and **EPR Hamiltonian**, product state solutions cannot have approximation ratio higher than $$0.5$$; for example, consider a graph with one edge. But this does not imply a bound on all classical algorithms.
 
-There is one attempt at proving hardness-of-approximation (in particular, by classical algorithms). Assuming a conjecture about Gaussian correlations, [[HNPTW22]](https://arxiv.org/abs/2111.01254) shows that approximating **Quantum Max-Cut** with approximation ratio higher than $$0.956$$ is as hard as deciding the Unique Games problem (this is possibly NP-hard).
+There is one attempt at proving hardness-of-approximation (in particular, by classical algorithms). Assuming a conjecture about Gaussian correlations, [[HNPTW22]](https://arxiv.org/abs/2111.01254) shows that approximating the ground state energy *value* of **Quantum Max-Cut** with approximation ratio higher than $$0.956$$ is as hard as deciding the Unique Games problem (this is possibly NP-hard).
 
 Proving quantum-hardness-of-approximation would require some quantum variant of a PCP theorem.
 
