@@ -57,6 +57,12 @@
             page</a>
         </li>
       </ul>
+      <p>
+        {% assign pages = site.pages %}
+        {% for page in pages %}
+            <div><a href="/{{page.path}}">{{page.path}}</a></div>
+        {% endfor %}
+      </p>
     </header>
 
     <section style="width: -moz-available; width: -webkit-fill-available">
