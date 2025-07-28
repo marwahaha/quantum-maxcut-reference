@@ -18,6 +18,8 @@
 
 **[Hub+24]** Felix Huber, Kevin Thompson, Ojas Parekh, and Sevag Gharibian. *Second Order Cone Relaxations for Quantum Max Cut*. Nov. 2024. [arXiv:2411.04120](https://arxiv.org/abs/2411.04120) [quant-ph]. <a id="Hub+24"></a>
 
+**[Hwa+22]** Yeongwoo Hwang, Joe Neeman, Ojas Parekh, Kevin Thompson, John Wright. *Unique Games hardness of Quantum Max-Cut, and a conjectured vector-valued Borell's inequality*. Sep. 2022. [arXiv:2411.04120](https://arxiv.org/abs/2111.01254) [quant-ph]. <a id="Hwa+22"></a>
+
 **[JN25]** Nathan Ju and Ansh Nagda. *Improved Approximation Algorithms for the EPR Hamiltonian*. Apr. 2025. [arXiv:2504.10712](https://arxiv.org/abs/2504.10712) [quant-ph]. <a id="JN25"></a>
 
 **[Jor+24]** Zackary Jorquera, Alexandra Kolla, Steven Kordonowy, Juspreet Singh Sandhu, and Stuart Wayland. *Monogamy of Entanglement Bounds and Improved Approximation Algorithms for Qudit Hamiltonians*. Nov. 2024. [arXiv:2410.15544](https://arxiv.org/abs/2410.15544) [quant-ph]. <a id="Jor+24"></a>
