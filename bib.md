@@ -45,3 +45,7 @@
 **[TZ25b]** Wenxuan Tao and Fen Zuo. *Testing APS Conjecture on Regular Graphs*. July 2025. [arXiv:2507.10050](https://arxiv.org/abs/2507.10050) [quant-ph]. <a id="TZ25b"></a>
 
 **[Wat+24]** Adam Bene Watts, Anirban Chowdhury, Aidan Epperly, J. William Helton, and Igor Klep. *Relaxations and Exact Solutions to Quantum Max Cut via the Algebraic Structure of Swap Operators*. Quantum 8 (May 2024), p. 1352. [arXiv:2307.15661](https://arxiv.org/abs/2307.15661) [math-ph, physics:quant-ph]. <a id="Wat+24"></a>
+
+
+<div style="padding-bottom: 1000px"></div>
+
