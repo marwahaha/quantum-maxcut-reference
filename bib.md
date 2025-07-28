@@ -12,8 +12,6 @@
 
 - <a id="Edm65"></a> **[Edm65]** Jack Edmonds. “Paths, Trees, and Flowers”. *Canadian Journal of Mathematics* 17 (1965), pp. 449–467. DOI: [10.4153/CJM-1965-045-4](https://doi.org/10.4153/CJM-1965-045-4).
 
-- <a id="Gam16"></a> **[Gam16]** Omar Gamel. “Entangled Bloch Spheres: Bloch Matrix and Two-Qubit State Space”. *Physical Review A* 93.6 (2016), p. 062320. DOI: [10.1103/PhysRevA.93.062320](https://doi.org/10.1103/PhysRevA.93.062320).
-
 - <a id="GP19"></a> **[GP19]** Sevag Gharibian and Ojas Parekh. “Almost Optimal Classical Approximation Algorithms for a Quantum Generalization of Max-Cut”. *LIPIcs APPROX/RANDOM 2019*, Vol. 145 (2019), 31:1–31:17. ISSN: 1868-8969. DOI: [10.4230/LIPIcs.APPROX-RANDOM.2019.31](https://doi.org/10.4230/LIPIcs.APPROX-RANDOM.2019.31). arXiv: [1909.08846](https://arxiv.org/abs/1909.08846) [quant-ph].
 
 - <a id="GSS25"></a> **[GSS25]** Sander Gribling, Lennart Sinjorgo, and Renata Sotirov. *Improved Approximation Ratios for the Quantum Max-Cut Problem on General, Triangle-Free and Bipartite Graphs*. Apr. 2025. DOI: [10.48550/arXiv.2504.11120](https://doi.org/10.48550/arXiv.2504.11120). arXiv: [2504.11120](https://arxiv.org/abs/2504.11120) [quant-ph].
