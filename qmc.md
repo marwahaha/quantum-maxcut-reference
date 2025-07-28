@@ -14,7 +14,7 @@ This Hamiltonian is rotation-invariant. The maximum energy is non-negative, and 
 ## Hardness
 QMA-complete for positive-weighted graphs [[PM15]](bib#PM15).
 
-Under a conjecture, getting a $$(0.956+\epsilon)$$-approximation is as hard as Unique Games [[HNPTW21]](bib#HNPTW21).
+Under a conjecture, getting a $$(0.956+\epsilon)$$-approximation is as hard as Unique Games [[HNPTW22]](bib#HNPTW22).
 
 ## Algorithms
 
