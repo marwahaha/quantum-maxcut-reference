@@ -2,6 +2,8 @@
 
 **[AGM20]** Anurag Anshu, David Gosset, and Karen Morenz. *Beyond Product State Approximations for a Quantum Analogue of Max Cut*. LIPIcs TQC 2020, Vol. 158 (2020), 7:1–7:15. [arXiv:2003.14394](https://arxiv.org/abs/2003.14394) [quant-ph]. <a id="AGM20"></a>
 
+**[ALMPS25]** Anuj Apte, Eunou Lee, Kunal Marwaha, Ojas Parekh, James Sud. *Improved Algorithms for Quantum MaxCut via Partially Entangled Matchings*. Apr. 2025. European Symposium on Algorithms 2025. [arXiv:2504.15276](https://arxiv.org/pdf/2504.15276) [quant-ph]. <a id="ALMPS25"></a>
+
 **[APS25]** Anuj Apte, Ojas Parekh, and James Sud. *Conjectured Bounds for 2-Local Hamiltonians via Token Graphs*. June 2025. [arXiv:2506.03441](https://arxiv.org/abs/2506.03441) [quant-ph]. <a id="APS25"></a>
 
 **[BFV10]** Jop Briet, Fernando Mario de Oliveira Filho, and Frank Vallentin. *The Positive Semidefinite Grothendieck Problem with Rank Constraint*. Lecture Notes in Computer Science, Vol. 6198 (2010), pp. 31–42. [arXiv:0910.5765](https://arxiv.org/abs/0910.5765) [math]. <a id="BFV10"></a>
@@ -16,13 +18,13 @@
 
 **[GSS25]** Sander Gribling, Lennart Sinjorgo, and Renata Sotirov. *Improved Approximation Ratios for the Quantum Max-Cut Problem on General, Triangle-Free and Bipartite Graphs*. Apr. 2025. [arXiv:2504.11120](https://arxiv.org/abs/2504.11120) [quant-ph]. <a id="GSS25"></a>
 
-**[Hub+24]** Felix Huber, Kevin Thompson, Ojas Parekh, and Sevag Gharibian. *Second Order Cone Relaxations for Quantum Max Cut*. Nov. 2024. [arXiv:2411.04120](https://arxiv.org/abs/2411.04120) [quant-ph]. <a id="Hub+24"></a>
+**[HGPT24]** Felix Huber, Sevag Gharibian, Ojas Parekh, and Kevin Thompson,. *Second Order Cone Relaxations for Quantum Max Cut*. Nov. 2024. [arXiv:2411.04120](https://arxiv.org/abs/2411.04120) [quant-ph]. <a id="HGPT24"></a>
 
-**[Hwa+22]** Yeongwoo Hwang, Joe Neeman, Ojas Parekh, Kevin Thompson, John Wright. *Unique Games hardness of Quantum Max-Cut, and a conjectured vector-valued Borell's inequality*. Sep. 2022. [arXiv:2411.04120](https://arxiv.org/abs/2111.01254) [quant-ph]. <a id="Hwa+22"></a>
+**[HNPTW22]** Yeongwoo Hwang, Joe Neeman, Ojas Parekh, Kevin Thompson, John Wright. *Unique Games hardness of Quantum Max-Cut, and a conjectured vector-valued Borell's inequality*. Sep. 2022. [arXiv:2411.04120](https://arxiv.org/abs/2111.01254) [quant-ph]. <a id="HNPTW22"></a>
 
 **[JN25]** Nathan Ju and Ansh Nagda. *Improved Approximation Algorithms for the EPR Hamiltonian*. Apr. 2025. [arXiv:2504.10712](https://arxiv.org/abs/2504.10712) [quant-ph]. <a id="JN25"></a>
 
-**[Jor+24]** Zackary Jorquera, Alexandra Kolla, Steven Kordonowy, Juspreet Singh Sandhu, and Stuart Wayland. *Monogamy of Entanglement Bounds and Improved Approximation Algorithms for Qudit Hamiltonians*. Nov. 2024. [arXiv:2410.15544](https://arxiv.org/abs/2410.15544) [quant-ph]. <a id="Jor+24"></a>
+**[JKKSW24]** Zackary Jorquera, Alexandra Kolla, Steven Kordonowy, Juspreet Singh Sandhu, and Stuart Wayland. *Monogamy of Entanglement Bounds and Improved Approximation Algorithms for Qudit Hamiltonians*. Nov. 2024. [arXiv:2410.15544](https://arxiv.org/abs/2410.15544) [quant-ph]. <a id="Jor+24"></a>
 
 **[Kin23]** Robbie King. *An Improved Approximation Algorithm for Quantum Max-Cut*. Quantum 7 (Nov. 2023), p. 1180. [arXiv:2209.02589](https://arxiv.org/abs/2209.02589) [quant-ph]. <a id="Kin23"></a>
 
@@ -44,7 +46,7 @@
 
 **[TZ25b]** Wenxuan Tao and Fen Zuo. *Testing APS Conjecture on Regular Graphs*. July 2025. [arXiv:2507.10050](https://arxiv.org/abs/2507.10050) [quant-ph]. <a id="TZ25b"></a>
 
-**[Wat+24]** Adam Bene Watts, Anirban Chowdhury, Aidan Epperly, J. William Helton, and Igor Klep. *Relaxations and Exact Solutions to Quantum Max Cut via the Algebraic Structure of Swap Operators*. Quantum 8 (May 2024), p. 1352. [arXiv:2307.15661](https://arxiv.org/abs/2307.15661) [math-ph, physics:quant-ph]. <a id="Wat+24"></a>
+**[WCEHK24]** Adam Bene Watts, Anirban Chowdhury, Aidan Epperly, J. William Helton, and Igor Klep. *Relaxations and Exact Solutions to Quantum Max Cut via the Algebraic Structure of Swap Operators*. Quantum 8 (May 2024), p. 1352. [arXiv:2307.15661](https://arxiv.org/abs/2307.15661) [math-ph, physics:quant-ph]. <a id="WCEHK24"></a>
 
 
 <div style="padding-bottom: 1000px"></div>
