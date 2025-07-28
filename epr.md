@@ -9,7 +9,7 @@ $$
 
 where $$w_{ij} \ge 0$$, and $$\vert \phi^{+} \rangle = \frac{1}{\sqrt{2}} (\vert 00\rangle + \vert 11\rangle)$$. 
 
-This Hamiltonian is rotation-invariant. The maximum energy is non-negative, and at most $2\sum_{(i,j) \in E} w_{ij}$.
+This Hamiltonian is **not** rotation-invariant. The maximum energy is non-negative, and at most $2\sum_{(i,j) \in E} w_{ij}$.
 
 ## Hardness
 In StoqMA for positive-weighted graphs [[PM15]](bib#PM15).
