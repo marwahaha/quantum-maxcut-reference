@@ -2,7 +2,7 @@ To be merged with qmc page
 
 | Reference   | Value      | Graph Type         | Notes                                     |
 |-------------|------------|--------------------|-------------------------------------------|
-| [GP19]     | 0.498      | General graphs     | Outputs product state                     |
+| [[GP19]](bib#GP19)    | 0.498      | General graphs     | Outputs product state                     |
 | [PT22]      | 1/2        | General graphs     | Outputs product state                     |
 | [HTPG24]    | 0.526      | General graphs     | Uses SOC instead of SDP                   |
 | [AGM20]     | 0.531      | General graphs     |                                           |
