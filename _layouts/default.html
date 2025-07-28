@@ -57,16 +57,17 @@
             page</a>
         </li>
       </ul>
-      <p>
-        {% assign pages = site.pages %}
-        {% for page in pages %}
-        {% if page.path == "README.md" %}
-            <div><a href="/quantum-maxcut-reference/">Main page</a></div>
-      {% else %}
-            <div><a href="/quantum-maxcut-reference/{{page.path | replace:'.md',''}}">{{page.title}}</a></div>
-      {% endif %}
-        {% endfor %}
-      </p>
+      <div>
+        <div><a href="/quantum-maxcut-reference/">Main page</a></div>
+          {% assign pages = site.pages %}
+          {% for page in pages %}
+            {% if page.path contains ".md" %}
+              {% if page.path != "README.md" %}
+                  <div><a href="/quantum-maxcut-reference/{{page.path | replace:'.md',''}}">{{page.title}}</a></div>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+      </div>
     </header>
 
     <section style="width: -moz-available; width: -webkit-fill-available">
