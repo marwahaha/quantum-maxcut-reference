@@ -1,7 +1,3 @@
----
-title: Quantum MaxCut
----
-
 # Quantum MaxCut
 
 ## Definition
