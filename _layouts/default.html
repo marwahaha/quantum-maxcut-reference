@@ -53,18 +53,13 @@
       <p>updated <span id="update-date">{{ site.data.updated.date }}</span></p>
       <ul style="position: initial">
         <li class="download">
-          <a class="buttons github" href="https://github.com/marwahaha/quantum-maxcut-reference/edit/main/README.md">Edit this
+          <a class="buttons github" href="https://github.com/marwahaha/quantum-maxcut-reference/edit/main/{{page.relative_path}}">Edit this
             page</a>
         </li>
       </ul>
     </header>
 
     <section style="width: -moz-available; width: -webkit-fill-available">
-
-      {{ page.path }}
-      
-      {{ page.relative_path }}
-      
       {{ content }}
     </section>
   </div>
