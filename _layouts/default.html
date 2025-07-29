@@ -59,16 +59,19 @@
       </ul>
       <div>
         <div><a href="/quantum-maxcut-reference/">Main page</a></div>
+        <div><a href="/quantum-maxcut-reference/bib">Bibliography</a></div>
         <div>Problems</div>
-        {% assign problems = site.pages | where: "type", "problem" %}
-        {% for page in problems %}
+        {% assign pages = site.pages | where: "type", "problem" %}
+        {% for page in pages %}
           <div>&nbsp;<a href="/quantum-maxcut-reference/{{page.path | replace:'.md',''}}">{{page.title}}</a></div>
         {% endfor %}
-        <div>Other files</div>
-        {% assign otherfiles = site.pages | where: "type", nil %}
-        {% for page in otherfiles %}
+        <div>Techniques</div>
+        <div>&nbsp;Graph Invariants</div>
+        {% assign pages = site.pages | where: "type", "graphinvariant" %}
+        {% for page in pages %}
           <div>&nbsp;<a href="/quantum-maxcut-reference/{{page.path | replace:'.md',''}}">{{page.title}}</a></div>
         {% endfor %}
+        <div>Open questions</div>
         </ul>
       </div>
     </header>
