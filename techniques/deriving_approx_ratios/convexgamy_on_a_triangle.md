@@ -1,1 +1,0 @@
-# Convexgamy on a triangle
