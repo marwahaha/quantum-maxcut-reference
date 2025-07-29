@@ -18,13 +18,13 @@
 
 **[GSS25]** Sander Gribling, Lennart Sinjorgo, and Renata Sotirov. *Improved Approximation Ratios for the Quantum Max-Cut Problem on General, Triangle-Free and Bipartite Graphs*. Apr. 2025. [arXiv:2504.11120](https://arxiv.org/abs/2504.11120) [quant-ph]. <a id="GSS25"></a>
 
-**[HGPT24]** Felix Huber, Sevag Gharibian, Ojas Parekh, and Kevin Thompson,. *Second Order Cone Relaxations for Quantum Max Cut*. Nov. 2024. [arXiv:2411.04120](https://arxiv.org/abs/2411.04120) [quant-ph]. <a id="HGPT24"></a>
+**[HGPT24]** Felix Huber, Kevin Thompson, Ojas Parekh, and Sevag Gharibian. *Second Order Cone Relaxations for Quantum Max Cut*. Nov. 2024. [arXiv:2411.04120](https://arxiv.org/abs/2411.04120) [quant-ph]. <a id="HTPG24"></a>
 
 **[HNPTW22]** Yeongwoo Hwang, Joe Neeman, Ojas Parekh, Kevin Thompson, John Wright. *Unique Games hardness of Quantum Max-Cut, and a conjectured vector-valued Borell's inequality*. Sep. 2022. [arXiv:2411.04120](https://arxiv.org/abs/2111.01254) [quant-ph]. <a id="HNPTW22"></a>
 
 **[JN25]** Nathan Ju and Ansh Nagda. *Improved Approximation Algorithms for the EPR Hamiltonian*. Apr. 2025. [arXiv:2504.10712](https://arxiv.org/abs/2504.10712) [quant-ph]. <a id="JN25"></a>
 
-**[JKKSW24]** Zackary Jorquera, Alexandra Kolla, Steven Kordonowy, Juspreet Singh Sandhu, and Stuart Wayland. *Monogamy of Entanglement Bounds and Improved Approximation Algorithms for Qudit Hamiltonians*. Nov. 2024. [arXiv:2410.15544](https://arxiv.org/abs/2410.15544) [quant-ph]. <a id="Jor+24"></a>
+**[JKKSW24]** Zackary Jorquera, Alexandra Kolla, Steven Kordonowy, Juspreet Singh Sandhu, and Stuart Wayland. *Monogamy of Entanglement Bounds and Improved Approximation Algorithms for Qudit Hamiltonians*. Nov. 2024. [arXiv:2410.15544](https://arxiv.org/abs/2410.15544) [quant-ph]. <a id="JKKSW24"></a>
 
 **[Kin23]** Robbie King. *An Improved Approximation Algorithm for Quantum Max-Cut*. Quantum 7 (Nov. 2023), p. 1180. [arXiv:2209.02589](https://arxiv.org/abs/2209.02589) [quant-ph]. <a id="Kin23"></a>
 
