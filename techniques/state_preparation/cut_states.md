@@ -1,1 +1,5 @@
+---
+type:stateprep
+---
+
 # Cut states
