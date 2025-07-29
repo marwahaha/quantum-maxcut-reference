@@ -60,12 +60,12 @@
       <div>
         <div><a href="/quantum-maxcut-reference/">Main page</a></div>
         <div>Problems</div>
-        {% assign problems = site.pages | where: "type","problem" %}
+        {% assign problems = site.pages | where: "type", "problem" %}
         {% for page in problems %}
           <div>&nbsp;<a href="/quantum-maxcut-reference/{{page.path | replace:'.md',''}}">{{page.title}}</a></div>
         {% endfor %}
         <div>Other files</div>
-        {% assign otherfiles = site.pages | where: "type",nil %}
+        {% assign otherfiles = site.pages | where: "type", nil %}
         {% for page in otherfiles %}
           <div>&nbsp;<a href="/quantum-maxcut-reference/{{page.path | replace:'.md',''}}">{{page.title}}</a></div>
         {% endfor %}
