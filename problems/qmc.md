@@ -1,3 +1,7 @@
+---
+type: problem
+---
+
 # Quantum MaxCut
 
 ## Definition
