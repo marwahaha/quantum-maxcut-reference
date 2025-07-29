@@ -58,17 +58,17 @@
         </li>
       </ul>
       <div>
-        {% assign pages = site.pages %}
         <div><a href="/quantum-maxcut-reference/">Main page</a></div>
         <div>Problems</div>
-        <ul>
-          {% for page in pages | where:"type","problem" %}
-<!--             {% if page.path contains ".md" %}
-              {% if page.path != "README.md" %} -->
-                  <li><div><a href="/quantum-maxcut-reference/{{page.path | replace:'.md',''}}">{{page.title}}</a></div></li>
-<!--               {% endif %}
-            {% endif %} -->
-          {% endfor %}
+        {% assign problems = site.pages | where: "type","problem" %}
+        {% for page in problems %}
+          <div>&nbsp;<a href="/quantum-maxcut-reference/{{page.path | replace:'.md',''}}">{{page.title}}</a></div>
+        {% endfor %}
+        <div>Other files</div>
+        {% assign otherfiles = site.pages | where: "type",nil %}
+        {% for page in otherfiles %}
+          <div>&nbsp;<a href="/quantum-maxcut-reference/{{page.path | replace:'.md',''}}">{{page.title}}</a></div>
+        {% endfor %}
         </ul>
       </div>
     </header>
