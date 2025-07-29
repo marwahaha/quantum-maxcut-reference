@@ -76,6 +76,10 @@
           <div>&nbsp;&nbsp;<a href="/quantum-maxcut-reference/{{page.path | replace:'.md',''}}">{{page.title}}</a></div>
         {% endfor %}
         <div>Open questions</div>
+        {% assign pages = site.pages | where: "type", "openquestion" %}
+        {% for page in pages %}
+          <div>&nbsp;<a href="/quantum-maxcut-reference/{{page.path | replace:'.md',''}}">{{page.title}}</a></div>
+        {% endfor %}
         </ul>
       </div>
       <ul style="position: initial">
