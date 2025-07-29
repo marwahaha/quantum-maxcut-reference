@@ -1,5 +1,5 @@
 ---
-type:stateprep
+type: stateprep
 ---
 
 # Circuit Ansatze
