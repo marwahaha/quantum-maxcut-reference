@@ -1,5 +1,5 @@
 ---
-type:openquestion
+type: openquestion
 ---
 
 # APS Conjectures
