@@ -1,5 +1,5 @@
 ---
-type:analysis
+type: analysis
 ---
 
 # Convexgamy 
