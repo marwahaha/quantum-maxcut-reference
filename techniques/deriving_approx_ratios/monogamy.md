@@ -1,5 +1,5 @@
 ---
-type:analysis
+type: analysis
 ---
 
 # Monogamy of Entanglement (MoE) 
