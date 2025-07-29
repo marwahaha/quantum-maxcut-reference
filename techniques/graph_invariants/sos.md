@@ -2,4 +2,4 @@
 type: graphinvariant
 ---
 
-# Quantum Moment-SoS heirarchy
+# Quantum Moment-SoS hierarchy
