@@ -16,7 +16,7 @@ where $$w_{ij} \ge 0$$, and $$\vert \psi^{-} \rangle = \frac{1}{\sqrt{2}} (\vert
 This Hamiltonian is rotation-invariant. The maximum energy is non-negative, and at most $2\sum_{(i,j) \in E} w_{ij}$.
 
 ## Hardness
-QMA-complete for positive-weighted graphs [[PM15]](bib#PM15).
+QMA-complete for positive-weighted graphs [[PM15]]({{site.baseurl}}/bib#PM15).
 
 Under a conjecture, getting a $$(0.956+\epsilon)$$-approximation is as hard as Unique Games [[HNPTW22]](bib#HNPTW22).
 
