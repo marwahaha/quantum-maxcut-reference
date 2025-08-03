@@ -2,4 +2,4 @@
 type: analysis
 ---
 
-# Monogamy of Entanglement (MoE) 
+# Monogamy of Entanglement
