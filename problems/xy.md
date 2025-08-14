@@ -59,7 +59,7 @@ There have been two papers analyzing the average-case energy of algorithms for X
 
 ## Remarks
 
-* Unlike $EPR$ and $QMC$, terms $h^{XY}$ are not positive semi-definite.
+* Unlike EPR and QMC, terms $h^{XY}$ are not positive semi-definite.
 * $H^{XY}_G$ can be represented by the union of the adjacency matrices of the *weighted token graphs* of $G$ $\lfloor|V|/2\rfloor$ [[APS25]]({{site.baseurl}}/bib#APS25). Under this perspective XY can be seen as a spectral graph theory problem on exponentially sized matices. 
 
 
