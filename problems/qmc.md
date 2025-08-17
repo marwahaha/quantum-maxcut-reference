@@ -63,9 +63,9 @@ We present all known approximation algorithms for QMC. We concisely summarize te
 |-------------|------------|---------------------------|
 | [[LP24]]({{site.baseurl}}/bib#LP24)     | $$0.606$$    | (Level-2 SoS \| GP rounding) $$\cup$$ (Match bound \| Match State)    | 
 | [[Kin23]]({{site.baseurl}}/bib#Kin23)     | $$\sqrt{1/2} \approx 0.707$$ |  (EPR Level-2 SoS \| Zero state + AGM circuit) |
-| [[ALMPS25]]({{site.baseurl}}/bib#ALMPS25)  | $$\frac{1+\sqrt{5}}{2}\approx 0.809$$       | (EPR fractional matching bound \| AGM circuit)
-| [[JN25]]({{site.baseurl}}/bib#JN25)  | $$\frac{1+\sqrt{5}}{2}\approx 0.809$$        | (EPR bipartite matching bound \| Match state) 
-| [[GSS25]]({{site.baseurl}}/bib#GSS25)    | 0.8162       |    (Level-2 SoS \| Cut State + AGM circuit)|
+| [[ALMPS25]]({{site.baseurl}}/bib#ALMPS25)  | $$\frac{1+\sqrt{5}}{2}\approx 0.809$$       | (EPR fractional matching bound \| AGM circuit) |
+| [[JN25]]({{site.baseurl}}/bib#JN25)  | $$\frac{1+\sqrt{5}}{2}\approx 0.809$$        | (EPR bipartite matching bound \| Match state) |
+| [[GSS25]]({{site.baseurl}}/bib#GSS25)    | $$0.8162$$       |    (Level-2 SoS \| Cut State + AGM circuit)|
 
 
 
@@ -87,11 +87,11 @@ In certain cases, the identity term in Eq. (1) is dropped, making the Hamiltonia
 In statistical mechanics, QMC is known as the *antiferromagnetic Heisenberg model*, and the problem is presented as:
 
 Minimize
-\begin{align}
-H &= \sum_{(i,j) \in E} w_{ij} \left( X_i \otimes X_j + Y_i \otimes Y_j + Z_i \otimes Z_j \right), \, 
-\\
-&= \sum_{(i,j) \in E} w_{ij} \left( 2\left( S_i^+ S_j^- + S_i^- S_j^+ \right) + Z_i Z_j \right).
-\end{align}
+
+$$
+H = \sum_{(i,j) \in E} w_{ij} \left( X_i \otimes X_j + Y_i \otimes Y_j + Z_i \otimes Z_j \right)
+= \sum_{(i,j) \in E} w_{ij} \left( 2\left( S_i^+ S_j^- + S_i^- S_j^+ \right) + Z_i Z_j \right).
+$$
 
 Where 
 
@@ -140,8 +140,8 @@ There have been two papers analyzing the average-case energy of algorithms for Q
 
 * $$QMC$$ is $$SU(2)$$-symmetric (invariant under the same single qubit rotation applied to all qubits) ([[Tak+23]]({{site.baseurl}}/bib#Tak+23))
 * $$QMC$$ is equivalent to [$$EPR$$](({{site.baseurl}}/problems/EPR)) on bipartite graphs under a conjugation of vertices on one side of the partition by $$Y$$ (Eq. 1 [[Kin23]]({{site.baseurl}}/bib#Kin23))
-* $$H^{QMC}_G$$ can be represented by the union of the Laplacians of the *weighted token graphs* of $$G$$ $$\lfloor|V|/2\rfloor$$ [[APS25]]({{site.baseurl}}/bib#APS25). Under this perspective QMC can be seen as a spectral graph theory problem on exponentially sized matices. These matrices are a specialization of [Kikuchi matrices](https://lucatrevisan.wordpress.com/2024/04/27/feiges-conjecture-and-the-magic-of-kikuchi-graphs/), typically defined on $$r$$-uniform hypergraphs, to graphs ($$r=2$$)
-* There is always an optimal state $$|\Psi\rangle$$ for $$H^{QMC}_G$$ supported only on computational-basis bistrings with Hamming weight $$\lfloor|V|/2\rfloor$$ ([[APS25]]({{site.baseurl}}/bib#APS25))
+* $$H^{QMC}_G$$ can be represented by the union of the Laplacians of the *weighted token graphs* of $$G$$ $$\lfloor V/2 \rfloor$$ [[APS25]]({{site.baseurl}}/bib#APS25). Under this perspective QMC can be seen as a spectral graph theory problem on exponentially sized matices. These matrices are a specialization of [Kikuchi matrices](https://lucatrevisan.wordpress.com/2024/04/27/feiges-conjecture-and-the-magic-of-kikuchi-graphs/), typically defined on $$r$$-uniform hypergraphs, to graphs ($$r=2$$)
+* There is always an optimal state $$|\Psi\rangle$$ for $$H^{QMC}_G$$ supported only on computational-basis bistrings with Hamming weight $$\lfloor V /2\rfloor$$ ([[APS25]]({{site.baseurl}}/bib#APS25))
 * Terms $$h^{QMC}$$ are positive semi-definite
 
 
