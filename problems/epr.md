@@ -77,7 +77,7 @@ There have been two papers analyzing the average-case energy of algorithms for E
 
 * The negative sign for EPR can be moved between the $$XX$$, $$YY$$, and $$ZZ$$ terms by simple unitary transformations on each qubit [[APS25]]({{site.baseurl}}/bib#APS25)
 * EPR is equivalent to [QMC](({{site.baseurl}}/problems/QMC)) on bipartite graphs under a conjugation of vertices on one side of the partition by $$Y$$ (Eq. 1 [[Kin23]]({{site.baseurl}}/bib#Kin23))
-* $$H^{EPR}_G$$ can be represented by the union of the *signless Laplacians* of the *weighted token graphs* of $$G$$ $$\lfloor|V|/2\rfloor$$ [[APS25]]({{site.baseurl}}/bib#APS25). Under this perspective EPR can be seen as a spectral graph theory problem on exponentially sized matices 
+* $$H^{EPR}_G$$ can be represented by the union of the *signless Laplacians* of the *weighted token graphs* of $$G$$ $$\lfloor V/2\rfloor$$ [[APS25]]({{site.baseurl}}/bib#APS25). Under this perspective EPR can be seen as a spectral graph theory problem on exponentially sized matices 
 * Terms $$h^{EPR}$$ are positive semi-definite
 
 
