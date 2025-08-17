@@ -59,6 +59,7 @@ We present all known approximation algorithms for QMC. We concisely summarize te
 
 
 ### Bipartite Graphs
+
 | Reference   | Value      | Techniques                                     |
 |-------------|------------|---------------------------|
 | [[LP24]]({{site.baseurl}}/bib#LP24)     | $$0.606$$    | (Level-2 SoS \| GP rounding) $$\cup$$ (Match bound \| Match State)    | 
