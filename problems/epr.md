@@ -58,9 +58,9 @@ In certain cases, the identity term in Eq. (1) is dropped, making the Hamiltonia
 In statistical mechanics, EPR is known as the *ferromagnetic XXZ model*, and the problem is presented as:
 
 Minimize
-\begin{align}
-H &= \sum_{(i,j) \in E} w_{ij} \left( - X_i \otimes X_j + Y_i \otimes Y_j - Z_i \otimes Z_j \right), \, 
-\end{align}
+$$
+H = \sum_{(i,j) \in E} w_{ij} \left( - X_i \otimes X_j + Y_i \otimes Y_j - Z_i \otimes Z_j \right). \, 
+$$
 
 Note that inverting the sign is accompanied by changing from maximization to minimization, yielding an equivalent problem. However, dropping the identity term does yield to a change in approximability. Thus, sometimes the identity term is reintroduced for consistency (with an appropriate negative sign). 
 
