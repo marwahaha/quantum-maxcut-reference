@@ -44,9 +44,9 @@ We defined the XY Hamiltonian based on the original definition by [[GP19]]({{sit
 In statistical mechanics, XY is known as the *antiferromagnetic XY model*, and the problem is presented as:
 
 Minimize
-\begin{align}
-H &= \sum_{(i,j) \in E} w_{ij} \left(X_i \otimes X_j + Y_i \otimes Y_j \right)  \, 
-\end{align}
+$$
+H &= \sum_{(i,j) \in E} w_{ij} \left(X_i \otimes X_j + Y_i \otimes Y_j \right).  \, 
+$$
 
 Note that inverting the sign is accompanied by changing from maximization to minimization, yielding an equivalent problem. However, dropping the identity term does yield to a change in approximability. Thus, sometimes the identity term is reintroduced for consistency (with an appropriate negative sign). 
 
