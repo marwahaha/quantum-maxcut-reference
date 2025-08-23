@@ -119,11 +119,13 @@ $$\|H^{QMC}_G\| \le |E|+1.$$
 
 This can be strengthed by instead applying the triangle inequality vertex-wise
 
-\begin{align} 
-\|H^{QMC}_G\| &\le \frac{1}{2}\sum_i \left|\left| \sum_{j \,\sim\, i} w_{ij} \, h^{QMC}_{ij} \right|\right| \\
-&\le \frac{1}{2}\sum_i \left(\sum_{j \,\sim\, i} w_{ij} + \max_{j \,\sim\, i} w_{ij}\right) \\
-&=W+\frac{1}{2}\sum_i \max_{j \,\sim\, i} w_{ij}. 
-\end{align}
+$$
+\begin{aligned}
+\|H^{QMC}_G\| &\le \tfrac{1}{2}\sum_i \left\|\sum_{j \sim i} w_{ij} \, h^{QMC}_{ij} \right\| \\
+&\le \tfrac{1}{2}\sum_i \left(\sum_{j \sim i} w_{ij} + \max_{j \sim i} w_{ij}\right) \\
+&= W + \tfrac{1}{2}\sum_i \max_{j \sim i} w_{ij}.
+\end{aligned}
+$$
 
 Where in the first line we compensate for double-counting of edges with a factor of $$1/2$$ and in the second line we apply Monogamy of Entanglement on a Star. For unweighted graphs this simplifies to 
 $$\|H^{QMC}_G\| \le |E|+\frac{|V|}{2}$$
