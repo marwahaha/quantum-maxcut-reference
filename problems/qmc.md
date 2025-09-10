@@ -28,24 +28,26 @@ where $$\vert \psi^{-} \rangle = \frac{1}{\sqrt{2}} (\vert 01\rangle - \vert 10\
 
 We present all known approximation algorithms for QMC. We concisely summarize techniques with the following notation and link to the appropriate [Techniques]({{site.baseurl}}/techniques).
 
-* ( $$u$$ \| $$\ell$$ ) denotes an upper bound $$u$$ and a corresponding lower bound $$\ell$$. 
-*  $$\cup$$ denotes that the algorithm attempts multiple combinations of upper and lower bounds on each graph and outputs the one corresponding to the best approximation ratio. 
+* ( $$u$$ \| $$\ell$$ ) denotes an upper bound $$u$$ and a corresponding lower bound $$\ell$$.
+*  $$\cup$$ denotes that the algorithm attempts multiple combinations of upper and lower bounds on each graph and outputs the one corresponding to the best approximation ratio.
+*  $$a+b$$ denotes the combination of multiple lower or upper bounds.
+*  $$a,b$$ denotes the use of two lower bounds or upper bounds in parallel.
 *  Threshold: $$a$$, $$b$$ denotes a rounding scheme where values above some threshold are rounded via strategy $$a$$ and the rest are rounded via $$b$$.
 
 ### General Graphs
 
 | Reference   | Value      | Techniques                                     |
 |-------------|------------|-------------------------------------------|
-| [[GP19]]({{site.baseurl}}/bib#GP19)    | $$0.498$$     | (Level-1 SoS \| GP rounding)     |
-| [[PT22]]({{site.baseurl}}/bib#PT22)     | $$1/2$$       | (Level-2 SoS \| Threshold: Cut state, GP rounding) |
-| [[HTPG24]]({{site.baseurl}}/bib#HTPG24)     | $$0.526$$      |(Augmented SOCP \| Threshold: Match state, Modified GP rounding) $$\cup$$ (Augmented SOCP \| Modified GP rounding ) |
-| [[AGM20]]({{site.baseurl}}/bib#AGM20)    | $$0.531$$      | (Forest-Match Bound, Cut Bound \| Match State, Cut State, Forest State)    | 
-| [[PT21]]({{site.baseurl}}/bib#PT21)      | $$0.533$$      | (Level-2 SoS \| Threshold: Match State, GP rounding) $$\cup$$ (Level-1 SoS \| GP rounding) | 
-| [[Lee22]]({{site.baseurl}}/bib#Lee22)     | $$0.562$$      | (Relaxed Level-2 SoS \| GW rounding + AGM circuit)     | 
-| [[LP24]]({{site.baseurl}}/bib#LP24)      | $$0.595$$      | (Level-2 SoS \| GP rounding) $$\cup$$ (Level-2 SoS Match bound \| Match state)    | 
-| [[JKKSW24]]({{site.baseurl}}/bib#JKKSW24)    | $$0.599$$      | Improved analysis of [[LP24]]({{site.baseurl}}/bib#LP24) using improved level-2 SoS Match bound                 |
+| [[GP19]]({{site.baseurl}}/bib#GP19)    | $$0.498$$     | (Level-1 SoS \| GP Rounding)     |
+| [[PT22]]({{site.baseurl}}/bib#PT22)     | $$1/2$$       | (Level-2 SoS \| Threshold: Cut State, GP Rounding) |
+| [[HTPG24]]({{site.baseurl}}/bib#HTPG24)     | $$0.526$$      |(SOCP + Level-1 SoS \| Threshold: Match State, GP Rounding) $$\cup$$ (Augmented SOCP \| Modified GP Rounding ) |
+| [[AGM20]]({{site.baseurl}}/bib#AGM20)    | $$0.531$$      | (Fractional Match Bound, Cut Bound \| Match State, Cut State, Forest State)    | 
+| [[PT21]]({{site.baseurl}}/bib#PT21)      | $$0.533$$      | (Level-2 SoS \| Threshold: Match State, GP Rounding) $$\cup$$ (Level-1 SoS \| GP Rounding) | 
+| [[Lee22]]({{site.baseurl}}/bib#Lee22)     | $$0.562$$      | (Relaxed Level-2 SoS \| GW Rounding + AGM Circuit)     | 
+| [[LP24]]({{site.baseurl}}/bib#LP24)      | $$0.595$$      | (Level-2 SoS \| GP rounding) $$\cup$$ (Level-2 SoS Match Bound \| Match State)    | 
+| [[JKKSW24]]({{site.baseurl}}/bib#JKKSW24)    | $$0.599$$      | Improved analysis of [[LP24]]({{site.baseurl}}/bib#LP24) using level-3 SoS Match Bound                 |
 | [[GSS25]]({{site.baseurl}}/bib#GSS25)   | $$0.603$$      |  Improved analysis of [[LP24]]({{site.baseurl}}/bib#LP24) using level-13 SoS Match bound     |
-| [[ALMPS25]]({{site.baseurl}}/bib#ALMPS25)  | $$0.611$$     | (Level-13 SoS \| Threshold: Reweighted partial match state, GP rounding) $$\cup$$ (Level-13 SoS \| Match state) | 
+| [[ALMPS25]]({{site.baseurl}}/bib#ALMPS25)  | $$0.611$$     | (Level-13 SoS \| Threshold: Reweighted Partial Match State, GP Rounding) $$\cup$$ (Level-13 SoS \| Match State) | 
 
 
 
@@ -53,8 +55,8 @@ We present all known approximation algorithms for QMC. We concisely summarize te
 
 | Reference   | Value      |  Techniques                                     |
 |-------------|------------|---------------------------|
-| [[Kin23]]({{site.baseurl}}/bib#Kin23)     | $$0.582$$    |  (Level-2 SoS \| GP rounding + AGM circuit) | 
-| [[GSS25]]({{site.baseurl}}/bib#GSS25)    | $$0.61383$$  |(Level-2 SoS \| GP rounding + AGM circuit) $$\cup$$ (Level-13 SoS $$13$$-Match bound \| Match state)|
+| [[Kin23]]({{site.baseurl}}/bib#Kin23)     | $$0.582$$    |  (Level-2 SoS \| GP Rounding + AGM Circuit) | 
+| [[GSS25]]({{site.baseurl}}/bib#GSS25)    | $$0.61383$$  |(Level-2 SoS \| GP Rounding + AGM Circuit) $$\cup$$ (Level-13 SoS $$13$$-Match Bound \| Match State)|
 
 
 
@@ -62,10 +64,10 @@ We present all known approximation algorithms for QMC. We concisely summarize te
 
 | Reference   | Value      | Techniques                                     |
 |-------------|------------|---------------------------|
-| [[LP24]]({{site.baseurl}}/bib#LP24)     | $$0.606$$    | (Level-2 SoS \| GP rounding) $$\cup$$ (Match bound \| Match State)    | 
-| [[Kin23]]({{site.baseurl}}/bib#Kin23)     | $$\sqrt{1/2} \approx 0.707$$ |  (EPR Level-2 SoS \| Zero state + AGM circuit) |
-| [[ALMPS25]]({{site.baseurl}}/bib#ALMPS25)  | $$\frac{1+\sqrt{5}}{2}\approx 0.809$$       | (EPR fractional matching bound \| AGM circuit) |
-| [[JN25]]({{site.baseurl}}/bib#JN25)  | $$\frac{1+\sqrt{5}}{2}\approx 0.809$$        | (EPR bipartite matching bound \| Match state) |
+| [[LP24]]({{site.baseurl}}/bib#LP24)     | $$0.606$$    | (Level-2 SoS \| GP Rounding) $$\cup$$ (Match Bound \| Match State)    | 
+| [[Kin23]]({{site.baseurl}}/bib#Kin23)     | $$\sqrt{1/2} \approx 0.707$$ |  (EPR Level-2 SoS \| Zero State + AGM Circuit) |
+| [[ALMPS25]]({{site.baseurl}}/bib#ALMPS25)  | $$\frac{1+\sqrt{5}}{2}\approx 0.809$$       | (Fractional Match Bound \| AGM Circuit) |
+| [[JN25]]({{site.baseurl}}/bib#JN25)  | $$\frac{1+\sqrt{5}}{2}\approx 0.809$$        | (Match Bound \| Match State) |
 | [[GSS25]]({{site.baseurl}}/bib#GSS25)    | $$0.8162$$       |    (Level-2 SoS \| Cut State + AGM circuit) |
 
 
