@@ -11,7 +11,7 @@ In the context of approximation algorithms, lower bounds are *algorithmic*, i.e.
 We begin with a poor choice of an algorithmic lower bound. Consider the maximally mixed state $$\tilde{\rho}$$. For QMC, the energy of this state on a single unweighted edge is 
 
 $$
-\operatorname{Tr}\,[\tilde{\rho} \,h^{QMC}_{ij}]  = \tfrac{1}{2}\operatorname{Tr}\,[\tilde{\rho} \,(I_iI_j-X_iX_j-Y_iY_j-Z_iZ_j)]  = 1/2.
+\mathrm{Tr}\,[\tilde{\rho} \,h^{QMC}_{ij}]  = \tfrac{1}{2}\mathrm{Tr}\,[\tilde{\rho} \,(I_iI_j-X_iX_j-Y_iY_j-Z_iZ_j)]  = 1/2.
 $$
 
 In fact, the same result holds for EPR and XY. For QMC on a single edge, the maximum energy is $$2$$ (provided by the singlet state), so the mixed state only achieves a quarter of the optimum energy. In classical optimization, we sometimes use a random assignement as our baseline for algorithms, the Maximally Mixed State performs a similar role for our quantum optimization problems.
@@ -23,13 +23,11 @@ We begin our search for better algorithmic lower bounds with product states, whi
 
 ### Zero State 
 
-We begin with a toy example, which works reasonably well in some cases for EPR. The zero state on a graph with $$n$$ qubits is simply
+We begin with a toy example, which works reasonably well in some cases for EPR. The zero state on a graph with $$n$$ qubits is simply the computational basis all zero state
 
 $$
 |ZERO\rangle = \otimes_{i=1}^n |0\rangle_i,
 $$
-
-where $$|0\rangle_i$$ is the computational basis zero state on qubit $$i$$. 
 
 This state is reasonable for EPR as the energy on an unweighted edge $$(i,j)$$ is simply
 
@@ -88,13 +86,13 @@ The relaxed problem is then *rounded* to a valid solution for the original probl
 
 Gharibian–Parekh (GP) rounding was introduced in [[GP19]]({{site.baseurl}}/bib#GP19) and works as follows
 
-1. **Solve a Level-$$k$$ SoS (Upper Bounds):** obtain an optimal linear functional $L$ satisfying the constraints of the relaxation.  
+1. **Solve a Level-$$k$$ SoS (Upper Bounds):** obtain an optimal linear functional $$L$$ satisfying the constraints of the relaxation.  
 2. **Extract local marginals:** for each qubit $$i$$, compute the single-qubit density operator
    $$
    \rho_i := \tfrac{1}{2}\Big(I + L(X_i)X + L(Y_i)Y + L(Z_i)Z\Big).
    $$
    By positivity of $$\Gamma^{(2)}$$, each $$\rho_i$$ is a valid qubit state.  
-3. **Randomized rounding:** for each $$i$$, sample a pure state $4|\psi_i\rangle$4 from the distribution defined by $$\rho_i$$ (or deterministically pick the closest pure state if derandomization is desired).  
+3. **Randomized rounding:** for each $$i$$, sample a pure state $$|\psi_i\rangle$$ from the distribution defined by $$\rho_i$$ (or deterministically pick the closest pure state if derandomization is desired).  
 4. **Form the product state:** output
    $$
    |\Psi\rangle = \bigotimes_{i=1}^n |\psi_i\rangle.
@@ -150,7 +148,7 @@ For QMC, the initial product state must be more complicated that the Zero state,
 
 ## AGM Circuits
 
-The general form of circuits preparing $$|PMATCH \rangle$$ and above were given by [[AGM20]]({{site.baseurl}}/bib#AGM20), Section 3. The method is
+The general form of circuits preparing Partial Match States above was given by [[AGM20]]({{site.baseurl}}/bib#AGM20), Section 3. The method is
 
 1. Prepare a good product state (i.e. CUT State for QMC or XY, ZERO State for EPR)
 2. Apply a circuit of the form
