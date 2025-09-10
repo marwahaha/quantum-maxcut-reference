@@ -92,7 +92,7 @@ Gharibian–Parekh (GP) rounding was introduced in [[GP19]]({{site.baseurl}}/bib
    \rho_i := \tfrac{1}{2}\Big(I + L(X_i)X + L(Y_i)Y + L(Z_i)Z\Big).
    $$
    By positivity of $$\Gamma^{(2)}$$, each $$\rho_i$$ is a valid qubit state.  
-3. **Randomized rounding:** for each $$i$$, sample a pure state $$|\psi_i\rangle$$ from the distribution defined by $$\rho_i$$ (or deterministically pick the closest pure state if derandomization is desired).  
+3. **Randomized rounding:** for each vertex, sample a pure state $$|\psi\rangle$$ from the distribution defined by $$\rho_i$$ (or deterministically pick the closest pure state if derandomization is desired).  
 4. **Form the product state:** output
    $$
    |\Psi\rangle = \bigotimes_{i=1}^n |\psi_i\rangle.
