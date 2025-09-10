@@ -153,7 +153,7 @@ h_{ij}^2 + h_{ik}^2 + h_{jk}^2 \le 2(h_{ij}\,h_{jk}+h_{ij}\,h_{ik}+h_{ik}\,h_{jk
 $$
 
 where $$h_{ij}$$ dentoes the QMC energy on some edge $$(i,j)$$. 
-These kinds on nonlinear constraints can be plugged into the linear programs introduced above. 
+These kinds on nonlinear constraints are referred to as *convexgamy* in [[LP24]]({{site.baseurl}}/bib#LP24) and can be plugged into the linear programs introduced above. 
 Indeed, the previous equation, along with the linear constraint $$h_{ij}+h_{ik}+h_{jk} \le 3$$ is enough ensure the consistency of all two-qubit marginals of all triples of vertices [[HTPG24]]({{site.baseurl}}/bib#HTPG24). 
 This linear program, augmented with certain nonlinear constraints, can be formulated as a *second order cone program*, which is efficiently solvable.
 
