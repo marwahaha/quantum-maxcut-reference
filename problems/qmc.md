@@ -65,7 +65,7 @@ We present all known approximation algorithms for QMC. We concisely summarize te
 | Reference   | Value      | Techniques                                     |
 |-------------|------------|---------------------------|
 | [[LP24]]({{site.baseurl}}/bib#LP24)     | $$0.606$$    | (Level-2 SoS \| GP Rounding) $$\cup$$ (Match Bound \| Match State)    | 
-| [[Kin23]]({{site.baseurl}}/bib#Kin23)     | $$\sqrt{1/2} \approx 0.707$$ |  (EPR Level-2 SoS \| Zero State + AGM Circuit) |
+| [[Kin23]]({{site.baseurl}}/bib#Kin23)     | $$\sqrt{1/2} \approx 0.707$$ |  (Level-2 SoS \| Zero State + AGM Circuit) |
 | [[ALMPS25]]({{site.baseurl}}/bib#ALMPS25)  | $$\frac{1+\sqrt{5}}{2}\approx 0.809$$       | (Fractional Match Bound \| AGM Circuit) |
 | [[JN25]]({{site.baseurl}}/bib#JN25)  | $$\frac{1+\sqrt{5}}{2}\approx 0.809$$        | (Match Bound \| Match State) |
 | [[GSS25]]({{site.baseurl}}/bib#GSS25)    | $$0.8162$$       |    (Level-2 SoS \| Cut State + AGM circuit) |
