@@ -36,7 +36,7 @@ $$
 
 In fact, for the unweighted case, the bound is tight.
 
-### Vertex-wise
+### Vertex-wise 
 A bound on the maximum energy of the graph can be achieved by applying the triangle inequality vertex-wise
 
 $$
@@ -79,7 +79,7 @@ We provide an summarize some examples, building in complexity from simple to com
 
 ### Linear Programs
 
-#### Fractional Matching
+#### Fractional Match Bound
 
 Based on monogamy of entanglement of a star, the QMC energy can be upper bounded via the following linear program (LP).
 
@@ -118,9 +118,9 @@ $$
 
 where FM is the value of the maximum weighted fractional matching LP. This LP is efficiently solvable.
 
-#### Integer Matchings
+#### Match Bound
 
-Indeed, we can actually push the linear program formulation further by incorporating more linear constraints. For instance, consider the linear program for maximum weighted *integer* matching
+Indeed, we can actually push the linear program formulation further by incorporating more linear constraints. For instance, consider the linear program for maximum weighted *integer* matching (or simply, a *matching*).
 
 $$
 \begin{aligned}
@@ -144,7 +144,7 @@ where  $$a=\tfrac{r}{r-1}$$ and $$M$$ is the size of the maximum weighted intege
 Modifications of this technique were used to show that the bound is true for $$r=5$$ in [[JKKSW24]]({{site.baseurl}}/bib#JKKSW24) for QMC and EPR and for $$r=13$$ in [[GSS25]]({{site.baseurl}}/bib#GSS25) for QMC. 
 It remains open if $$a$$ can be pushed all the way to $$1$$ for EPR and QMC. Indeed there are examples where $$a=1$$ is tight (for instance consider the graph consisting of a single edge).
 
-### Cone Programs
+### Cone Programs (SOCP)
 
 The first step to going beyond linear programming is by adding in nonlinear constraints. Indeed, consider the results in [[PT22]]({{site.baseurl}}/bib#PT22) Lemma 1, which shows that 
 
@@ -157,7 +157,7 @@ These kinds on nonlinear constraints are referred to as *convexgamy* in [[LP24]]
 Indeed, the previous equation, along with the linear constraint $$h_{ij}+h_{ik}+h_{jk} \le 3$$ is enough ensure the consistency of all two-qubit marginals of all triples of vertices [[HTPG24]]({{site.baseurl}}/bib#HTPG24). 
 This linear program, augmented with certain nonlinear constraints, can be formulated as a *second order cone program*, which is efficiently solvable.
 
-### Quantum moment-SoS hierarchies
+### Quantum moment-SoS hierarchies (Level-$$k$$ SoS)
 
 Semidefinite programming (SDPs) is a more powerful and general framework for optimization than the methods above. 
 Quantum moment-Sum-of-Squares (moment-SoS) hierarchies are dual to SDPs and provide upper bounds on the maximum eigenvalues. 
@@ -182,7 +182,8 @@ $$
 \end{aligned}
 $$
 
-This program has an interpretation of maximizing over *pseudo-states* $$\rho$$ where requiring $$L(M)\ge 0$$ for every $$M$$ of the form $$O^\dagger O$$ ensures that the linear functional $$L$$ behaves like an expectation value against a pseudo-state. Different relaxations correspond to different choices of $$\mathcal{M}$$ and different ways of encoding the constraint $$L(M)\ge 0$$.  
+This program has an interpretation of maximizing over *pseudo-states* $$\rho$$ where requiring $$L(M)\ge 0$$ for every $$M$$ of the form $$O^\dagger O$$ ensures that the linear functional $$L$$ behaves like an expectation value against a pseudo-state. Different relaxations correspond to different choices of $$\mathcal{M}$$ and different ways of encoding the constraint $$L(M)\ge 0$$. The strength of the relaxation is controlled by a "level" parameter $$k$$, which roughly characterizes the size of $$\mathcal{M}$$, typically the leading order of the polynomial.
+
 Here are three examples of SDP heirarchies for QMC.
 
 
