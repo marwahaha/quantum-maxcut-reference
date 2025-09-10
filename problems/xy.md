@@ -50,10 +50,6 @@ $$
 
 Note that inverting the sign is accompanied by changing from maximization to minimization, yielding an equivalent problem. However, dropping the identity term does yield to a change in approximability. Thus, sometimes the identity term is reintroduced for consistency (with an appropriate negative sign). 
 
-## Upper Bounds
-
-Similar upper bounds presented in [$$QMC$$](({{site.baseurl}}/problems/QMC)) hold for XY, as demonstrated in [ALMPS25]({{site.baseurl}}/bib#ALMPS25).
-
 
 ## Average Case
 
