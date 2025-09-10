@@ -1,5 +1,5 @@
 ---
-type: techniques
+type: technique
 ---
 
 # Upper Bounds
