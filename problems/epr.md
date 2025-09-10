@@ -64,10 +64,6 @@ $$
 
 Note that inverting the sign is accompanied by changing from maximization to minimization, yielding an equivalent problem. However, dropping the identity term does yield to a change in approximability. Thus, sometimes the identity term is reintroduced for consistency (with an appropriate negative sign). 
 
-## Upper Bounds
-
-The same upper bounds presented in [QMC](({{site.baseurl}}/problems/QMC)) apply to EPR with almost identical proofs. The only exception is that the constant $$a$$ in the matching bound has only been shown to be $$11/10$$ in [ALMPS25]({{site.baseurl}}/bib#ALMPS25).
-
 ## Average Case
 
 There have been two papers analyzing the average-case energy of algorithms for EPR on $$D$$-regular graphs. [[MSS25]]({{site.baseurl}}/bib#MSS24), [[KKZ24]]({{site.baseurl}}/bib#KKZ24). Both of these papers give variational algorithms for unweighted $$D$$-regular graphs with provable average-case energy guarantees in the infinite size limit. Among other results, both works show that quantum circuits can prepare states with energy within $$2\%$$ error from the optimal for EPR on an infinite ring (also known as the 1D Heisenberg spin chain with periodic boundary conditions).
