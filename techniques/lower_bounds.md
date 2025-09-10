@@ -29,7 +29,7 @@ $$
 |ZERO\rangle = \otimes_{i=1}^n |0\rangle_i,
 $$
 
-where $$|0\rangle_i$$ is the computational basis zero state on qubit $$i$$. 
+where $${|0\rangle}_i$$ is the computational basis zero state on qubit $$i$$. 
 
 This state is reasonable for EPR as the energy on an unweighted edge $$(i,j)$$ is simply
 
@@ -89,12 +89,12 @@ The relaxed problem is then *rounded* to a valid solution for the original probl
 Gharibian–Parekh (GP) rounding was introduced in [[GP19]]({{site.baseurl}}/bib#GP19) and works as follows
 
 1. **Solve a Level-$$k$$ SoS (Upper Bounds):** obtain an optimal linear functional $L$ satisfying the constraints of the relaxation.  
-2. **Extract local marginals:** for each qubit $i$, compute the single-qubit density operator
+2. **Extract local marginals:** for each qubit $$i$$, compute the single-qubit density operator
    $$
    \rho_i := \tfrac{1}{2}\Big(I + L(X_i)X + L(Y_i)Y + L(Z_i)Z\Big).
    $$
-   By positivity of $\Gamma^{(2)}$, each $\rho_i$ is a valid qubit state.  
-3. **Randomized rounding:** for each $i$, sample a pure state $|\psi_i\rangle$ from the distribution defined by $\rho_i$ (or deterministically pick the closest pure state if derandomization is desired).  
+   By positivity of $$\Gamma^{(2)}$$, each $$\rho_i$$ is a valid qubit state.  
+3. **Randomized rounding:** for each $$i$$, sample a pure state $4|\psi_i\rangle$4 from the distribution defined by $$\rho_i$$ (or deterministically pick the closest pure state if derandomization is desired).  
 4. **Form the product state:** output
    $$
    |\Psi\rangle = \bigotimes_{i=1}^n |\psi_i\rangle.
