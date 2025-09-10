@@ -2,4 +2,4 @@
 type: techniques
 ---
 
-### Lower Bounds
+# Lower Bounds
