@@ -29,7 +29,7 @@ $$
 |ZERO\rangle = \otimes_{i=1}^n |0\rangle_i,
 $$
 
-where $${|0\rangle}_i$$ is the computational basis zero state on qubit $$i$$. 
+where $$|0\rangle_i$$ is the computational basis zero state on qubit $$i$$. 
 
 This state is reasonable for EPR as the energy on an unweighted edge $$(i,j)$$ is simply
 
