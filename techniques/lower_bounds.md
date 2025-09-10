@@ -61,10 +61,10 @@ where $$z_i$$ is the value of the bitstring at bit $$i$$. We then see that the e
 
 $$
 \begin{aligned}
-\langle 00 | h^{QMC}_{ij} |  00\rangle= 0, \\
-\langle 01 | h^{QMC}_{ij} |  01\rangle= 1, \\
-\langle 10 | h^{QMC}_{ij} |  10\rangle= 1, \\
-\langle 11 | h^{QMC}_{ij} |  11\rangle= 0.
+\langle 00 | h^{QMC}_{ij} |  00\rangle &= 0, \\
+\langle 01 | h^{QMC}_{ij} |  01\rangle &= 1, \\
+\langle 10 | h^{QMC}_{ij} |  10\rangle &= 1, \\
+\langle 11 | h^{QMC}_{ij} |  11\rangle &= 0.
 \end{aligned}
 $$
 
@@ -132,25 +132,31 @@ Instead of *maximially entangling* all edges in a matching, we may also attempt 
 We start with an illustrative example for EPR, where we know that the optimal product state is the Zero State. We would then like to design a circuit that interpolates between this state and the Match State, which for EPR prepares each matched edge in the EPR pair. A circuit to perform this interpolation is given in [[Kin23]]({{site.baseurl}}/bib#Kin23), Sec 5.1. 
 
 $$
-|PMATCH\rangle = \prod_{(i,j) \in M} exp(i \theta P_i P_j) |Zero\rangle, \quad P_i = \tfrac{1}{\sqrt{2}}(X_i-Y_i).
+|PMATCH\rangle = \prod_{(i,j) \in M} \exp(i \theta P_i P_j) |Zero\rangle, \quad P_i = \tfrac{1}{\sqrt{2}}(X_i-Y_i).
 $$
 
 When $$\theta=0$$ this state is the Zero State, and when $$\theta=\pi/2$$, this is the Match State for EPR. It can be easily confirmed that the unitaries $$exp(i \theta P_i P_j)$$ all pairwise commute.
 
-One nice property of this circuit is that it *preserves the orientation of single-qubit marginals*. What we mean by that is as follows: in the Zero State, the Bloch vector of each qubit is simply pointing straight up to the north pole (the state $$|0\rangle$$). As we apply the rotations $$exp(i \theta P_i P_j)$$, the Bloch vectors of each matched qubit, representing their *single-qubit marginal* states, simply contract toward the origin. That is, their direction remains, but their magnitude shrinks. At $$\theta=\pi/2$$, the matched qubits have become maximally entangled, so their Bloch vectors collapse to the origin (i.e. that maximally mixed state). In between, we thus have a tunable parameter that interpolates between these two states, while preserving the direction of the single-qubit marginals along the way. This fact aids in analysis: if we have guarantees on the energy a product state can achieve, then in order to compute the eenrgy of a Partial Match State we simply need to rescale the contributions from the product state by the decay in their Bloch vector magnitudes. 
+One nice property of this circuit is that it *preserves the orientation of single-qubit marginals*. 
+What we mean by that is as follows: in the Zero State, the Bloch vector of each qubit is simply pointing straight up to the north pole (the state $$|0\rangle$$).
+As we apply the rotations $$\exp(i \theta P_i P_j)$$, the Bloch vectors of each matched qubit, representing their *single-qubit marginal* states, simply contract toward the origin. 
+That is, their direction remains, but their magnitude shrinks. 
+At $$\theta=\pi/2$$, the matched qubits have become maximally entangled, so their Bloch vectors collapse to the origin (i.e. that maximally mixed state). 
+In between, we have a tunable parameter that interpolates between these two states, while preserving the direction of the single-qubit marginals along the way. 
+This fact aids in analysis: if we have guarantees on the energy a product state can achieve, then in order to compute the eenrgy of a Partial Match State we simply need to rescale the contributions from the product state by the decay in their Bloch vector magnitudes. 
 
 For QMC, the initial product state must be more complicated that the Zero state, so the analysis becomes messier. However, [[ALMPS25]]({{site.baseurl}}/bib#ALMPS25) discusses the preparation of Partial Match States starting from *any* initial product state.
 
 
 ## AGM Circuits
 
-The general form of circuits preparing $$|PMATCH\rangle$$ and above were given by [[AGM20]]({{site.baseurl}}/bib#AGM20), Section 3. The method is
+The general form of circuits preparing $$|PMATCH \rangle$$ and above were given by [[AGM20]]({{site.baseurl}}/bib#AGM20), Section 3. The method is
 
 1. Prepare a good product state (i.e. CUT State for QMC or XY, ZERO State for EPR)
 2. Apply a circuit of the form
 
 $$
-    V(\theta) = \prod_{(i,j)\in E} exp(i \theta P_i P_j),
+V(\theta) = \prod_{(i,j)\in E} exp(i \theta P_i P_j),
 $$
 
 where $$P_i$$ is an operator that acts only on $$i$$ and is specificied exactly by the initial (product) state of qubit $$i$$. Note that the terms $$exp(i \theta P_i P_j)$$ all pairwise commute, as there is only one unique operator per qubit. These circuits generally allow us to go beyond the framework of tensor products of $$1$$ and $$2$$-qubit states. They also provide circuit descriptions of quantum states, rather than the explicit descriptions above, which are only efficient due to tensor product structure.
