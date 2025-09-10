@@ -100,40 +100,6 @@ $$S_k^+ = \frac{X_k + i Y_k}{2}, \quad S_k^- = \frac{X_k - i Y_k}{2},$$
 
 are the canonical raising and lowering operators. Note that inverting the sign is accompanied by changing from maximization to minimization, yielding an equivalent problem. However, dropping the identity term does yield to a change in approximability. Thu, sometimes the identity term is reintroduced for consistency (with an appropriate negative sign).
 
-## Upper Bounds
-
-### Edge-wise Triangle Inequality
-The maximum value h^{QMC} can take on an edge is $$2$$. Thus, an edge-wise application  triangle inequality yields 
-$$\|H^{QMC}_G\| \le \sum_{(i,j) \in E} w_{ij} \,\|h^{QMC}_{ij}\| = 2 W,$$ where $$W$$ is the total edge weight. 
-
-### Monogamy of Entanglement on a Star
-From Lemma 1 of [[AGM20]]({{site.baseurl}}/bib#AGM20) we have if $$G(V,E,w)$$ is a star graph then
-
-$$\|H^{QMC}_G\| \le W+ \max_{j \,\sim\, i} w_{ij},$$
-
-where $$j \sim i$$ denotes vertices adjacent to $$i$$. In particular, if $$G$$ is unweighted this simplifies to 
-
-$$\|H^{QMC}_G\| \le |E|+1.$$
-
-### Vertex-wise Triangle Inequality
-
-This can be strengthed by instead applying the triangle inequality vertex-wise
-
-$$
-\begin{aligned}
-\|H^{QMC}_G\| &\le \tfrac{1}{2}\sum_i \left\|\sum_{j \sim i} w_{ij} \, h^{QMC}_{ij} \right\| \\
-&\le \tfrac{1}{2}\sum_i \left(\sum_{j \sim i} w_{ij} + \max_{j \sim i} w_{ij}\right) \\
-&= W + \tfrac{1}{2}\sum_i \max_{j \sim i} w_{ij}.
-\end{aligned}
-$$
-
-Where in the first line we compensate for double-counting of edges with a factor of $$1/2$$ and in the second line we apply Monogamy of Entanglement on a Star. For unweighted graphs this simplifies to 
-$$\|H^{QMC}_G\| \le |E|+\frac{|V|}{2}$$
-
-### Matching-based Bounds
-These bounds are of the form $$\|H^{QMC}_G\| \le W + a\,M$$ for some $$a \ge 1$$. It was shown in [[LP24]]({{site.baseurl}}/bib#LP24) to be valid for $$a=\frac{5}{4}$$. This was later strengthened in [[JKKSW24]]({{site.baseurl}}/bib#JKKSW24) to $$\frac{7}{6}$$ and in [[GSS25]]({{site.baseurl}}/bib#GSS25) to $$\frac{15}{14}$$.
-
-
 ## Average Case
 
 There have been two papers analyzing the average-case energy of algorithms for QMC on $$D$$-regular graphs. [[MSS25]]({{site.baseurl}}/bib#MSS24), [[KKZ24]]({{site.baseurl}}/bib#KKZ24). Both of these papers give variational algorithms for unweighted $$D$$-regular graphs with provable average-case energy guarantees in the infinite size limit. Among other results, both works show that quantum circuits can prepare states with energy within $$2\%$$ error from the optimal for QMC on an infinite ring (also known as the 1D Heisenberg spin chain with periodic boundary conditions).
