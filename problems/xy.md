@@ -29,7 +29,7 @@ We present all known approximation algorithms for EPR. We concisely summarize te
 | Reference   | Value      | Techniques                                     |
 |-------------|------------|-------------------------------------------|
 | [[GP19]]({{site.baseurl}}/bib#GP19)    | $$0.649$$     | (Level-1 SoS \| GP rounding)      |
-| [[APS25]]({{site.baseurl}}/bib#ALMPS25)    | $$0.674$$       | (Cut Bounds, Match Bound \| Cut State, Match State)   |
+| [[APS25]]({{site.baseurl}}/bib#ALMPS25)    | $$0.674$$       | (Cut Bound, Match Bound \| Cut State, Match State)   |
 
 
 ## Normalizations and conventions
