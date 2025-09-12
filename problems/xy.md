@@ -26,16 +26,13 @@ We present all known approximation algorithms for EPR. We concisely summarize te
 
 * ( $$u$$ \| $$\ell$$ ) denotes an upper bound $$u$$ and a corresponding lower bound $$\ell$$. 
 
-
-### General Graphs
-
 | Reference   | Value      | Techniques                                     |
 |-------------|------------|-------------------------------------------|
 | [[GP19]]({{site.baseurl}}/bib#GP19)    | $$0.649$$     | (Level-1 SoS \| GP rounding)      |
 | [[APS25]]({{site.baseurl}}/bib#ALMPS25)    | $$0.674$$       | (Cut Bounds, Match Bound \| Cut State, Match State)   |
 
 
-## Normalizations and Conventions
+## Normalizations and conventions
 
 ### Normalization 
 We defined the XY Hamiltonian based on the original definition by [[GP19]]({{site.baseurl}}/bib#GP19) with an overall normalization factor of $$1/2$$. This was originally chosen to match the energy of computational basis states between QMC, XY, and MaxCut. We are unaware of any other conventions currently used in the literature.
@@ -44,14 +41,15 @@ We defined the XY Hamiltonian based on the original definition by [[GP19]]({{sit
 In statistical mechanics, XY is known as the *antiferromagnetic XY model*, and the problem is presented as:
 
 Minimize
+
 $$
-H &= \sum_{(i,j) \in E} w_{ij} \left(X_i \otimes X_j + Y_i \otimes Y_j \right).  \, 
+H &= \sum_{(i,j) \in E} w_{ij} \left(X_i \otimes X_j + Y_i \otimes Y_j \right).  
 $$
 
 Note that inverting the sign is accompanied by changing from maximization to minimization, yielding an equivalent problem. However, dropping the identity term does yield to a change in approximability. Thus, sometimes the identity term is reintroduced for consistency (with an appropriate negative sign). 
 
 
-## Average Case
+## Average case
 
 There have been two papers analyzing the average-case energy of algorithms for XY on $$D$$-regular graphs. [[MSS25]]({{site.baseurl}}/bib#MSS24), [[KKZ24]]({{site.baseurl}}/bib#KKZ24). Both of these papers give variational algorithms for unweighted $$D$$-regular graphs with provable average-case energy guarantees in the infinite size limit. 
 
@@ -62,7 +60,8 @@ There have been two papers analyzing the average-case energy of algorithms for X
 * $$H^{XY}_G$$ can be represented by the union of the adjacency matrices of the *weighted token graphs* of $$G$$ $$\lfloor V /2\rfloor$$ [[APS25]]({{site.baseurl}}/bib#APS25). Under this perspective XY can be seen as a spectral graph theory problem on exponentially sized matices. 
 
 
-## Conjectures / Open Questions
+## Open questions
+
 * Can we prove or disprove
 $$\|H^{EPR}_G\| \le W + M/2\,?$$ Supporting numerical evidence is given in  [[APS25]]({{site.baseurl}}/bib#APS25) and [[TZ25b]]({{site.baseurl}}/bib#TZ25b). 
 * Are there any hardness of approximability results for XY analagous to the $$0.956$$ barrier for QMC?
