@@ -31,7 +31,7 @@ In this page, you will find descriptions of QMC, EPR, as well as other well-stud
 
 ## Roadmap
 
-This reference is organized into three sections:
+This reference is organized into the following sections:
 
 1. [Problems]({{site.baseurl}}/problems/): contains a page for each class of $$2$$-Local Hamiltonians (currently QMC, EPR, and XY) containing
     * **Definition**: a definition of the problem.
