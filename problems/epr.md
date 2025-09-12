@@ -74,10 +74,5 @@ There have been two papers analyzing the average-case energy of algorithms for E
 * Terms $$h^{EPR}$$ are positive semi-definite
 
 
-## Open questions
-* Can we prove or disprove
-$$\|H^{EPR}_G\| \le W + M \,?$$ Supporting numerical evidence is given in  [[APS25]]({{site.baseurl}}/bib#APS25) and [[TZ25b]]({{site.baseurl}}/bib#TZ25b). 
-* Are there polytime algorithms to solve EPR exactly? What is the complexity of EPR?
-
 
 <div style="padding-bottom: 300px"></div>
