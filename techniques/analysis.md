@@ -1,5 +1,8 @@
 ---
-type: technique
+layout: default
+title: Techniques
+type: technique-landing
+permalink: /quantum-maxcut-reference/techniques/
 ---
 
 # Analysis
