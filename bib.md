@@ -28,9 +28,13 @@
 
 **[Kin23]** Robbie King. *An Improved Approximation Algorithm for Quantum Max-Cut*. Quantum 7 (Nov. 2023), p. 1180. [arXiv:2209.02589](https://arxiv.org/abs/2209.02589) [quant-ph]. <a id="Kin23"></a>
 
+**[KKZ24]** Ishaan Kannan, Robbie King, and Leo Zhou. *A Quantum Approximate Optimization Algorithm for Local Hamiltonian Problems.* [arXiv:2412.09221](https://arxiv.org/pdf/2412.09221) [quant-ph]. <a id="KKZ24"></a>
+
 **[Lee22]** Eunou Lee. *Optimizing Quantum Circuit Parameters via SDP*. Sept. 2022. [arXiv:2209.00789](https://arxiv.org/abs/2209.00789) [quant-ph]. <a id="Lee22"></a>
 
 **[LP24]** Eunou Lee and Ojas Parekh. *An Improved Quantum Max Cut Approximation via Matching*. Feb. 2024. [arXiv:2401.03616](https://arxiv.org/abs/2401.03616) [quant-ph]. <a id="LP24"></a>
+
+**[MSS24]** Kunal Marwaha, Adrian She, and James Sud. *Performance of Variational Algorithms for Local Hamiltonian Problems on Random Regular Graphs*.  [arXiv:2412.15147]([https://arxiv.org/abs/0803.4290](https://arxiv.org/pdf/2412.15147)) [quant-ph]. <a id="MSS24"></a>
 
 **[NPA08]** Miguel Navascues, Stefano Pironio, and Antonio Acin. *A Convergent Hierarchy of Semidefinite Programs Characterizing the Set of Quantum Correlations*. New Journal of Physics 10.7 (2008), p. 073013. [arXiv:0803.4290](https://arxiv.org/abs/0803.4290) [quant-ph]. <a id="NPA08"></a>
 
