@@ -33,7 +33,7 @@ In this page, you will find descriptions of QMC, EPR, as well as other well-stud
 
 This reference is organized into three sections:
 
-1. **Problems**: contains a page for each class of $$2$$-Local Hamiltonians (currently QMC, EPR, and XY) containing
+1. [Problems]({{site.baseurl}}/problems/): contains a page for each class of $$2$$-Local Hamiltonians (currently QMC, EPR, and XY) containing
     * **Definition**: a definition of the problem.
     * **Hardness**: complexity-theoretic hardness of the problem
     * **Algorithms**: a table of all known approximation algorithms for the problem with worst-case guarantees, along with a link to the relevant paper and techniques used to derive approximation ratios. Sorted from worst to best.
@@ -41,14 +41,14 @@ This reference is organized into three sections:
     * **Average case**: summary of results for algorithms on average-case instances of Hamiltonians, defined over random ensembles of graphs (typically regular graphs).
     * **Remarks**: assorted remarks and comments about the problem.
 
-2. **Techniques**: contains a landing page summarizing different analytic techniques used to prove approximation, along with dedicated pages for
+2. [Techniques]({{site.baseurl}}/techniques/): contains a landing page summarizing different analytic techniques used to prove approximation, along with dedicated pages for
     * **Lower bounds**: list of methods for providing algorithmic lower bounds on the maximum energies of Hamiltonians.
     * **Upper bounds**: list of methods for providing upper bounds on maximum energies of Hamiltonians.
     * **Analysis**: summary of techniques for relating lower and upper bounds in order to derive approximation ratios
 
-4. **Open questions**: a dedicated page for collecting open questions and unproven conjectures.
+4. [Open questions]({{site.baseurl}}/open_questions.html): a dedicated page for collecting open questions and unproven conjectures.
 
-5. **Bibliography**: all references used in this website, along with a copyable .bib file for ease of citation in future work.
+5. [Bibliography]({{site.baseurl}}/bib.html): all references used in this website, along with a downloaded .bib file for ease of citation in future work.
 
 ---
 
