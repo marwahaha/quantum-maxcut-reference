@@ -52,9 +52,9 @@ For unweighted graphs this simplifies to
 
 $$\|H^{QMC}_G\| \le |E|+\frac{|V|}{2}.$$
 
-### Pauli term-Wise
+### Cut bound
 
-For QMC we can also apply the triangle inequality by separating out the Pauli $$X$$, $$Y$$, and $$Z$$ terms via the decomposition
+For QMC we can also apply the triangle inequality term-wise by separating out the Pauli $$X$$, $$Y$$, and $$Z$$ terms via the decomposition
 
 $$
 \begin{aligned}
@@ -77,9 +77,9 @@ $$
 Upper bounds for QMC may alternatively be obtained by *relaxing* the problem using program optimization. 
 We provide an summarize some examples, building in complexity from simple to complex. 
 
-### Linear Programs
+### Linear programs
 
-#### Fractional Match Bound
+#### Fractional match bound
 
 Based on monogamy of entanglement of a star, the QMC energy can be upper bounded via the following linear program (LP).
 
@@ -118,7 +118,7 @@ $$
 
 where FM is the value of the maximum weighted fractional matching LP. This LP is efficiently solvable.
 
-#### Match Bound
+#### Match bound
 
 Indeed, we can actually push the linear program formulation further by incorporating more linear constraints. For instance, consider the linear program for maximum weighted *integer* matching (or simply, a *matching*).
 
@@ -144,7 +144,7 @@ where  $$a=\tfrac{r}{r-1}$$ and $$M$$ is the size of the maximum weighted intege
 Modifications of this technique were used to show that the bound is true for $$r=5$$ in [[JKKSW24]]({{site.baseurl}}/bib#JKKSW24) for QMC and EPR and for $$r=13$$ in [[GSS25]]({{site.baseurl}}/bib#GSS25) for QMC. 
 It remains open if $$a$$ can be pushed all the way to $$1$$ for EPR and QMC. Indeed there are examples where $$a=1$$ is tight (for instance consider the graph consisting of a single edge).
 
-### Cone Programs (SOCP)
+### Cone programs (SOCP)
 
 The first step to going beyond linear programming is by adding in nonlinear constraints. Indeed, consider the results in [[PT22]]({{site.baseurl}}/bib#PT22) Lemma 1, which shows that 
 
