@@ -60,11 +60,6 @@ There have been two papers analyzing the average-case energy of algorithms for X
 * $$H^{XY}_G$$ can be represented by the union of the adjacency matrices of the *weighted token graphs* of $$G$$ $$\lfloor V /2\rfloor$$ [[APS25]]({{site.baseurl}}/bib#APS25). Under this perspective XY can be seen as a spectral graph theory problem on exponentially sized matices. 
 
 
-## Open questions
-
-* Can we prove or disprove
-$$\|H^{EPR}_G\| \le W + M/2\,?$$ Supporting numerical evidence is given in  [[APS25]]({{site.baseurl}}/bib#APS25) and [[TZ25b]]({{site.baseurl}}/bib#TZ25b). 
-* Are there any hardness of approximability results for XY analagous to the $$0.956$$ barrier for QMC?
 
 
 <div style="padding-bottom: 300px"></div>
