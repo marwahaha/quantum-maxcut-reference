@@ -1,4 +1,4 @@
-# What is "quantum" Max-Cut?
+# What is quantum Max-Cut?
 
 It is a long-standing goal to find problems with **rigorous** quantum advantage.
 In classical optimization, evidence is dubious. However, when the output is a quantum state, there is (intuitively) more hope.
@@ -52,7 +52,7 @@ This reference is organized into three sections:
 
 ---
 
-This page is inspired by conversations with many people, including Bobak Kiani, Joao Basso, Robbie King, Nathan Ju, Ojas Parekh, Anuj Apte, Eunou Lee, and Adrian She.
+This page is inspired by conversations with many people, including  Joao Basso, Nathan Ju, Bobak Kiani, Robbie King, Eunou Lee, and Ojas Parekh.
 
 More to add? Email us at [kmarw@uchicago.edu](mailto:kmarw@uchicago.edu) and [jsud@uchicago.edu](mailto:jsud@uchicago.edu) or open an issue on [GitHub](https://github.com/marwahaha/quantum-maxcut-reference).
 
