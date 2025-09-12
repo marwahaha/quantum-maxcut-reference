@@ -171,6 +171,10 @@ where $$m_{ij}$$ encodes the edge values of a *maximum fractional matching*. Thi
 
 For QMC, [[AGM20]]({{site.baseurl}}/bib#AGM20) starts with a [Cut State](#cut-state) based on a bitstring $$z$$ obtained by an efficient algorithm for MaxCut such as Goemans-Williamson). Then $$P_i$$ is set to $$X_i$$ if $$z_i=1$$ and $$Y_i$$ else. This ansatz incorporates the asymmetry of QMC in both the choice of initial product state and in the ansatz operators.
 
+## HamQAOA
+
+[[MSS24]]({{site.baseurl}}/bib#MSS24) and [[KKZ24]]({{site.baseurl}}/bib#KKZ24) provide deeper and more intricate circuits for preparing high energy states for QMC, EPR, and XY. These circuits, known as HamQAOA do not easily allow for worst-case guarantees, but instead are shown to be amenable to *average-case* analysis. For some cases, however, such as bipartite graphs, [[KKZ24]]({{site.baseurl}}/bib#KKZ24) shows that HamQAOA can reach the optimal solution if allowed to run for arbitrary number of layers.
+
 
 
 
