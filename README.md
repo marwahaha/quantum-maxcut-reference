@@ -43,12 +43,13 @@ This reference is organized into three sections:
     * **Open questions**: list of open questions and conjectures relating to the problem.
 
 2. **Techniques**: contains a landing page summarizing different analytic techniques used to prove approximation, along with dedicated pages for
-    * **Upper bounds**: list of methods for providing upper bounds on maximum energies of Hamiltonians.
     * **Lower bounds**: list of methods for providing algorithmic lower bounds on the maximum energies of Hamiltonians.
+    * **Upper bounds**: list of methods for providing upper bounds on maximum energies of Hamiltonians.
+    * **Analysis**: summary of techniques for relating lower and upper bounds in order to derive approximation ratios
 
-3. **Open questions**: a dedicated page for collecting open questions and unproven conjectures.
+4. **Open questions**: a dedicated page for collecting open questions and unproven conjectures.
 
-4. **Bibliography**: all references used in this website, along with a copyable .bib file for ease of citation in future work.
+5. **Bibliography**: all references used in this website, along with a copyable .bib file for ease of citation in future work.
 
 ---
 
