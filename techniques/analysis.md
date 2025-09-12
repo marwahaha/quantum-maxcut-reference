@@ -2,6 +2,7 @@
 type: technique
 ---
 
+# Analysis
 
 There are a few ways to relate lower and upper bounds, leading to improved approximation ratios.
 
