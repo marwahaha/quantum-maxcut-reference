@@ -23,15 +23,36 @@ $$H_i = \vert 01\rangle \langle 01\vert + \vert 10 \rangle \langle 10 \vert \, .
 
 In contrast, quantum MaxCut projects each edge onto the antisymmetric quantum *singlet state* $$\vert \psi^{-} \rangle = \frac{1}{\sqrt{2}} (\vert 01\rangle - \vert 10\rangle)$$
 
-$$ H_i = \psi^{-} \rangle  \langle \psi^{-} \vert \, .$$
+$$ H_i = \vert \psi^{-} \rangle  \langle \psi^{-} \vert \, .$$
 
-Much like how $$\vert 01\rangle$$ and  $$\vert 10\rangle$$ are the unique antisymmetric computational basis states on two qubits, $$\vert \psi^{-} \rangle$$ is the unique antisymmetric **Bell basis** state on two qubits. Indeed, one may study Hamiltonians consisting of projectors onto symmetric Bell basis states. This is known as the EPR Hamiltonian.
+Much like how $$\vert 01\rangle$$ and  $$\vert 10\rangle$$ are the unique antisymmetric computational basis states on two qubits, $$\vert \psi^{-} \rangle$$ is the unique antisymmetric **Bell basis** state on two qubits. Indeed, one may study Hamiltonians consisting of projectors onto symmetric Bell basis states. This is known as the EPR Hamiltonian [[King23]]({{site.baseurl}}/bib#King23).
 
-In this page, you will find descriptions of QMC, EPR, as well as other well-studied quantum optimization problems. TODO: roadmap
+In this page, you will find descriptions of QMC, EPR, as well as other well-studied quantum optimization problems. 
 
+## Roadmap
 
+This reference is organized into three sections:
 
-this page is inspired by conversations with many people, including Bobak Kiani, Joao Basso, Robbie King, Nathan Ju, Ojas Parekh, Anuj Apte, Eunou Lee, and Adrian She.
+1. **Problems**: contains a page for each class of $$2$$-Local Hamiltonians (currently QMC, EPR, and XY) containing
+    * **Definition**: a definition of the problem.
+    * **Hardness**: complexity-theoretic hardness of the problem
+    * **Algorithms**: a table of all known approximation algorithms for the problem with worst-case guarantees, along with a link to the relevant paper and techniques used to derive approximation ratios. Sorted from worst to best.
+    * **Normalizations and conventions**: description of all known normalizations and conventions (coefficient in front of each term in the Hamiltonian) in current literature. Includes names of corresponding problems in statistical physics.
+    * **Average case**: summary of results for algorithms on average-case instances of Hamiltonians, defined over random ensembles of graphs (typically regular graphs).
+    * **Remarks**: assorted remarks and comments about the problem.
+    * **Open questions**: list of open questions and conjectures relating to the problem.
+
+2. **Techniques**: contains a landing page summarizing different analytic techniques used to prove approximation, along with dedicated pages for
+    * **Upper bounds**: list of methods for providing upper bounds on maximum energies of Hamiltonians.
+    * **Lower bounds**: list of methods for providing algorithmic lower bounds on the maximum energies of Hamiltonians.
+
+3. **Open questions**: a dedicated page for collecting open questions and unproven conjectures.
+
+4. **Bibliography**: all references used in this website, along with a copyable .bib file for ease of citation in future work.
+
+---
+
+This page is inspired by conversations with many people, including Bobak Kiani, Joao Basso, Robbie King, Nathan Ju, Ojas Parekh, Anuj Apte, Eunou Lee, and Adrian She.
 
 More to add? Email us at [kmarw@uchicago.edu](mailto:kmarw@uchicago.edu) and [jsud@uchicago.edu](mailto:jsud@uchicago.edu) or open an issue on [GitHub](https://github.com/marwahaha/quantum-maxcut-reference).
 
