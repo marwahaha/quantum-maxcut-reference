@@ -53,10 +53,10 @@
       <p>updated <span id="update-date">{{ site.data.updated.date }}</span></p>
       <div>
         <div><a href="/quantum-maxcut-reference/">Main page</a></div>
-        <div>Problems</div>
+        <div><a href="/quantum-maxcut-reference/problems/">Problems</a></div>
         {% assign pages = site.pages | where: "type", "problem" %}
         {% for page in pages %}
-          <div>&nbsp;<a href="/quantum-maxcut-reference/{{page.path | replace:'.md',''}}">{{page.title}}</a></div>
+          <div>&nbsp;&nbsp;<a href="/quantum-maxcut-reference/{{page.path | replace:'.md',''}}">{{page.title}}</a></div>
         {% endfor %}
         <div><a href="/quantum-maxcut-reference/techniques/">Techniques</a></div>
         {% assign pages = site.pages | where: "type", "technique" %}
