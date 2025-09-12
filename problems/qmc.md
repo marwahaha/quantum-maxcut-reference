@@ -2,7 +2,7 @@
 type: problem
 ---
 
-# Quantum MaxCut
+# QMC
 
 ## Definition
 
@@ -34,7 +34,7 @@ We present all known approximation algorithms for QMC. We concisely summarize te
 *  $$a,b$$ denotes the use of two lower bounds or upper bounds in parallel.
 *  Threshold: $$a$$, $$b$$ denotes a rounding scheme where values above some threshold are rounded via strategy $$a$$ and the rest are rounded via $$b$$.
 
-### General Graphs
+### General graphs
 
 | Reference   | Value      | Techniques                                     |
 |-------------|------------|-------------------------------------------|
@@ -51,7 +51,7 @@ We present all known approximation algorithms for QMC. We concisely summarize te
 
 
 
-### Triangle Free Graphs
+### Triangle-free graphs
 
 | Reference   | Value      |  Techniques                                     |
 |-------------|------------|---------------------------|
@@ -60,7 +60,7 @@ We present all known approximation algorithms for QMC. We concisely summarize te
 
 
 
-### Bipartite Graphs
+### Bipartite graphs
 
 | Reference   | Value      | Techniques                                     |
 |-------------|------------|---------------------------|
@@ -72,7 +72,7 @@ We present all known approximation algorithms for QMC. We concisely summarize te
 
 
 
-## Normalizations and Conventions
+## Normalizations and conventions
 
 ### Normalization 
 We defined the QMC Hamiltonian with an overall normalization factor of $$1/2$$. This is an arbitrary choice, and simply correspond to multiplicative scalings, which do not affect approximation ratios. Other choices have appeared in the literature; we list some pros and cons of each
@@ -102,7 +102,7 @@ $$S_k^+ = \frac{X_k + i Y_k}{2}, \quad S_k^- = \frac{X_k - i Y_k}{2},$$
 
 are the canonical raising and lowering operators. Note that inverting the sign is accompanied by changing from maximization to minimization, yielding an equivalent problem. However, dropping the identity term does yield to a change in approximability. Thu, sometimes the identity term is reintroduced for consistency (with an appropriate negative sign).
 
-## Average Case
+## Average case
 
 There have been two papers analyzing the average-case energy of algorithms for QMC on $$D$$-regular graphs. [[MSS25]]({{site.baseurl}}/bib#MSS24), [[KKZ24]]({{site.baseurl}}/bib#KKZ24). Both of these papers give variational algorithms for unweighted $$D$$-regular graphs with provable average-case energy guarantees in the infinite size limit. Among other results, both works show that quantum circuits can prepare states with energy within $$2\%$$ error from the optimal for QMC on an infinite ring (also known as the 1D Heisenberg spin chain with periodic boundary conditions).
 
@@ -116,7 +116,7 @@ There have been two papers analyzing the average-case energy of algorithms for Q
 * Terms $$h^{QMC}$$ are positive semi-definite
 
 
-## Conjectures / Open Questions
+## Conjectures / open questions
 * Can we prove that the matching bound in [Upper Bounds](#Matching-based-Bounds) is true for $$a=1$$? i.e. prove or disprove
 $$\|H^{QMC}_G\| \le W + M.$$ Supporting numerical evidence is given in  [[APS25]]({{site.baseurl}}/bib#APS25) and [[TZ25b]]({{site.baseurl}}/bib#TZ25b). The conjecture could be related to [Brouwer's Conjecture](https://en.wikipedia.org/wiki/Brouwer%27s_conjecture).
 
