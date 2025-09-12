@@ -40,7 +40,6 @@ This reference is organized into three sections:
     * **Normalizations and conventions**: description of all known normalizations and conventions (coefficient in front of each term in the Hamiltonian) in current literature. Includes names of corresponding problems in statistical physics.
     * **Average case**: summary of results for algorithms on average-case instances of Hamiltonians, defined over random ensembles of graphs (typically regular graphs).
     * **Remarks**: assorted remarks and comments about the problem.
-    * **Open questions**: list of open questions and conjectures relating to the problem.
 
 2. **Techniques**: contains a landing page summarizing different analytic techniques used to prove approximation, along with dedicated pages for
     * **Lower bounds**: list of methods for providing algorithmic lower bounds on the maximum energies of Hamiltonians.
