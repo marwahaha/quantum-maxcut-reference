@@ -117,8 +117,7 @@ There have been two papers analyzing the average-case energy of algorithms for Q
 
 
 ## Open questions
-* Can we prove that the matching bound in [Upper Bounds](#Matching-based-Bounds) is true for $$a=1$$? i.e. prove or disprove
-$$\|H^{QMC}_G\| \le W + M.$$ Supporting numerical evidence is given in  [[APS25]]({{site.baseurl}}/bib#APS25) and [[TZ25b]]({{site.baseurl}}/bib#TZ25b). The conjecture could be related to [Brouwer's Conjecture](https://en.wikipedia.org/wiki/Brouwer%27s_conjecture).
+* Can we prove that the matching bound in [Upper Bounds](#Matching-based-Bounds) is true for $$a=1$$? i.e. prove or disprove the [APS conjecture](({{site.baseurl}}/open_questions.html#aps-conjectures) 
 
 
 <div style="padding-bottom: 300px"></div>
