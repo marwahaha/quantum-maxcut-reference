@@ -24,8 +24,8 @@ In practice, the lower bound $$\ell$$ is provided by an *algorithm* that achieve
 
 In order to obtain better approximation ratios then, there are a few options 
 
-1. Lower Bounds: find better algorithms, leading to larger $$\ell(G)$$
-2. Upper Bounds: find better (tighter) upper bounds $$u(g)$$
-3. Analysis: Eq. (1) involves a minimization problem over the uncountably infinite set of weighted graphs. Somehow we need to make this minimization tractable by finding better ways to relate $$\ell(G)$$ and $$u(G)$$ in analysis.
+1. [Lower Bounds]({{site.baseurl}}/techniques/lower_bounds.html): find better algorithms, leading to larger $$\ell(G)$$
+2. [Upper Bounds]({{site.baseurl}}/techniques/upper_bounds.html): find better (tighter) upper bounds $$u(g)$$
+3. [Analysis]({{site.baseurl}}/techniques/analysis.html): Eq. (1) involves a minimization problem over the uncountably infinite set of weighted graphs. Somehow we need to make this minimization tractable by finding better ways to relate $$\ell(G)$$ and $$u(G)$$ in analysis.
 
 We have a dedicated page for each of these, which can be explored by following the corresponding links.
