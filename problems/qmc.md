@@ -104,7 +104,7 @@ are the canonical raising and lowering operators. Note that inverting the sign i
 
 ## Average case
 
-There have been two papers analyzing the average-case energy of algorithms for QMC on $$D$$-regular graphs. [[MSS25]]({{site.baseurl}}/bib#MSS24), [[KKZ24]]({{site.baseurl}}/bib#KKZ24). Both of these papers give variational algorithms for unweighted $$D$$-regular graphs with provable average-case energy guarantees in the infinite size limit. Among other results, both works show that quantum circuits can prepare states with energy within $$2\%$$ error from the optimal for QMC on an infinite ring (also known as the 1D Heisenberg spin chain with periodic boundary conditions).
+There have been two papers analyzing the average-case energy of algorithms for QMC on $$D$$-regular graphs. [[MSS24]]({{site.baseurl}}/bib#MSS24), [[KKZ24]]({{site.baseurl}}/bib#KKZ24). Both of these papers give variational algorithms for unweighted $$D$$-regular graphs with provable average-case energy guarantees in the infinite size limit. Among other results, both works show that quantum circuits can prepare states with energy within $$2\%$$ error from the optimal for QMC on an infinite ring (also known as the 1D Heisenberg spin chain with periodic boundary conditions).
 
 
 ## Remarks
