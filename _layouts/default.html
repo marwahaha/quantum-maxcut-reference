@@ -59,7 +59,7 @@
         {% for page in pages %}
           <div>&nbsp;<a href="/quantum-maxcut-reference/{{page.path | replace:'.md',''}}">{{page.title}}</a></div>
         {% endfor %}
-        <div>Techniques</div>
+        <div><a href="/quantum-maxcut-reference/techniques/">Techniques</a></div>
         {% assign pages = site.pages | where: "type", "technique" %}
         {% for page in pages %}
           <div>&nbsp;&nbsp;<a href="/quantum-maxcut-reference/{{page.path | replace:'.md',''}}">{{page.title}}</a></div>
