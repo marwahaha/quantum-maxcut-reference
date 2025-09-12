@@ -1,5 +1,7 @@
 # Bibliography
 
+Download the full BibTeX file here:  [refs.bib]({{site.baseurl}}/assets/refs.bib)
+
 **[AGM20]** Anurag Anshu, David Gosset, and Karen Morenz. *Beyond Product State Approximations for a Quantum Analogue of Max Cut*. LIPIcs TQC 2020, Vol. 158 (2020), 7:1–7:15. [arXiv:2003.14394](https://arxiv.org/abs/2003.14394) [quant-ph]. <a id="AGM20"></a>
 
 **[ALMPS25]** Anuj Apte, Eunou Lee, Kunal Marwaha, Ojas Parekh, James Sud. *Improved Algorithms for Quantum MaxCut via Partially Entangled Matchings*. Apr. 2025. European Symposium on Algorithms 2025. [arXiv:2504.15276](https://arxiv.org/pdf/2504.15276) [quant-ph]. <a id="ALMPS25"></a>
