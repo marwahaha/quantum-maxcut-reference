@@ -1,6 +1,0 @@
----
-type: openquestion
----
-
-# APS Conjectures
-
