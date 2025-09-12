@@ -30,9 +30,6 @@ We present all known approximation algorithms for EPR. We concisely summarize te
 
 * ( $$u$$ \| $$\ell$$ ) denotes an upper bound $$u$$ and a corresponding lower bound $$\ell$$. 
 
-
-### General Graphs
-
 | Reference   | Value      | Techniques                                     |
 |-------------|------------|-------------------------------------------|
 | [[Kin23]]({{site.baseurl}}/bib#Kin23)    | $$\frac{1}{\sqrt{2}} \approx 0.707$$      | (Level-2 SoS \| AGM circuits)     |
@@ -40,7 +37,7 @@ We present all known approximation algorithms for EPR. We concisely summarize te
 | [[ALMPS25]]({{site.baseurl}}/bib#ALMPS25)    | $$\frac{1+\sqrt{5}}{2} \approx 0.809$$       | (Star Bound \| AGM circuits)   |
 
 
-## Normalizations and Conventions
+## Normalizations and conventions
 
 ### Normalization 
 We defined the EPR Hamiltonian with an overall normalization factor of $$1/2$$. This is an arbitrary choice, and simply correspond to multiplicative scalings, which do not affect approximation ratios. Other choices have appeared in the literature; we list some pros and cons of each
@@ -64,7 +61,7 @@ $$
 
 Note that inverting the sign is accompanied by changing from maximization to minimization, yielding an equivalent problem. However, dropping the identity term does yield to a change in approximability. Thus, sometimes the identity term is reintroduced for consistency (with an appropriate negative sign). 
 
-## Average Case
+## Average case
 
 There have been two papers analyzing the average-case energy of algorithms for EPR on $$D$$-regular graphs. [[MSS25]]({{site.baseurl}}/bib#MSS24), [[KKZ24]]({{site.baseurl}}/bib#KKZ24). Both of these papers give variational algorithms for unweighted $$D$$-regular graphs with provable average-case energy guarantees in the infinite size limit. Among other results, both works show that quantum circuits can prepare states with energy within $$2\%$$ error from the optimal for EPR on an infinite ring (also known as the 1D Heisenberg spin chain with periodic boundary conditions).
 
@@ -77,7 +74,7 @@ There have been two papers analyzing the average-case energy of algorithms for E
 * Terms $$h^{EPR}$$ are positive semi-definite
 
 
-## Conjectures / Open Questions
+## Open questions
 * Can we prove or disprove
 $$\|H^{EPR}_G\| \le W + M \,?$$ Supporting numerical evidence is given in  [[APS25]]({{site.baseurl}}/bib#APS25) and [[TZ25b]]({{site.baseurl}}/bib#TZ25b). 
 * Are there polytime algorithms to solve EPR exactly? What is the complexity of EPR?
