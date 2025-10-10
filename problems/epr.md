@@ -33,7 +33,7 @@ We present all known approximation algorithms for EPR. We concisely summarize te
 | Reference   | Value      | Techniques                                     |
 |-------------|------------|-------------------------------------------|
 | [[Kin23]]({{site.baseurl}}/bib#Kin23)    | $$\frac{1}{\sqrt{2}} \approx 0.707$$      | (Level-2 SoS \| AGM circuits)     |
-| [[JKKSW24]]({{site.baseurl}}/bib#JKKSW24)    | $$18/25 = 0.72$$      | (Match bound \| Match State + Zero State)     |
+| [[JKKSW24]]({{site.baseurl}}/bib#JKKSW24)    | $$\frac{18}{25} = 0.72$$      | (Match bound \| Match State + Zero State)     |
 | [[JN25]]({{site.baseurl}}/bib#JN25)    | $$\frac{1+\sqrt{5}}{2} \approx 0.809$$      | (Star Bound + Computer Proof \| Match States)     |
 | [[ALMPS25]]({{site.baseurl}}/bib#ALMPS25)    | $$\frac{1+\sqrt{5}}{2} \approx 0.809$$       | (Star Bound \| AGM circuits)   |
 
