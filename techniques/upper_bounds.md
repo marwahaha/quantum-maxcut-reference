@@ -12,7 +12,7 @@ We here summarize common technqiues, focusing on QMC, as near identical results 
 
 ### Edge-wise 
 
-The maximum value $$h^{QMC}$$ can take on an edge is $$2$$. Thus, an edge-wise application  triangle inequality yields 
+The maximum value $$h^{QMC}$$ can take on an edge is $$2$$. Thus, an edge-wise application triangle inequality yields 
 
 $$
 \|H^{QMC}_G\| \le \sum_{(i,j) \in E} w_{ij} \,\|h^{QMC}_{ij}\| = 2 W,
@@ -94,7 +94,7 @@ $$
 where $$x_{ij}$$ denotes the energy obtained by the program on edge $$(i,j)$$, $$j\sim i$$ denotes the vertices incident to $$i$$, and $$d_i$$ is the degree of vertex $$i$$. 
 Because the first constraint encodes monogamy of entanglement and the QMC Hamiltonian on each edge is positive semi-definite, all constraints in the LP are also present in QMC, making the program a valid relaxation. 
 
-In [[LP24]]({{site.baseurl}}/bib#LP24)] (Lemma 1) it was observed that by introducing the variables $$y_{ij}^+ = max(x_{ij}-1, 0)$$, the monogamy of entanglement result of a vertex $$i$$ holds
+In [[LP24]]({{site.baseurl}}/bib#LP24) (Lemma 1) it was observed that by introducing the variables $$y_{ij}^+ = max(x_{ij}-1, 0)$$, the monogamy of entanglement result of a vertex $$i$$ holds
 
 $$
 \sum_{j \sim i} y_{ij}^+ \le 1.
@@ -142,7 +142,7 @@ $$
 
 where  $$a=\tfrac{r}{r-1}$$ and $$M$$ is the size of the maximum weighted integer matching. 
 Modifications of this technique were used to show that the bound is true for $$r=5$$ in [[JKKSW24]]({{site.baseurl}}/bib#JKKSW24) for QMC and EPR and for $$r=13$$ in [[GSS25]]({{site.baseurl}}/bib#GSS25) for QMC. 
-[It remains open if $$a$$ can be pushed all the way to $$1$$ for EPR and QMC]({{site.baseurl}}/open_questions/). Indeed there are examples where $$a=1$$ is tight (for instance consider the graph consisting of a single edge).
+[It remains open if $$a$$ can be pushed all the way to $$1$$ for EPR and QMC]({{site.baseurl}}/open_questions.html). Indeed there are examples where $$a=1$$ is tight (for instance consider the graph consisting of a single edge).
 
 ### Cone programs (SOCP)
 
