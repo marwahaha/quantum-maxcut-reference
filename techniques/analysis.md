@@ -28,7 +28,7 @@ $$
 
 where $$M(G)$$ is the weight of the maximum matching and $$W(G)$$ is the total weight of the graph.
 
-In the upper bounds section (Match Bound), we conjecture that the maximum energy is at most
+In the upper bounds section [Match Bound]({{site.baseurl}}/techniques/upper_bounds.html#match-bound), we conjecture that the maximum energy is at most
 
 $$
 u(G) = W(G)+M(G)\,.
@@ -76,7 +76,7 @@ $$
 
 This minimization problem is then tractable.
 
-**Example**: One example of a worst-case reduction is given in  [[ALMPS25]]({{site.baseurl}}/bib#ALMPS25), Sec 4.1. There, the edge-wise invariant $$b(e)$$ is the value of a fractional matching on an edge. The lower bounds $$\ell(b(e))$$ follow from an analysis of AGM circuits via monogamy of entanglement and the upper bounds $$u(b(e))$$ follow from the fractional matching bound.
+**Example**: One example of a worst-case reduction is given in  [[ALMPS25]]({{site.baseurl}}/bib#ALMPS25), Sec 4.1. There, the edge-wise invariant $$b(e)$$ is the value of a fractional matching on an edge. The lower bounds $$\ell(b(e))$$ follow from an analysis of AGM circuits via monogamy of entanglement and the upper bounds $$u(b(e))$$ follow from the [fractional matching bound]({{site.baseurl}}/techniques/upper_bounds.html#fractional-match-bound).
 
 
 ## Combining bounds
