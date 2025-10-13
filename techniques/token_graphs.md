@@ -14,6 +14,8 @@ Given a graph $$G(V,E,w)$$, with vertices $$V = \[n\]$$, edges $$E \subseteq V \
 * Edges: vertices $$A$$ and $$B$$ are connected by an edge if and only if their symmetric difference $$A\triangle B =\{a,b\}$$, where $$a\in A$$, $$b\in B$$, and $$(a,b)\in E$$.
 * Weights: the weight of edge $$(A,B)$$ is $$w_{ab}$$, where $$a$$ and $$b$$ are defined as above.
 
+These graphs are a specialization of [Kikuchi graphs](https://lucatrevisan.wordpress.com/2024/04/27/feiges-conjecture-and-the-magic-of-kikuchi-graphs/), typically defined on $$r$$-uniform hypergraphs, to graphs ($$r=2$$).
+
 ## Relation to Hamiltonians
 
 We demonstrate the relation between token graphs and QMC here. This result is folklore, but for a concise explanation we suggest [[APS25]]({{site.baseurl}}/bib#APS25) (Section 3.1)
