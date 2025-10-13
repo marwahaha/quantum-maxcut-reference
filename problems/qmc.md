@@ -102,6 +102,45 @@ $$S_k^+ = \frac{X_k + i Y_k}{2}, \quad S_k^- = \frac{X_k - i Y_k}{2},$$
 
 are the canonical raising and lowering operators. Note that inverting the sign is accompanied by changing from maximization to minimization, yielding an equivalent problem. However, dropping the identity term does yield to a change in approximability. Thu, sometimes the identity term is reintroduced for consistency (with an appropriate negative sign).
 
+## Known cases
+
+### Complete graphs
+
+It is shown in (among other places [[APS25]]({{site.baseurl}}/bib#APS25)) the maximum energy of unweighted complete graphs $$K_n$$ is given by
+
+$$ \|\|H^{QMC}_{K_n}\|\| =    \begin{cases}
+                              \frac{n^2+2n}{4}, & n \,\text{even}, \\
+                              \frac{n^2+2n-3}{4}, & n \,\text{odd}.
+                              \end{cases}
+$$
+
+### Complete bipartite graphs
+
+It is shown in (among other places [[APS25]]({{site.baseurl}}/bib#APS25)) the maximum energy of unweighted complete bipartite graphs $$K_{A,B}$$ with $$A \le B$$ being the number of vertices on each side of the partition is given by
+
+$$ \|\|H^{QMC}_{K_{A,B}}\|\| =  AB+A. $$
+
+### Small paths and cycles
+
+The maximum energies of small paths and cycles was computed in [[APS25]]({{site.baseurl}}/bib#APS25) is reported below.
+
+|  Graph  | $$n=3$$ | $$n=4$$ | $$n=5$$ | $$n=6$$ | $$n=7$$ | $$n=8$$ | $$n=9$$ | $$n=10$$ | $$n=11$$ | $$n=12$$ | $$n=13$$ | $$n=14$$ | $$n=15$$ |
+|---------|---------|---------|---------|---------|---------|---------|---------|----------|----------|----------|----------|----------|----------|     
+| $$C_n$$ | $$3.0000$$ | $$6.0000$$ | $$6.2361$$ | $$8.6056$$ | $$9.2104$$ | $$11.3022$$ | $$12.0946$$ | $$14.0309$$ | $$14.9379$$ | $$16.7748$$ | $$17.7592$$ | $$19.5271$$ | $$20.5673$$ |
+| $$P_n$$ | $$3.0000$$ | $$4.7321$$ | $$5.8558$$ | $$7.4872$$ | $$8.6725$$ | $$10.2499$$ | $$11.4726$$ | $$13.0161$$ | $$14.2642$$ | $$15.7842$$ | $$17.0506$$ | $$18.5534$$ | $$19.8338$$ |
+
+
+## Classical formulation
+
+It is shown in [[APS25]]({{site.baseurl}}/bib#APS25)[Fact 1] that the QMC Hamiltonian on a graph $$G$$ can be written as a direct sum of Laplacians of the *token graphs* $$F_k(G)$$ of $$G$$ with $$0 \le k \le n$$. Furthermore, the eigenvalues follow
+
+$$
+  \text{eigs}(H^{QMC}_G) = \bigcup_{0 \leq k \leq \lfloor\frac{n}{2}\rfloor} \text{eigs}(L(F_k(G)).
+$$
+
+For more information and detail, see [Token Graphs]({{site.baseurl}}/techniques/token_graphs.html) and [[APS25]]({{site.baseurl}}/bib#APS25).
+
+
 ## Average case
 
 There have been two papers analyzing the average-case energy of algorithms for QMC on $$D$$-regular graphs. [[MSS24]]({{site.baseurl}}/bib#MSS24), [[KKZ24]]({{site.baseurl}}/bib#KKZ24). Both of these papers give variational algorithms for unweighted $$D$$-regular graphs with provable average-case energy guarantees in the infinite size limit. Among other results, both works show that quantum circuits can prepare states with energy within $$2\%$$ error from the optimal for QMC on an infinite ring (also known as the 1D Heisenberg spin chain with periodic boundary conditions).
