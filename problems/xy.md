@@ -74,7 +74,7 @@ The maximum energies of small paths and cycles was computed in [[APS25]]({{site.
 
 ## Classical formulation
 
-It is shown in [[APS25]]({{site.baseurl}}/bib#APS25) [Fact 1] that the XY Hamiltonian on a graph $$G$$ can be written as an affine transformation of a direct sum of the adjacency matrices of the *token graphs* $$F_k(G)$$ of $$G$$ with $$0 \le k \le n$$. Furthermore, the eigenvalues follow
+It is shown in [[APS25]]({{site.baseurl}}/bib#APS25) [Fact 2] that the XY Hamiltonian on a graph $$G$$ can be written as an affine transformation of a direct sum of the adjacency matrices of the *token graphs* $$F_k(G)$$ of $$G$$ with $$0 \le k \le n$$. Furthermore, the eigenvalues follow
 
 $$
   \text{eigs}(H^{XY}_G) = \bigcup_{0 \leq k \leq \lfloor\frac{n}{2}\rfloor} \text{eigs}(\frac{W}{2} I - A(F_k(G)).
