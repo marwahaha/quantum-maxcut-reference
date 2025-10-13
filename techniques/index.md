@@ -32,4 +32,4 @@ We have a dedicated page for each of these, which can be explored by following t
 
 In addition, we provide assorted pages for different techniques for understanding the Hamiltonians considered presently. 
 
-* [Token Graphs]({{site.baseurl}}/techniques/token-graphs.html): a page for understanding Hamiltonians in terms of *token graphs* of $$G$$, which are exponentially large graphs based on $$G$$.
+* [Token Graphs]({{site.baseurl}}/techniques/token_graphs.html): a page for understanding Hamiltonians in terms of *token graphs* of $$G$$, which are exponentially large graphs based on $$G$$.
