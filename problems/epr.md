@@ -93,7 +93,7 @@ The maximum energies of small paths and cycles was computed in [[APS25]]({{site.
 
 ## Classical formulation
 
-It is shown in [[APS25]]({{site.baseurl}}/bib#APS25) [Fact 3] that the EPR Hamiltonian on a graph $$G$$ can be written as a direct sum of the *signless Laplacians* $$Q(\cdot)$$ of the *token graphs* $$F_k(G)$$ of $$G$$ with $$0 \le k \le n$$. Furthermore, the eigenvalues follow
+It is shown in [[APS25]]({{site.baseurl}}/bib#APS25) [Fact 3] that after a simple unitary transformation, the EPR Hamiltonian on a graph $$G$$ can be written as a direct sum of the *signless Laplacians* $$Q(\cdot)$$ of the *token graphs* $$F_k(G)$$ of $$G$$ with $$0 \le k \le n$$. Furthermore, the eigenvalues follow
 
 $$
   \text{eigs}(H^{EPR}_G) = \bigcup_{0 \leq k \leq \lfloor\frac{n}{2}\rfloor} \text{eigs}(Q(F_k(G)).
