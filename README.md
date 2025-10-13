@@ -38,6 +38,8 @@ This reference is organized into the following sections:
     * **Hardness**: complexity-theoretic hardness of the problem
     * **Algorithms**: a table of all known approximation algorithms for the problem with worst-case guarantees, along with a link to the relevant paper and techniques used to derive approximation ratios. Sorted from worst to best.
     * **Normalizations and conventions**: description of all known normalizations and conventions (coefficient in front of each term in the Hamiltonian) in current literature. Includes names of corresponding problems in statistical physics.
+    * **Known cases**: list of classes of graphs where the maximum energies are known, either analytically or numerically.
+    * **Classical formulation**: a classical description of the problem in terms of the *token graphs* of $$G$$.
     * **Average case**: summary of results for algorithms on average-case instances of Hamiltonians, defined over random ensembles of graphs (typically regular graphs).
     * **Remarks**: assorted remarks and comments about the problem.
 
@@ -45,6 +47,7 @@ This reference is organized into the following sections:
     * **Lower bounds**: list of methods for providing algorithmic lower bounds on the maximum energies of Hamiltonians.
     * **Upper bounds**: list of methods for providing upper bounds on maximum energies of Hamiltonians.
     * **Analysis**: summary of techniques for relating lower and upper bounds in order to derive approximation ratios
+    * **Token Graphs**: description of the classical formulation of the Hamiltonians in terms of *token graphs*.
 
 4. [Open questions]({{site.baseurl}}/open_questions.html): a dedicated page for collecting open questions and unproven conjectures.
 
