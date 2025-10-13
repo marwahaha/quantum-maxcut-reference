@@ -132,7 +132,7 @@ The maximum energies of small paths and cycles was computed in [[APS25]]({{site.
 
 ## Classical formulation
 
-It is shown in [[APS25]]({{site.baseurl}}/bib#APS25)[Fact 1] that the QMC Hamiltonian on a graph $$G$$ can be written as a direct sum of Laplacians of the *token graphs* $$F_k(G)$$ of $$G$$ with $$0 \le k \le n$$. Furthermore, the eigenvalues follow
+It is shown in [[APS25]]({{site.baseurl}}/bib#APS25) [Fact 1] that the QMC Hamiltonian on a graph $$G$$ can be written as a direct sum of Laplacians of the *token graphs* $$F_k(G)$$ of $$G$$ with $$0 \le k \le n$$. Furthermore, the eigenvalues follow
 
 $$
   \text{eigs}(H^{QMC}_G) = \bigcup_{0 \leq k \leq \lfloor\frac{n}{2}\rfloor} \text{eigs}(L(F_k(G)).
