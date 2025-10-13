@@ -29,3 +29,7 @@ In order to obtain better approximation ratios then, there are a few options
 3. [Analysis]({{site.baseurl}}/techniques/analysis.html): Eq. (1) involves a minimization problem over the uncountably infinite set of weighted graphs. Somehow we need to make this minimization tractable by finding better ways to relate $$\ell(G)$$ and $$u(G)$$ in analysis.
 
 We have a dedicated page for each of these, which can be explored by following the corresponding links.
+
+In addition, we provide assorted pages for different techniques for understanding the Hamiltonians considered presently. 
+
+* [Token Graphs]({{site.baseurl}}/techniques/token-graphs.html): a page for understanding Hamiltonians in terms of *token graphs* of $$G$$, which are exponentially large graphs based on $$G$$.
