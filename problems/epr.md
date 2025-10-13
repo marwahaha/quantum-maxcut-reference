@@ -69,7 +69,7 @@ Note that inverting the sign is accompanied by changing from maximization to min
 
 It is shown in (among other places [[APS25]]({{site.baseurl}}/bib#APS25)) the maximum energy of unweighted complete graphs $$K_n$$ is given by
 
-$$ \|\|H^{QMC}_{K_n}\|\| =    \begin{cases}
+$$ \|H^{QMC}_{K_n}\| =    \begin{cases}
                               \frac{n^2}{2}, & n \,\text{even}, \\
                               \frac{n^2-1}{2}, & n \,\text{odd}.
                               \end{cases}
@@ -79,7 +79,7 @@ $$
 
 It is shown in (among other places [[APS25]]({{site.baseurl}}/bib#APS25)) the maximum energy of unweighted complete bipartite graphs $$K_{A,B}$$ with $$A \le B$$ being the number of vertices on each side of the partition is given by
 
-$$ \|\|H^{EPR}_{K_{A,B}}\|\| =  AB+A. $$
+$$ \|H^{EPR}_{K_{A,B}}\| =  AB+A. $$
 
 ### Small paths and cycles
 
