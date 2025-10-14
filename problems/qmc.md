@@ -21,8 +21,11 @@ where $$\vert \psi^{-} \rangle = \frac{1}{\sqrt{2}} (\vert 01\rangle - \vert 10\
 
 
 ## Hardness
-* QMA-complete for positive-weighted graphs [[PM15]]({{site.baseurl}}/bib#PM15).
+* $$QMA$$-complete for positive-weighted graphs [[PM15]]({{site.baseurl}}/bib#PM15).
 * Under a conjecture, getting a $$(0.956+\epsilon)$$-approximation is as hard as Unique Games [[HNPTW22]]({{site.baseurl}}/bib#HNPTW22).
+* $$NP$$-hard to approximate to within some constant $$\alpha < 1$$ approximation ratio. This holds even for unweighted graphs and bounded constant degree graphs. 
+ [[Pid25]]({{site.baseurl}}/bib#Pid25).
+
 
 ## Algorithms 
 
