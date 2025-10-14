@@ -41,6 +41,8 @@ All citations on this page are listed here. For a BibTex file with all of these 
 
 **[NPA08]** Miguel Navascues, Stefano Pironio, and Antonio Acin. *A Convergent Hierarchy of Semidefinite Programs Characterizing the Set of Quantum Correlations*. New Journal of Physics 10.7 (2008), p. 073013. [arXiv:0803.4290](https://arxiv.org/abs/0803.4290) [quant-ph]. <a id="NPA08"></a>
 
+**[Pid25]** Stephen Piddock. *Quantum Max-Cut is NP-hard to approximate*. [arXiv:2510.07995](https://www.arxiv.org/pdf/2510.07995)
+
 **[PM15]** Stephen Piddock and Ashley Montanaro. *The Complexity of Antiferromagnetic Interactions and 2D Lattices*. Dec. 2015. [arXiv:1506.04014](https://arxiv.org/abs/1506.04014). <a id="PM15"></a>
 
 **[PT21]** Ojas Parekh and Kevin Thompson. *Application of the Level-2 Quantum Lasserre Hierarchy in Quantum Approximation Algorithms*. LIPIcs ICALP 2021, Vol. 198 (2021), 102:1–102:20. [arXiv:2105.05698](https://arxiv.org/abs/2105.05698) [quant-ph]. <a id="PT21"></a>
