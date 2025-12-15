@@ -36,6 +36,7 @@ We present all known approximation algorithms for EPR. We concisely summarize te
 | [[JKKSW24]]({{site.baseurl}}/bib#JKKSW24)    | $$\frac{18}{25} = 0.72$$      | (Match bound \| Match States + Zero States)     |
 | [[JN25]]({{site.baseurl}}/bib#JN25)    | $$\frac{1+\sqrt{5}}{2} \approx 0.809$$      | (Star Bound + Computer Proof \| Match States)     |
 | [[ALMPS25]]({{site.baseurl}}/bib#ALMPS25)    | $$\frac{1+\sqrt{5}}{2} \approx 0.809$$       | (Star Bound \| AGM circuits)   |
+| [[Apt+25]]({{site.baseurl}}/bib#APT+25)    | $$0.8395$$       | (Nonlinear Star Bound \| AGM circuits)   |
 
 
 ## Normalizations and conventions
