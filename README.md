@@ -57,7 +57,7 @@ This reference is organized into the following sections:
 
 This page is inspired by conversations with many people, including  Joao Basso, Nathan Ju, Bobak Kiani, Robbie King, Eunou Lee, and Ojas Parekh.
 
-More to add? Email us at [kmarw@uchicago.edu](mailto:kmarw@uchicago.edu) and [jsud@uchicago.edu](mailto:jsud@uchicago.edu) or open an issue on [GitHub](https://github.com/marwahaha/quantum-maxcut-reference).
+More to add? Email Kunal Marwaha [kmarw@uchicago.edu](mailto:kmarw@uchicago.edu) or James Sud [jsud@uchicago.edu](mailto:jsud@uchicago.edu) or open an issue on [GitHub](https://github.com/marwahaha/quantum-maxcut-reference).
 
 
 
