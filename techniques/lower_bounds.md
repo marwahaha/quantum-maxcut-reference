@@ -102,21 +102,17 @@ An appealing aspect of GP rounding is that it unifies the earlier product-state 
 
 ### Lovasz product state
 
-A purely graph theoretic product state energy is obtained from one of the many definitions  
-of the Lovasz theta number.
-Given a graph $$G$$, the Lovasz theta number $$\vartheta(G)$$ is the minimal $$\kappa\geq 2$$ for which there exists a unit vector $$x_v$$ (in some Euklidean space) for every vertex $$v$$ such that $$\langle x_u, x_v \rangle = -\tfrac{1}{\vartheta - 1}$$
-holds whenever $$u$$ and $$v$$ are distinct vertices and $$uv \not \in E(G)$$.
+A purely graph theoretic product state energy is obtained from one of the many definitions of the Lovasz theta number.
+Given a graph $$G$$, the Lovasz theta number $$\vartheta(G)$$ is the minimal $$\kappa\geq 2$$ for which there exists a unit vector $$x_v$$ (in some Euklidean space) for every vertex $$v$$ such that $$\langle x_u, x_v \rangle = -\tfrac{1}{\vartheta - 1}$$ holds whenever $$u$$ and $$v$$ are distinct vertices and $$uv \not \in E(G)$$.
 
-Now given a graph $$G$$, let $$x_v \in \R^n$$ 
-be the unit vectors realizing the Lovasz theta number $$\vartheta(G)$$. 
+Now given a graph $$G$$, let $$x_v \in \R^n$$ be the unit vectors realizing the Lovasz theta number $$\vartheta(G)$$. 
 To these vectors in $$\R^n$$ apply the GP rounding to obtain for each vertex a Bloch vector in $$\R^3$$.
 
-Using a generalization of the fact that $$\arcsin(x) \leq x$$ for all $$x \leq 0$$
-to the hypergeometric function $${}_2 F_{1}$$, together with the garantuees from Briet-de Oliveira Filho-Vallentin rounding, one obtains the lower bound
+Using a generalization of the fact that $$\arcsin(x) \leq x$$ for all $$x \leq 0$$ to the hypergeometric function $${}_2 F_{1}$$, together with the garantuees from Briet-de Oliveira Filho-Vallentin rounding, one obtains the lower bound
 
-$$qmc(G) \leq \frac{m}{4} \Big(1 + \frac{8}{\pi} \frac{1}{\vartheta(\bar{G}) -1}\Big)$$
+$$qmc(G) \geq \frac{m}{4} \Big(1 + \frac{8}{\pi} \frac{1}{\vartheta(\bar{G}) -1}\Big)$$
 
-For graphs with bounded degree $$\delta$$ one can use $$\vartheta(\bar{G}) \leq \Delta$$ for a relaxed lower bound.
+For graphs with bounded degree $$\delta$$ one can use $$\vartheta(\bar{G}) -1 \leq \Delta$$ for a relaxed lower bound.
 
 ## Matching-based states
 
