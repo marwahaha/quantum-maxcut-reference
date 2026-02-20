@@ -100,6 +100,24 @@ Gharibian–Parekh (GP) rounding was introduced in [[GP19]]({{site.baseurl}}/bib
 An appealing aspect of GP rounding is that it unifies the earlier product-state constructions: the cut-based states described above can be recovered as special cases, while the SDP relaxation provides a principled way to go beyond cuts by exploiting richer two-qubit correlations. Thus, GP rounding is the **most general known framework for efficiently preparing high-energy product states** in QMC.
 
 
+### Lovasz product state
+
+A purely graph theoretic product state energy is obtained from one of the many definitions  
+of the Lovasz theta number.
+Given a graph $$G$$, the Lovasz theta number $$\vartheta(G)$$ is the minimal $$\kappa\geq 2$$ for which there exists a unit vector $$x_v$$ (in some Euklidean space) for every vertex $$v$$ such that $$\langle x_u, x_v \rangle = -\tfrac{1}{\vartheta - 1}$$
+holds whenever $$u$$ and $$v$$ are distinct vertices and $$uv \not \in E(G)$$.
+
+Now given a graph $$G$$, let $$x_v \in \R^n$$ 
+be the unit vectors realizing the Lovasz theta number $$\vartheta(G)$$. 
+To these vectors in $$\R^n$$ apply the GP rounding to obtain for each vertex a Bloch vector in $$\R^3$$.
+
+Using a generalization of the fact that $$\arcsin(x) \leq x$$ for all $$x \leq 0$$
+to the hypergeometric function $${}_2 F_{1}$$, together with the garantuees from Briet-de Oliveira Filho-Vallentin rounding, one obtains the lower bound
+
+$$qmc(G) \leq \frac{m}{4} \Big(1 + \frac{8}{\pi} \frac{1}{\vartheta(\bar{G}) -1}\Big)$$
+
+For graphs with bounded degree $$\delta$$ one can use $$\vartheta(\bar{G}) \leq \Delta$$ for a relaxed lower bound.
+
 ## Matching-based states
 
 Matching-based states slightly extend the space of states from product states to tensor products of $$1$$ and $$2$$-qubit states. The intuition is as follows: the QMC Hamiltonian aims to project each pair of qubits into a maximally entangled state (namely the singlet state). One may then try to prepare every edge simulateneously in a singlet state. However, this approach is blocked by *monogamy of entanglement*. I.e., one qubit can only be maximially entangled with one of its neighbors, and then it must be completely disentangled with all others. This forces us to consider slightly more complicated approaches.
@@ -174,9 +192,3 @@ For QMC, [[AGM20]]({{site.baseurl}}/bib#AGM20) starts with a [Cut State](#cut-st
 ## HamQAOA
 
 [[MSS24]]({{site.baseurl}}/bib#MSS24) and [[KKZ24]]({{site.baseurl}}/bib#KKZ24) provide deeper and more intricate circuits for preparing high energy states for QMC, EPR, and XY. These circuits, known as HamQAOA do not easily allow for worst-case guarantees, but instead are shown to be amenable to *average-case* analysis. For some cases, however, such as bipartite graphs, [[KKZ24]]({{site.baseurl}}/bib#KKZ24) shows that HamQAOA can reach the optimal solution if allowed to run for arbitrary number of layers.
-
-
-
-
-
-
