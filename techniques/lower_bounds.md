@@ -108,7 +108,7 @@ Given a graph $$G$$, the Lovasz theta number $$\vartheta(G)$$ is the minimal $$\
 Now given a graph $$G$$, let $$x_v \in \R^n$$ be the unit vectors realizing the Lovasz theta number $$\vartheta(G)$$. 
 To these vectors in $$\R^n$$ apply the GP rounding to obtain for each vertex a Bloch vector in $$\R^3$$.
 
-Using a generalization of the fact that $$\arcsin(x) \leq x$$ for all $$x \leq 0$$ to the hypergeometric function $${}_2 F_{1}$$, together with the garantuees from Briet-de Oliveira Filho-Vallentin rounding, one obtains the lower bound
+Using a generalization of the fact that $$\arcsin(x) \leq x$$ for all $$x \leq 0$$ to the hypergeometric function $${}_2 F_{1}$$, together with the garantuees from Briet-de Oliveira Filho-Vallentin rounding, one obtains the lower bound [[H25]]({{site.baseurl}}/bib#H25)
 
 $$qmc(G) \geq \frac{m}{4} \Big(1 + \frac{8}{\pi} \frac{1}{\vartheta(\bar{G}) -1}\Big)$$
 
