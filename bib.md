@@ -23,6 +23,8 @@ All citations on this page are listed here. For a BibTex file with all of these 
 
 **[GSS25]** Sander Gribling, Lennart Sinjorgo, and Renata Sotirov. *Improved Approximation Ratios for the Quantum Max-Cut Problem on General, Triangle-Free and Bipartite Graphs*. Apr. 2025. [arXiv:2504.11120](https://arxiv.org/abs/2504.11120) [quant-ph]. <a id="GSS25"></a>
 
+**[H25]** Felix Huber. *A Lovász theta lower bound on Quantum Max Cut*. Dec. 2025. [arXiv:2512.20326](https://arxiv.org/abs/2512.20326) [quant-ph]. <a id="H25"></a>
+
 **[HTPG24]** Felix Huber, Kevin Thompson, Ojas Parekh, and Sevag Gharibian. *Second Order Cone Relaxations for Quantum Max Cut*. Nov. 2024. [arXiv:2411.04120](https://arxiv.org/abs/2411.04120) [quant-ph]. <a id="HTPG24"></a>
 
 **[HNPTW22]** Yeongwoo Hwang, Joe Neeman, Ojas Parekh, Kevin Thompson, John Wright. *Unique Games hardness of Quantum Max-Cut, and a conjectured vector-valued Borell's inequality*. Sep. 2022. [arXiv:2411.04120](https://arxiv.org/abs/2111.01254) [quant-ph]. <a id="HNPTW22"></a>
