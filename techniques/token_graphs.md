@@ -8,7 +8,7 @@ The QMC, EPR, and XY Hamiltonians in this reference are defined as *quantum opti
 
 ## Definition
 
-Given a graph $$G(V,E,w)$$, with vertices $$V = \[n\]$$, edges $$E \subseteq V \times V$$, $$m = |E|$$, and weights $$w\in \mathbb{R}_{\ge 0}^{m}$$ and some integer $$1\le k \le \lfloor n/2\rfloor$$, define the $k$-th token graph of $$G$$ as the graph with
+Given a graph $$G(V,E,w)$$, with vertices $$V = \[n\]$$, edges $$E \subseteq V \times V$$, $$m = \vert E \vert$$, and weights $$w\in \mathbb{R}_{\ge 0}^{m}$$ and some integer $$1\le k \le \lfloor n/2\rfloor$$, define the $k$-th token graph of $$G$$ as the graph with
 
 * Vertices: vertices are $$\binom{\[n\]}{k}$$, the set of $$k$$-tuples of the set $$[n]$$, which contains $$\binom{n}{k}$$ elements.
 * Edges: vertices $$A$$ and $$B$$ are connected by an edge if and only if their symmetric difference $$A\triangle B =\{a,b\}$$, where $$a\in A$$, $$b\in B$$, and $$(a,b)\in E$$.
