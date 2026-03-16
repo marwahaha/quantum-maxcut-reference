@@ -1,6 +1,4 @@
----
-type: problem
----
+
 # General Symmetric 2-Local
 Symmetric Two-Local $$\{\alpha |\Psi^+\rangle \langle \Psi^+| + \beta |\Phi^+\rangle \langle \Phi^+| + \gamma |\Phi^-\rangle \langle \Phi^-|}^+$$-Hamiltonian problem as a function of Bell-state energies $$\alpha \geq \beta \geq \gamma$$. Each point is colored by the complexity class of the corresponding local Hamiltonian problem .
 
