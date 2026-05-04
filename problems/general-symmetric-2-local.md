@@ -11,7 +11,7 @@ $$
 
 where $$E$$ is the set of edges in the graph, $$w_{ij}$$ are edge weights, and $$K$$ is a two local term (when specified with indices $$i$$ and $$j$$, this means that $$K$$ acts nontrivially on qubits $$i$$ and $$j$$ and as the identity on the rest). 
 
-[[CM16]]({{site.baseurl}}/bib#CM16) considers the case where $$w_{ij}$$ can be positive or negative, and classifies the problem as either in $$P$$, $$StoqMA$$-complete, or $$QMA$$-complete depending on the choice of $$K$$. Allowing for arbirary signs on the weights is often unhelpful, as we cannot distinguish between ferromagnetic and antiferromagnetic interactions (i.e. MinCut vs MaxCut). We define the local Hamiltonian problems restricted to the single interaction term $$K$$ with *positive weights* as the $$\{K^+\}^+$$-Hamiltonian problem. 
+[[CM16]]({{site.baseurl}}/bib#CM16) considers the case where $$w_{ij}$$ can be positive or negative, and classifies the problem as either in $$P$$, $$StoqMA$$-complete, or $$QMA$$-complete depending on the choice of $$K$$. Allowing for arbirary signs on the weights is often unhelpful, as we cannot distinguish between ferromagnetic and antiferromagnetic interactions (i.e. MinCut vs MaxCut). We define the local Hamiltonian problems restricted to the single interaction term $$K$$ with *positive weights* as the $$\{K^\}^+$$-Hamiltonian problem. 
 
 We may also restrict the problem further:  [[PM15]]({{site.baseurl}}/bib#PM15) considers the case where the local term $$K$$ is symmetric upon the interchange of its qubits. This means that $$K_{ij}=K_{ji}$$. This restriction is common in statistical mechanics (Heisenberg, Ising, XYZ models) and in computer science (MaxCut).  [[PM15]]({{site.baseurl}}/bib#PM15) then shows that in this case, the local term can always be diagonalized in the Bell basis, i.e. it can be written as
 
@@ -25,7 +25,7 @@ are the canonical *Bell states.* We can always choose an identity shift by $$-\d
 
 $$ K = \alpha |\psi^+\rangle \langle\psi^+| +  \beta |\phi^+\rangle \langle\phi^+| +  \gamma |\phi^-\rangle \langle\phi^-|. $$
 
-Shifting by the identity does not change the complexity of the Local Hamiltonian problem. Then, [[PM15]]({{site.baseurl}}/bib#PM15) and [[MS26]]({{site.baseurl}}/bib#MS26) further classifies the $$\{K^+\}^+$$-Hamiltonian problem for any $$\alpha, \, \beta, \, \gamma$$. The green region denotes that the problem is reducible to an augmented version of the EPR problem, which we call EPR*.
+Shifting by the identity does not change the complexity of the Local Hamiltonian problem. Then, [[PM15]]({{site.baseurl}}/bib#PM15) and [[MS26]]({{site.baseurl}}/bib#MS26) further classifies the $$\{K^\}^+$$-Hamiltonian problem for any $$\alpha, \, \beta, \, \gamma$$. The green region denotes that the problem is reducible to an augmented version of the EPR problem, which we call EPR*.
 
 <style>
 :root {
