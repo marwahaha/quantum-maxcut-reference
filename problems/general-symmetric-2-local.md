@@ -2,7 +2,28 @@
 type: problem
 ---
 # General Symmetric 2-Local
-Symmetric Two-Local \(\{K\}^+\)-Hamiltonian problem as a function of Bell-state energies \(\alpha \geq \beta \geq \gamma\). Each point \((\alpha,\beta,\gamma)\) is classified by sorting its coordinates (WLOG by Cubitt–Montanaro), then colored by complexity class. The full cube shows all 6 permutations of the parameter wedge.
+
+Here we consider a general class of 2-Local Hamiltonian problems first introduced by [[CM16]]({{site.baseurl}}/bib#CM16). These Hamiltonians are 2-Local, so they can be specified by a graph 
+
+$$
+ H = \sum_{(i,j) \in E} w_{ij} K_{ij}
+$$
+
+where $$E$$ is the set of edges in the graph, $$w_{ij}$$ are edge weights, and $$K$$ is a two local term (when specified with indices $$i$$ and $$j$$, this means that $$K$$ acts nontrivially on qubits $$i$$ and $$j$$ and as the identity on the rest). 
+
+[[CM16]]({{site.baseurl}}/bib#CM16) considers the case where $$w_{ij}$$ can be positive or negative, and classifies the problem as either in $$P$$, $$StoqMA$$-complete, or $$QMA$$-complete depending on the choice of $$K$$. Allowing for arbirary signs on the weights is often unhelpful, as we cannot distinguish between ferromagnetic and antiferromagnetic interactions (i.e. MinCut vs MaxCut). We define the local Hamiltonian problems restricted to the single interaction term $$K$$ with *positive weights* as the $$\{K^+\}^+$$-Hamiltonian problem. 
+
+We may also restrict the problem further:  [[PM15]]({{site.baseurl}}/bib#PM15) considers the case where the local term $$K$$ is symmetric upon the interchange of its qubits. This means that $$K_{ij}=K_{ji}$$. This restriction is common in statistical mechanics (Heisenberg, Ising, XYZ models) and in computer science (MaxCut).  [[PM15]]({{site.baseurl}}/bib#PM15) then shows that in this case, the local term can always be diagonalized in the Bell basis, i.e. it can be written as
+
+$$ K = \alpha' |\psi^+\rangle \langle\psi^+| +  \beta' |\phi^+\rangle \langle\phi^+| +  \gamma' |\phi^-\rangle \langle\phi^-| +  \delta' |\psi^-\rangle \langle\psi^-|$$
+
+where $$|\psi^{\pm}\rangle = |01\rangle \pm |01\rangle, \;\;\;\; |\phi^{\pm}\rangle = |00\rangle \pm |11\rangle,$$
+
+are the canonical *Bell states.* We can always choose an identity shift by $$-\delta' I$$ to convert the local term to the form
+
+$$ K = \alpha |\psi^+\rangle \langle\psi^+| +  \beta |\phi^+\rangle \langle\phi^+| +  \gamma |\phi^-\rangle \langle\phi^-|. $$
+
+Shifting by the identity does not change the complexity of the Local Hamiltonian problem. Then, [[PM15]]({{site.baseurl}}/bib#PM15) and [[MS26]]({{site.baseurl}}/bib#MS26) further classifies the $$\{K^+\}^+$$-Hamiltonian problem for any $$\alpha, \, \beta, \, \gamma$$. The green region denotes that the problem is reducible to an augmented version of the EPR problem, which we call EPR*.
 
 <style>
 :root {
@@ -41,9 +62,9 @@ Symmetric Two-Local \(\{K\}^+\)-Hamiltonian problem as a function of Bell-state 
   <div style="background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:8px;padding:8px 10px">
     <div style="font-size:11px;color:var(--color-text-secondary);font-family:var(--font-sans);margin-bottom:4px">Slice axis</div>
     <div style="display:flex;gap:4px">
-      <button id="bax" onclick="setAxis('x')" style="font-size:11px;padding:3px 8px;border-radius:5px;border:0.5px solid var(--color-border-secondary);cursor:pointer;background:var(--color-background-secondary);color:var(--color-text-primary);font-family:var(--font-sans)">x</button>
-      <button id="bbx" onclick="setAxis('y')" style="font-size:11px;padding:3px 8px;border-radius:5px;border:0.5px solid var(--color-border-secondary);cursor:pointer;background:var(--color-background-secondary);color:var(--color-text-primary);font-family:var(--font-sans)">y</button>
-      <button id="bcx" onclick="setAxis('z')" style="font-size:11px;padding:3px 8px;border-radius:5px;border:0.5px solid var(--color-border-secondary);cursor:pointer;background:var(--color-background-secondary);color:var(--color-text-primary);font-family:var(--font-sans)">z</button>
+      <button id="bax" onclick="setAxis('x')" style="font-size:11px;padding:3px 8px;border-radius:5px;border:0.5px solid var(--color-border-secondary);cursor:pointer;background:var(--color-background-secondary);color:var(--color-text-primary);font-family:var(--font-sans)">$$\alpha$$</button>
+      <button id="bbx" onclick="setAxis('y')" style="font-size:11px;padding:3px 8px;border-radius:5px;border:0.5px solid var(--color-border-secondary);cursor:pointer;background:var(--color-background-secondary);color:var(--color-text-primary);font-family:var(--font-sans)">$$\beta$$</button>
+      <button id="bcx" onclick="setAxis('z')" style="font-size:11px;padding:3px 8px;border-radius:5px;border:0.5px solid var(--color-border-secondary);cursor:pointer;background:var(--color-background-secondary);color:var(--color-text-primary);font-family:var(--font-sans)">$$\gamma$$</button>
     </div>
     <div style="margin-top:6px">
       <input type="range" id="sliceR" min="-100" max="100" value="0" style="width:100%" oninput="updateSlice(this.value)">
@@ -285,7 +306,7 @@ el.addEventListener('mousemove', e => {
     tooltip.style.display = 'block';
     tooltip.style.left = (e.clientX - rect.left + 12) + 'px';
     tooltip.style.top  = (e.clientY - rect.top  - 30) + 'px';
-    const label = pt.cls==='STOQ'?'StoqMA-complete':pt.cls==='NP'?'NP-complete':pt.cls==='QMA'?'QMA-complete':'EPR / BPP (easy)';
+    const label = pt.cls==='STOQ'?'StoqMA-complete':pt.cls==='NP'?'NP-complete':pt.cls==='QMA'?'QMA-complete':'EPR';
     tooltip.innerHTML = 'x='+pt.x.toFixed(2)+', y='+pt.y.toFixed(2)+', z='+pt.z.toFixed(2)+'<br><b>'+label+'</b>';
   } else tooltip.style.display = 'none';
 });
