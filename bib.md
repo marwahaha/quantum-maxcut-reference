@@ -61,7 +61,7 @@ All citations on this page are listed here. For a BibTex file with all of these 
 
 **[TZ25b]** Wenxuan Tao and Fen Zuo. *Testing APS Conjecture on Regular Graphs*. July 2025. [arXiv:2507.10050](https://arxiv.org/pdf/2507.10050) [quant-ph]. <a id="TZ25b"></a>
 
-**[WBGLK26]** Benjamin Wong, Sergey Bravyi, David Gosset, and Yinchen Liu. *Lee-Yang tensors and Hamiltonian complexity.* Deb 2026. [arXiv:2602.03605](https://arxiv.org/pdf/2602.03605) [quant-ph]. <a id="WBGLK26"></a>
+**[WBGL26]** Benjamin Wong, Sergey Bravyi, David Gosset, and Yinchen Liu. *Lee-Yang tensors and Hamiltonian complexity.* Deb 2026. [arXiv:2602.03605](https://arxiv.org/pdf/2602.03605) [quant-ph]. <a id="WBGL26"></a>
 
 **[WCEHK24]** Adam Bene Watts, Anirban Chowdhury, Aidan Epperly, J. William Helton, and Igor Klep. *Relaxations and Exact Solutions to Quantum Max Cut via the Algebraic Structure of Swap Operators*. Quantum 8 (May 2024), p. 1352. [arXiv:2307.15661](https://arxiv.org/pdf/2307.15661) [math-ph, physics:quant-ph]. <a id="WCEHK24"></a>
 
