@@ -17,7 +17,7 @@ We may also restrict the problem further:  [[PM15]]({{site.baseurl}}/bib#PM15) c
 
 $$ K = \alpha' |\psi^+\rangle \langle\psi^+| +  \beta' |\phi^+\rangle \langle\phi^+| +  \gamma' |\phi^-\rangle \langle\phi^-| +  \delta' |\psi^-\rangle \langle\psi^-|$$
 
-where $$|\psi^{\pm}\rangle = |01\rangle \pm |01\rangle, \;\;\;\; |\phi^{\pm}\rangle = |00\rangle \pm |11\rangle,$$
+where $$|\psi^{\pm}\rangle = |01\rangle \pm |01\rangle, \quad |\phi^{\pm}\rangle = |00\rangle \pm |11\rangle,$$
 
 are the canonical *Bell states.* We can always choose an identity shift by $$-\delta' I$$ to convert the local term to the form
 
