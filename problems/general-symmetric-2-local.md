@@ -190,9 +190,9 @@ function makeLabel(text, pos) {
   canvas.parentElement.appendChild(div);
   axLabels.push({div, pos3: new THREE.Vector3(...pos)});
 }
-makeLabel('x', [1.25, 0, 0]);
-makeLabel('y', [0, 1.25, 0]);
-makeLabel('z', [0, 0, 1.25]);
+makeLabel('α', [1.25, 0, 0]);
+makeLabel('β', [0, 1.25, 0]);
+makeLabel('γ', [0, 0, 1.25]);
 
 // Slice state
 let sliceAxis = 'z';
