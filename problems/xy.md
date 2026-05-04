@@ -43,7 +43,7 @@ In statistical mechanics, XY is known as the *antiferromagnetic XY model*, and t
 Minimize
 
 $$
-H &= \sum_{(i,j) \in E} w_{ij} \left(X_i \otimes X_j + Y_i \otimes Y_j \right).  
+H = \sum_{(i,j) \in E} w_{ij} \left(X_i \otimes X_j + Y_i \otimes Y_j \right).  
 $$
 
 Note that inverting the sign is accompanied by changing from maximization to minimization, yielding an equivalent problem. However, dropping the identity term does yield to a change in approximability. Thus, sometimes the identity term is reintroduced for consistency (with an appropriate negative sign). 
@@ -90,7 +90,7 @@ There have been two papers analyzing the average-case energy of algorithms for X
 
 ## Remarks
 
-* Unlike EPR and QMC, terms $$h^{XY}$$ are not positive semi-definite.
+* Unlike EPR and QMC, terms $$h^{XY}$$, and thus the entire Hamiltonian, are not positive semi-definite.
 * $$H^{XY}_G$$ can be represented by the union of the adjacency matrices of the *weighted token graphs* of $$G$$ $$\lfloor V /2\rfloor$$ [[APS25]]({{site.baseurl}}/bib#APS25). Under this perspective XY can be seen as a spectral graph theory problem on exponentially sized matices. 
 
 
