@@ -55,7 +55,7 @@ All citations on this page are listed here. For a BibTex file with all of these 
 
 **[PT22]** Ojas Parekh and Kevin Thompson. *An Optimal Product-State Approximation for 2-Local Quantum Hamiltonians with Positive Terms*. June 2022. [arXiv:2206.08342](https://arxiv.org/pdf/2206.08342) [quant-ph]. <a id="PT22"></a>
 
-**[RT25]** Chaitanya Rayudu and Jun Takahashi. *Fast mixing of operator-loop path-integral quantum Monte Carlo for stoquastic XY Hamiltonians*. Sept 2025. [arXiv:2509.21683](https://arxiv.org/pdf/2509.21683) [quant-ph]. <a id="RT25"></a>
+**[RT25]** Chaithanya Rayudu and Jun Takahashi. *Fast mixing of operator-loop path-integral quantum Monte Carlo for stoquastic XY Hamiltonians*. Sept 2025. [arXiv:2509.21683](https://arxiv.org/pdf/2509.21683) [quant-ph]. <a id="RT25"></a>
 
 **[Tak+23]** Jun Takahashi, Chaithanya Rayudu, Cunlu Zhou, Robbie King, Kevin Thompson, and Ojas Parekh. *An SU(2)-Symmetric Semidefinite Programming Hierarchy for Quantum Max Cut*. Aug. 2023. [arXiv:2307.15688](https://arxiv.org/pdf/2307.15688) [quant-ph]. <a id="Tak+23"></a>
 
