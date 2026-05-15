@@ -11,6 +11,8 @@ All citations on this page are listed here. For a BibTex file with all of these 
 
 **[APT+25]** Anuj Apte, Eunou Lee, Kunal Marwaha, Ojas Parekh, Lennart Sinjorgo, James Sud. *A 0.8395-approximation algorithm for the EPR problem*. [arXiv:2512.09896](https://arxiv.org/pdf/2512.09896) [quant-ph]. <a id="APT+25"></a>
 
+**[BBKL26]** Ainesh Bakshi, Arpon Basu, Pravesh Kothari, Anqi Li. *Sharp Bounds on the Eigenvalues of Kikuchi Graphs and Applications to Quantum Max Cut*. May 2026. [arXiv:2605.14994](https://arxiv.org/pdf/2605.14994) [quant-ph]. <a id="BBKL6"></a>
+
 **[BFV10]** Jop Briet, Fernando Mario de Oliveira Filho, and Frank Vallentin. *The Positive Semidefinite Grothendieck Problem with Rank Constraint*. Lecture Notes in Computer Science, Vol. 6198 (2010), pp. 31–42. [arXiv:0910.5765](https://arxiv.org/pdf/0910.5765) [math]. <a id="BFV10"></a>
 
 **[BH14]** Fernando G. S. L. Brandão and Aram W. Harrow. *Product-State Approximations to Quantum Ground States*. Dec. 2014. [arXiv:1310.0017](https://arxiv.org/pdf/1310.0017). <a id="BH14"></a>
