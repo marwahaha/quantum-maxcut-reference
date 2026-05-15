@@ -145,7 +145,7 @@ Modifications of this technique were used to show that the bound is true for $$r
 
 ### Matching-Augmented SDPs
 
-It was shown in [[APS25]]({{site.baseurl}}/bib#APS25)  and  [[BBKL26]]({{site.baseurl}}/bib#BBKL26) that the match bound can be strengthened to $$a=1$$, i.e. the maximum energy of QMC and EPR is at most $$W+M$$ (and a similar bound holds for XY). This is done through a connection to token graphs, explained in [Token Graphs]({{site.baseurl}}/techniques/token_graphs.html). Thus, we can augment SDP approaches by iteratively incorporating matching bounds on subgraphs, as described in Section 5.1 of [[APS25]]({{site.baseurl}}/bib#APS25). These "matching-augmented" SDP algorithms are efficeint, as they rely on the ellipsoid algorithm with an efficient separation oracle, and they allow us to assume that SDP energies obey the $$W+M$$ bound.
+It was shown in [[APS25]]({{site.baseurl}}/bib#APS25)  and  [[BBKL26]]({{site.baseurl}}/bib#BBKL26) that the match bound can be strengthened to $$a=1$$, i.e. the maximum energy of QMC and EPR is at most $$W+M$$ (and a similar bound holds for XY). This is done through a connection to token graphs, explained in [Token Graphs]({{site.baseurl}}/techniques/token_graphs.html). Thus, we can augment SDP approaches by iteratively incorporating matching bounds on subgraphs, as described in Section 5.1 of [[APS25]]({{site.baseurl}}/bib#APS25). These "matching-augmented" SDP algorithms are efficient, as they rely on the ellipsoid algorithm with an efficient separation oracle, and they allow us to assume that SDP energies obey the $$W+M$$ bound.
 
 ### Cone programs (SOCP)
 
