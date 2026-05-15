@@ -142,7 +142,10 @@ $$
 
 where  $$a=\tfrac{r}{r-1}$$ and $$M$$ is the size of the maximum weighted integer matching. 
 Modifications of this technique were used to show that the bound is true for $$r=5$$ in [[JKKSW24]]({{site.baseurl}}/bib#JKKSW24) for QMC and EPR and for $$r=13$$ in [[GSS25]]({{site.baseurl}}/bib#GSS25) for QMC. 
-[It remains open if $$a$$ can be pushed all the way to $$1$$ for EPR and QMC]({{site.baseurl}}/open_questions.html). Indeed there are examples where $$a=1$$ is tight (for instance consider the graph consisting of a single edge).
+
+### Matching-Augmented SDPs
+
+It was shown in [[APS25]]({{site.baseurl}}/bib#APS25)  and  [[BBKL26]]({{site.baseurl}}/bib#BBKL26) that the match bound can be strengthened to $$a=1$$, i.e. the maximum energy of QMC and EPR is at most $$W+M$$ (and a similar bound holds for XY). This is done through a connection to token graphs, explained in [Token Graphs]({{site.baseurl}}/techniques/token_graphs.html). Thus, we can augment SDP approaches by iteratively incorporating matching bounds on subgraphs, as described in Section 5.1 of [[APS25]]({{site.baseurl}}/bib#APS25). These "matching-augmented" SDP algorithms are efficeint, as they rely on the ellipsoid algorithm with an efficient separation oracle, and they allow us to assume that SDP energies obey the $$W+M$$ bound.
 
 ### Cone programs (SOCP)
 
