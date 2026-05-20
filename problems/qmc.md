@@ -50,7 +50,7 @@ We present all known approximation algorithms for QMC. We concisely summarize te
 | [[LP24]]({{site.baseurl}}/bib#LP24)      | $$0.595$$      | (Level-2 SoS \| GP rounding) $$\cup$$ (Level-2 SoS Match Bound \| Match State)    | 
 | [[JKKSW24]]({{site.baseurl}}/bib#JKKSW24)    | $$0.599$$      | Improved analysis of [[LP24]]({{site.baseurl}}/bib#LP24) using level-3 SoS Match Bound                 |
 | [[GSS25]]({{site.baseurl}}/bib#GSS25)   | $$0.603$$      |  Improved analysis of [[LP24]]({{site.baseurl}}/bib#LP24) using level-13 SoS Match bound     |
-| [[ALMPS25]]({{site.baseurl}}/bib#ALMPS25)  | $$0.614$$     | (Matching-augmented SoS \| Threshold: Reweighted Partial Match State, GP Rounding) $$\cup$$ (Matching-augmented SoS \| Match State) | 
+| [[ALMPS25]]({{site.baseurl}}/bib#ALMPS25), [[BBKL26]]({{site.baseurl}}/bib#BBKL26)  | $$0.614$$     | (Matching-augmented SoS \| Threshold: Reweighted Partial Match State, GP Rounding) $$\cup$$ (Matching-augmented SoS \| Match State) | 
 
 
 
