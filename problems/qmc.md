@@ -153,7 +153,7 @@ There have been two papers analyzing the average-case energy of algorithms for Q
 
 * $$QMC$$ is $$SU(2)$$-symmetric (invariant under the same single qubit rotation applied to all qubits) ([[Tak+23]]({{site.baseurl}}/bib#Tak+23)).
 * $$QMC$$ is equivalent to [$$EPR$$]({{site.baseurl}}/problems/EPR.html) on bipartite graphs under a conjugation of vertices on one side of the partition by $$Y$$ (Eq. 1 [[Kin23]]({{site.baseurl}}/bib#Kin23)).
-* There is always an optimal state $$\Psi\rangle$$ for $$H^{QMC}_G$$ supported only on computational-basis bistrings with Hamming weight $$\lfloor V /2 \rfloor$$ ([[APS25]]({{site.baseurl}}/bib#APS25)).
+* There is always an optimal state $$|\Psi\rangle$$ for $$H^{QMC}_G$$ supported only on computational-basis bistrings with Hamming weight $$\lfloor V /2 \rfloor$$ ([[APS25]]({{site.baseurl}}/bib#APS25)).
 * Terms $$h^{QMC}$$ are positive semi-definite.
 
 
