@@ -21,7 +21,7 @@ where $$\vert \phi^{+} \rangle = \frac{1}{\sqrt{2}} (\vert 00\rangle + \vert 11\
 
 
 ## Hardness
-* An efficient quantum algorithm was shown simultaneously in [[RT26]]({{site.baseurl}}/bib#RT26) and [[WBGL26b]]({{site.baseurl}}/bib#WBGL26b). These are achieved by a quantum adiabatic algorithm whose spectral gap scales with the transverse field (which can be taken to be polynomially small to recover EPR). This places the problem in $$BQP$$.
+* An efficient quantum algorithm was shown simultaneously in [[RT26]]({{site.baseurl}}/bib#RT26) and [[WBGL26]]({{site.baseurl}}/bib#WBGL26). These are achieved by a quantum adiabatic algorithm whose spectral gap scales with the transverse field (which can be taken to be polynomially small to recover EPR). This places the problem in $$BQP$$.
 * Classically, is it easy, ie in $$BPP$$?
 
 ## Classical Algorithms 
