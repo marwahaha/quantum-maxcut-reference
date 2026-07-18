@@ -188,3 +188,6 @@ For QMC, [[AGM20]]({{site.baseurl}}/bib#AGM20) starts with a [Cut State](#cut-st
 ## HamQAOA
 
 [[MSS24]]({{site.baseurl}}/bib#MSS24) and [[KKZ24]]({{site.baseurl}}/bib#KKZ24) provide deeper and more intricate circuits for preparing high energy states for QMC, EPR, and XY. These circuits, known as HamQAOA do not easily allow for worst-case guarantees, but instead are shown to be amenable to *average-case* analysis. For some cases, however, such as bipartite graphs, [[KKZ24]]({{site.baseurl}}/bib#KKZ24) shows that HamQAOA can reach the optimal solution if allowed to run for arbitrary number of layers.
+
+## Adiabatic algorithms
+[[WBGL26]]({{site.baseurl}}/bib#WBGL26), [[BGLW26]]({{site.baseurl}}/bib#BGLW26) and [[RT26]]({{site.baseurl}}/bib#RT26) use a quantum adiabatic method to solve *Lee-Yang* Hamiltonians, a generalization of EPR Hamiltonians. [[BGLW26]]({{site.baseurl}}/bib#BGLW26) and [[RT26]]({{site.baseurl}}/bib#RT26) show that the spectral gap of these Hamiltonians are lower bounded by the strength of a transverse field. An adiabatic path can thus be formed along such Lee-Yang Hamiltonians, such that the algorithm ends in the optimal state of the final Hamiltonian. The transverse fields can be taken to be of order $$1/poly(n)$$ to be within inverse polynomial error of the EPR Hamiltonian.
