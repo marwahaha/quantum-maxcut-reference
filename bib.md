@@ -13,9 +13,7 @@ All citations on this page are listed here. For a BibTex file with all of these 
 
 **[BBKL26]** Ainesh Bakshi, Arpon Basu, Pravesh Kothari, Anqi Li. *Sharp Bounds on the Eigenvalues of Kikuchi Graphs and Applications to Quantum Max Cut*. May 2026. [arXiv:2605.14994](https://arxiv.org/pdf/2605.14994) [quant-ph]. <a id="BBKL26"></a>
 
-**[BGLW26a]** Sergey Bravyi, David Gosset, Yinchen LiU, Benjamin Wong. *Lee-Yang tensors and Hamiltonian complexity*. February 2026. [arXiv:2602.03605](https://arxiv.org/pdf/2602.03605) [quant-ph]. <a id="BGLW26"></a>
-
-**[BGLW26b]** Sergey Bravyi, David Gosset, Yinchen LiU, Benjamin Wong. *Efficient quantum algorithm for Heisenberg spin systems*. July 2026. [arXiv:2607.14401](https://arxiv.org/pdf/2607.14401) [quant-ph]. <a id="BGLW26"></a>
+**[BGLW26]** Sergey Bravyi, David Gosset, Yinchen LiU, Benjamin Wong. *Efficient quantum algorithm for Heisenberg spin systems*. July 2026. [arXiv:2607.14401](https://arxiv.org/pdf/2607.14401) [quant-ph]. <a id="BGLW26"></a>
 
 **[BFV10]** Jop Briet, Fernando Mario de Oliveira Filho, and Frank Vallentin. *The Positive Semidefinite Grothendieck Problem with Rank Constraint*. Lecture Notes in Computer Science, Vol. 6198 (2010), pp. 31–42. [arXiv:0910.5765](https://arxiv.org/pdf/0910.5765) [math]. <a id="BFV10"></a>
 
