@@ -6,7 +6,7 @@ Are there any hardness of approximability results for XY analagous to the $$0.95
 
 ## EPR
 
-Is finding the maximum energy of the EPR Hamiltonian easy (in $$BPP$$, $$BQP$$, or $$P$$)? Is it $$StoqMA$$-complete? See  [[RT25]]({{site.baseurl}}/bib#RT25), [[MS26]]({{site.baseurl}}/bib#MS26), and [[WBGL26]]({{site.baseurl}}/bib#WBGL26) for some ideas.
+Is finding the maximum energy of the EPR Hamiltonian in $$BPP$$?
 
 ## The singlet conjecture
 
