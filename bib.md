@@ -11,7 +11,11 @@ All citations on this page are listed here. For a BibTex file with all of these 
 
 **[APT+25]** Anuj Apte, Eunou Lee, Kunal Marwaha, Ojas Parekh, Lennart Sinjorgo, James Sud. *A 0.8395-approximation algorithm for the EPR problem*. [arXiv:2512.09896](https://arxiv.org/pdf/2512.09896) [quant-ph]. <a id="APT+25"></a>
 
-**[BBKL26]** Ainesh Bakshi, Arpon Basu, Pravesh Kothari, Anqi Li. *Sharp Bounds on the Eigenvalues of Kikuchi Graphs and Applications to Quantum Max Cut*. May 2026. [arXiv:2605.14994](https://arxiv.org/pdf/2605.14994) [quant-ph]. <a id="BBKL6"></a>
+**[BBKL26]** Ainesh Bakshi, Arpon Basu, Pravesh Kothari, Anqi Li. *Sharp Bounds on the Eigenvalues of Kikuchi Graphs and Applications to Quantum Max Cut*. May 2026. [arXiv:2605.14994](https://arxiv.org/pdf/2605.14994) [quant-ph]. <a id="BBKL26"></a>
+
+**[BGLW26a]** Sergey Bravyi, David Gosset, Yinchen LiU, Benjamin Wong. *Lee-Yang tensors and Hamiltonian complexity*. February 2026. [arXiv:2602.03605](https://arxiv.org/pdf/2602.03605) [quant-ph]. <a id="BGLW26"></a>
+
+**[BGLW26b]** Sergey Bravyi, David Gosset, Yinchen LiU, Benjamin Wong. *Efficient quantum algorithm for Heisenberg spin systems*. July 2026. [arXiv:2607.14401](https://arxiv.org/pdf/2607.14401) [quant-ph]. <a id="BGLW26"></a>
 
 **[BFV10]** Jop Briet, Fernando Mario de Oliveira Filho, and Frank Vallentin. *The Positive Semidefinite Grothendieck Problem with Rank Constraint*. Lecture Notes in Computer Science, Vol. 6198 (2010), pp. 31–42. [arXiv:0910.5765](https://arxiv.org/pdf/0910.5765) [math]. <a id="BFV10"></a>
 
@@ -58,6 +62,8 @@ All citations on this page are listed here. For a BibTex file with all of these 
 **[PT22]** Ojas Parekh and Kevin Thompson. *An Optimal Product-State Approximation for 2-Local Quantum Hamiltonians with Positive Terms*. June 2022. [arXiv:2206.08342](https://arxiv.org/pdf/2206.08342) [quant-ph]. <a id="PT22"></a>
 
 **[RT25]** Chaithanya Rayudu and Jun Takahashi. *Fast mixing of operator-loop path-integral quantum Monte Carlo for stoquastic XY Hamiltonians*. Sept 2025. [arXiv:2509.21683](https://arxiv.org/pdf/2509.21683) [quant-ph]. <a id="RT25"></a>
+
+**[RT26]** Chaithanya Rayudu and Jun Takahashi. *Spectral gap of Lee-Yang Hamiltonians*. July 2026. [arXiv:2607.10765](https://arxiv.org/pdf/2607.10765) [quant-ph]. <a id="RT26"></a>
 
 **[Tak+23]** Jun Takahashi, Chaithanya Rayudu, Cunlu Zhou, Robbie King, Kevin Thompson, and Ojas Parekh. *An SU(2)-Symmetric Semidefinite Programming Hierarchy for Quantum Max Cut*. Aug. 2023. [arXiv:2307.15688](https://arxiv.org/pdf/2307.15688) [quant-ph]. <a id="Tak+23"></a>
 
