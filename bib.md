@@ -19,6 +19,8 @@ All citations on this page are listed here. For a BibTex file with all of these 
 
 **[BH14]** Fernando G. S. L. Brandão and Aram W. Harrow. *Product-State Approximations to Quantum Ground States*. Dec. 2014. [arXiv:1310.0017](https://arxiv.org/pdf/1310.0017). <a id="BH14"></a>
 
+**[CL26]** Xiaoyu Chen and Kuikui Liu. *An FPRAS for Counting Common Bases of Two Matroids*. Oct. 2026. [arXiv:2610.06724](https://arxiv.org/pdf/2610.06724).  <a id="CL26"></a>
+
 **[CM16]** Toby Cubitt and Ashley Montanaro. *Complexity Classification of Local Hamiltonian Problems*. Mar. 2016. [arXiv:1311.3161](https://arxiv.org/pdf/1311.3161) [quant-ph]. <a id="CM16"></a>
 
 **[Edm65]** Jack Edmonds. *Paths, Trees, and Flowers*. Canadian Journal of Mathematics 17 (1965), pp. 449–467. [DOI:10.4153/CJM-1965-045-4](https://doi.org/10.4153/CJM-1965-045-4). <a id="Edm65"></a>
