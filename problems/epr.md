@@ -22,7 +22,7 @@ where $$\vert \phi^{+} \rangle = \frac{1}{\sqrt{2}} (\vert 00\rangle + \vert 11\
 
 ## Hardness
 * An efficient quantum algorithm was shown simultaneously in [[RT26]]({{site.baseurl}}/bib#RT26) and [[WBGL26]]({{site.baseurl}}/bib#WBGL26). These are achieved by a quantum adiabatic algorithm whose spectral gap scales with the transverse field (which can be taken to be polynomially small to recover EPR). This places the problem in $$BQP$$.
-* Classically, is it easy, ie in $$BPP$$?
+* An efficient classical algorithm was shown in [[CL26]]({{site.baseurl}}/bib#CL26)
 
 ## Classical Algorithms 
 
@@ -37,6 +37,7 @@ We present all known classical approximation algorithms for EPR. We concisely su
 | [[JN25]]({{site.baseurl}}/bib#JN25)    | $$\frac{1+\sqrt{5}}{4} \approx 0.809$$      | (Star Bound + Computer Proof \| Match States)     |
 | [[ALMPS25]]({{site.baseurl}}/bib#ALMPS25)    | $$\frac{1+\sqrt{5}}{4} \approx 0.809$$       | (Star Bound \| AGM circuits)   |
 | [[Apt+25]]({{site.baseurl}}/bib#APT+25)    | $$0.8395$$       | (Nonlinear Star Bound \| AGM circuits)   |
+| [[CL26]]({{site.baseurl}}/bib#CL26)    | $$1$$       | (Markov Chain Monte Carlo)   |
 
 
 ## Normalizations and conventions
@@ -112,7 +113,6 @@ There have been two papers analyzing the average-case energy of algorithms for E
 * The negative sign for EPR can be moved between the $$XX$$, $$YY$$, and $$ZZ$$ terms by simple unitary transformations on each qubit [[APS25]]({{site.baseurl}}/bib#APS25).
 * EPR is equivalent to [QMC](({{site.baseurl}}/problems/QMC)) on bipartite graphs under a conjugation of vertices on one side of the partition by $$Y$$ (Eq. 1 [[Kin23]]({{site.baseurl}}/bib#Kin23)).
 * Terms $$h^{EPR}$$ are positive semi-definite.
-* While there are many works on the classical approximability of EPR, there are some indications the problem may be classically easy, see  [[RT25]]({{site.baseurl}}/bib#RT25) for a quantum Monte Carlo approach, [[MS26]]({{site.baseurl}}/bib#MS26) for a perturbative reduction approach.
 
 
 
